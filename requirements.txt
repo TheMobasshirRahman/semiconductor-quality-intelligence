@@ -1,15 +1,14 @@
-pandas>=2.0
-numpy>=1.24
-matplotlib>=3.7
-seaborn>=0.13
-scikit-learn>=1.3
-jupyter
-nbformat
-nbconvert
-pytest
-joblib
-scipy
-shap
-imbalanced-learn
-streamlit
-plotly
+# Runtime: pipeline (src/) + dashboard (app/)
+# Versions are pinned: the saved models in models/*.joblib are pickled with scikit-learn 1.6.1
+# and must be loaded with the same version.
+pandas==2.2.2
+numpy==2.4.4
+scipy==1.18.0
+scikit-learn==1.6.1
+joblib==1.5.3
+imbalanced-learn==0.14.2
+shap==0.52.0
+matplotlib==3.11.0
+seaborn==0.13.2
+streamlit==1.64.0
+plotly==7.1.0
