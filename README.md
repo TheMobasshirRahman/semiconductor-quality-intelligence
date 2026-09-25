@@ -153,6 +153,10 @@ Python · pandas · NumPy · SciPy · scikit-learn · imbalanced-learn · SHAP �
 - Sensor names are anonymised in SECOM, so findings point to *which* signal to investigate, not its physical meaning.
 - The failure mechanism drifts over time; in production the model would need scheduled retraining and drift monitoring.
 
+## License
+
+Code: [MIT](LICENSE). Dataset: CC BY 4.0 (see below).
+
 ## Data
 
 McCann, M. & Johnston, A. (2008). *SECOM* [Dataset]. UCI Machine Learning Repository.
