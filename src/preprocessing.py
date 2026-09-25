@@ -156,4 +156,6 @@ def main(test_size=0.25):
 
 
 if __name__ == "__main__":
-    main()
+    # import via the package so pickled transformers reference `src.preprocessing`, not `__main__`
+    from src.preprocessing import main as _main
+    _main()

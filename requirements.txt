@@ -10,3 +10,4 @@ pytest
 joblib
 scipy
 shap
+imbalanced-learn

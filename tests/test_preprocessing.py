@@ -71,3 +71,17 @@ def test_time_split_is_chronological():
     train, test = time_split(df, test_size=0.3)
     assert len(train) == 7 and len(test) == 3
     assert train["timestamp"].max() < test["timestamp"].min()
+
+
+def test_saved_preprocessor_loads_outside_the_script():
+    """Running `python -m src.preprocessing` must pickle classes under `src.preprocessing`, not `__main__`."""
+    import subprocess
+    import sys
+
+    import joblib
+
+    from src.preprocessing import MODELS_DIR
+
+    subprocess.run([sys.executable, "-m", "src.preprocessing"], check=True, capture_output=True)
+    pipe = joblib.load(MODELS_DIR / "preprocessor.joblib")
+    assert type(pipe.named_steps["drop_missing"]).__module__ == "src.preprocessing"
