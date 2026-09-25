@@ -11,3 +11,5 @@ joblib
 scipy
 shap
 imbalanced-learn
+streamlit
+plotly
