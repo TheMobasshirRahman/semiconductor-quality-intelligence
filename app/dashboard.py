@@ -24,7 +24,7 @@ if missing:
 pages = [
     st.Page(views.overview, title="Overview", icon="📊", default=True),
     st.Page(views.spc_monitor, title="SPC Monitor", icon="📈", url_path="spc"),
-    st.Page(views.root_cause, title="Root Cause", icon="🔍", url_path="root-cause"),
+    st.Page(views.root_cause, title="Failure Signals", icon="🔍", url_path="failure-signals"),
     st.Page(views.fail_risk, title="Fail Risk", icon="🎯", url_path="risk"),
     st.Page(views.equipment_health, title="Equipment Health", icon="🛠️", url_path="health"),
     st.Page(views.about, title="About", icon="ℹ️", url_path="about"),

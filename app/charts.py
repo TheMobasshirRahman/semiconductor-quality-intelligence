@@ -111,7 +111,7 @@ def control_chart(units: pd.DataFrame, sensor: str, lim, flags: pd.DataFrame, te
     return style(fig, height=430, title=f"Individuals control chart — {sensor}")
 
 
-# ---------------------------------------------------------------- root cause
+# ---------------------------------------------------------------- failure signals
 def importance_bar(ranking: pd.DataFrame, k=20) -> go.Figure:
     top = ranking.head(k).iloc[::-1]
     fig = go.Figure(go.Bar(

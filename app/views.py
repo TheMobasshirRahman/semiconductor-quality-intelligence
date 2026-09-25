@@ -99,9 +99,9 @@ def overview():
 | Area | Finding |
 |---|---|
 | **Yield trend** | Fail rate fell from ~22% (July) to ~3% (September), with a small spike in early October |
-| **Root cause** | 7 core sensors are stable across methods; `sensor_059` and `sensor_129` rank top in 100% of subsamples |
+| **Failure signals** | 7 core sensors are consistently associated with failure across methods; `sensor_059` and `sensor_129` rank top in 100% of subsamples (association, not proven cause) |
 | **Prediction** | The fail signature **drifts**: `sensor_059` separates failures at 1.8σ in September and not at all in October. The model catches 9/24 test failures, which makes it a risk-ranking aid, not an auto-scrap rule |
-| **Equipment health** | Multivariate SPC flags sensor/tool events on *passing* units: `sensor_140` ≈ 9999 error codes, a `sensor_007` burst |
+| **Equipment health** | Multivariate SPC flags sensor/tool events on *passing* units: `sensor_140` readings ≈ 9999 (likely a sentinel/error value), a `sensor_007` burst |
 """)
 
 
@@ -141,9 +141,10 @@ def spc_monitor():
 
 
 def root_cause():
-    st.title("Root Cause")
+    st.title("Failure Signals")
     st.caption("Consensus of 5 feature-ranking methods (t-test, mutual information, L1 logistic, random forest, SHAP) "
-               "on the train period, with bootstrap stability.")
+               "on the train period, with bootstrap stability. These sensors are statistically associated with "
+               "failure: a shortlist to investigate, not proven causes.")
     ranking = table("feature_ranking.csv", index_col="sensor")
     left, right = st.columns([1, 1])
     with left:
@@ -181,7 +182,7 @@ def fail_risk():
     c[1].metric("Failures caught", f"{t['tp']} / {t['tp'] + t['fn']}")
     c[2].metric("Units flagged", f"{t['flag_rate']:.1%}")
     c[3].metric("Test ROC-AUC", f"{t['roc_auc']:.2f}", help=f"95% CI {ci['roc_auc'][0]:.2f} – {ci['roc_auc'][1]:.2f}")
-    st.warning("Performance is modest because the failure signature drifts between months (see Root Cause). "
+    st.warning("Performance is modest because the failure signature drifts between months (see Failure Signals). "
                "Use the score to prioritise inspection, and retrain as new failures are labelled.", icon="⚠️")
 
     u = filtered_units()

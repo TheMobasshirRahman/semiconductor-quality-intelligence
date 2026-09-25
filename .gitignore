@@ -33,3 +33,9 @@ models/*
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Secrets and local runtime files (never commit)
+.env
+.env.*
+.streamlit/secrets.toml
+*.log
