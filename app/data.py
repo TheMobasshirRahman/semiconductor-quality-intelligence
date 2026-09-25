@@ -10,14 +10,18 @@ ROOT = Path(__file__).resolve().parents[1]
 PROCESSED = ROOT / "data" / "processed"
 MODELS = ROOT / "models"
 
+# Small artifacts the dashboard reads. They are committed to git so the app can be deployed
+# without re-running the (slow) pipeline; `python -m src.pipeline` rebuilds all of them.
 REQUIRED = {
-    "data/processed/secom_merged.csv": "python -m src.data_loader",
-    "data/processed/test_clean.csv": "python -m src.preprocessing",
+    "data/raw/secom.data": "(raw UCI SECOM files)",
+    "data/processed/cleaning_report.json": "python -m src.preprocessing",
+    "data/processed/spc_limits.csv": "python -m src.spc",
     "data/processed/spc_unit_alarms.csv": "python -m src.spc",
     "data/processed/feature_ranking.csv": "python -m src.feature_selection",
     "data/processed/predictions.csv": "python -m src.model",
     "data/processed/anomaly_scores.csv": "python -m src.anomaly",
     "models/fail_model.joblib": "python -m src.model",
+    "models/model_card.json": "python -m src.model",
     "models/anomaly_detector.joblib": "python -m src.anomaly",
 }
 
@@ -29,13 +33,14 @@ def missing_artifacts():
 
 def load_units() -> pd.DataFrame:
     """One row per production unit: raw sensors + label + outputs of Steps 3, 5 and 6."""
-    units = pd.read_csv(PROCESSED / "secom_merged.csv", parse_dates=["timestamp"])
-    test_start = pd.read_csv(PROCESSED / "test_clean.csv", parse_dates=["timestamp"])["timestamp"].min()
-    units["period"] = np.where(units["timestamp"] >= test_start, "Test", "Train")
+    from src.data_loader import load_secom
+
+    units = load_secom()
     units["status"] = np.where(units["fail"] == 1, "Fail", "Pass")
 
     preds = pd.read_csv(PROCESSED / "predictions.csv")[
-        ["unit_id", "fail_prob", "predicted_fail", "risk_band", "source"]]
+        ["unit_id", "period", "fail_prob", "predicted_fail", "risk_band", "source"]]
+    preds["period"] = preds["period"].str.title()
     anom = pd.read_csv(PROCESSED / "anomaly_scores.csv")[
         ["unit_id", "t2_ratio", "spe_ratio", "iso_ratio", "mspc_alarm", "iso_alarm", "driver", "top_sensors"]]
     spc = pd.read_csv(PROCESSED / "spc_unit_alarms.csv")[

@@ -1,0 +1,119 @@
+{
+  "model": "logistic",
+  "selection": "forward validation inside train period (last 25% held out)",
+  "features": [
+    "sensor_059",
+    "sensor_129",
+    "sensor_064",
+    "sensor_033",
+    "sensor_021",
+    "sensor_562",
+    "sensor_247",
+    "sensor_172",
+    "sensor_155",
+    "sensor_000",
+    "sensor_175",
+    "sensor_510",
+    "sensor_460",
+    "sensor_573",
+    "sensor_103",
+    "sensor_019",
+    "sensor_122",
+    "sensor_213",
+    "sensor_102",
+    "sensor_040",
+    "sensor_065",
+    "sensor_138",
+    "sensor_130",
+    "sensor_028",
+    "sensor_125",
+    "sensor_468",
+    "sensor_182",
+    "sensor_079",
+    "sensor_153",
+    "sensor_014"
+  ],
+  "threshold": 0.3376708364645552,
+  "train_period": [
+    "2008-07-19 11:55:00",
+    "2008-09-29 11:13:00"
+  ],
+  "test_period": [
+    "2008-09-29 11:53:00",
+    "2008-10-17 06:07:00"
+  ],
+  "stratified_cv_train": {
+    "ber": 0.2984589041095891,
+    "recall_fail": 0.825,
+    "specificity": 0.5780821917808219,
+    "precision_fail": 0.125,
+    "flag_rate": 0.4493617021276596,
+    "pr_auc": 0.2052131568284248,
+    "roc_auc": 0.7575228310502283,
+    "tp": 66.0,
+    "fn": 14.0,
+    "fp": 462.0,
+    "tn": 633.0
+  },
+  "forward_validation_train": {
+    "ber": 0.2923951048951049,
+    "recall_fail": 0.625,
+    "specificity": 0.7902097902097902,
+    "precision_fail": 0.07692307692307693,
+    "flag_rate": 0.22108843537414966,
+    "pr_auc": 0.06905579739400566,
+    "roc_auc": 0.7779720279720279,
+    "tp": 5.0,
+    "fn": 3.0,
+    "fp": 60.0,
+    "tn": 226.0
+  },
+  "test": {
+    "threshold": 0.3376708364645552,
+    "ber": 0.4184782608695652,
+    "recall_fail": 0.375,
+    "specificity": 0.7880434782608695,
+    "precision_fail": 0.10344827586206896,
+    "flag_rate": 0.22193877551020408,
+    "pr_auc": 0.08615662650953489,
+    "roc_auc": 0.5927309782608696,
+    "tp": 9,
+    "fn": 15,
+    "fp": 78,
+    "tn": 290
+  },
+  "test_ci95": {
+    "ber": [
+      0.305905297532656,
+      0.5085580232782352
+    ],
+    "recall_fail": [
+      0.2,
+      0.5834558823529411
+    ],
+    "pr_auc": [
+      0.0527237033404906,
+      0.1563596021221215
+    ],
+    "roc_auc": [
+      0.4819086876703269,
+      0.709169049360965
+    ]
+  },
+  "walk_forward_test": {
+    "threshold": 0.5,
+    "ber": 0.4271109637488948,
+    "recall_fail": 0.2916666666666667,
+    "specificity": 0.8541114058355438,
+    "precision_fail": 0.11290322580645161,
+    "flag_rate": 0.1546134663341646,
+    "pr_auc": 0.09083572774106938,
+    "roc_auc": 0.593501326259947,
+    "tp": 7,
+    "fn": 17,
+    "fp": 55,
+    "tn": 322
+  },
+  "input": "raw 590 SECOM sensor columns named sensor_000..sensor_589",
+  "intended_use": "decision support / risk ranking with regular retraining; not automatic scrap"
+}

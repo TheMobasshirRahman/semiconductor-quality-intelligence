@@ -1,0 +1,2363 @@
+unit_id,timestamp,period,sensor,value,fail,severity,rules
+U0005,2008-07-19 15:22:00,train,sensor_103,-0.0045,0,warning,rule3
+U0005,2008-07-19 15:22:00,train,sensor_510,148.0663,0,warning,rule3
+U0006,2008-07-19 17:53:00,train,sensor_103,-0.0052,0,warning,rule3
+U0006,2008-07-19 17:53:00,train,sensor_510,68.7351,0,warning,rule3
+U0007,2008-07-19 19:44:00,train,sensor_028,60.8,0,warning,rule3
+U0007,2008-07-19 19:44:00,train,sensor_103,-0.0042,0,warning,rule3
+U0007,2008-07-19 19:44:00,train,sensor_510,159.5238,0,warning,rule3
+U0008,2008-07-19 19:45:00,train,sensor_028,67.3,0,warning,"rule3, rule4"
+U0008,2008-07-19 19:45:00,train,sensor_059,29.1309,0,alarm,rule2
+U0008,2008-07-19 19:45:00,train,sensor_103,-0.0057,0,warning,"rule3, rule4"
+U0008,2008-07-19 19:45:00,train,sensor_510,79.1209,0,warning,"rule3, rule4"
+U0009,2008-07-19 20:24:00,train,sensor_028,62.8,0,warning,"rule3, rule4"
+U0009,2008-07-19 20:24:00,train,sensor_103,-0.0048,0,warning,"rule3, rule4"
+U0009,2008-07-19 20:24:00,train,sensor_510,138.5827,0,warning,"rule3, rule4"
+U0010,2008-07-19 21:35:00,train,sensor_028,67.0333,0,warning,rule4
+U0010,2008-07-19 21:35:00,train,sensor_059,28.3118,0,alarm,"rule2, rule3"
+U0010,2008-07-19 21:35:00,train,sensor_103,-0.0073,0,warning,"rule3, rule4"
+U0010,2008-07-19 21:35:00,train,sensor_510,86.0068,0,warning,"rule3, rule4"
+U0011,2008-07-19 21:57:00,train,sensor_021,-2727.5,1,alarm,rule2
+U0011,2008-07-19 21:57:00,train,sensor_059,27.8373,1,alarm,"rule2, rule3"
+U0011,2008-07-19 21:57:00,train,sensor_103,-0.0056,1,warning,"rule3, rule4"
+U0011,2008-07-19 21:57:00,train,sensor_163,0.921,1,alarm,rule2
+U0011,2008-07-19 21:57:00,train,sensor_430,207.3327,1,alarm,rule2
+U0011,2008-07-19 21:57:00,train,sensor_431,210.1429,1,alarm,rule2
+U0011,2008-07-19 21:57:00,train,sensor_510,87.1111,1,warning,"rule3, rule4"
+U0012,2008-07-19 22:52:00,train,sensor_059,25.0836,1,alarm,"rule2, rule3"
+U0012,2008-07-19 22:52:00,train,sensor_103,-0.0059,1,warning,"rule3, rule4"
+U0012,2008-07-19 22:52:00,train,sensor_510,67.9406,1,warning,"rule3, rule4"
+U0013,2008-07-20 03:35:00,train,sensor_059,22.6227,0,warning,"rule3, rule4"
+U0013,2008-07-20 03:35:00,train,sensor_103,-0.0075,0,warning,rule4
+U0013,2008-07-20 03:35:00,train,sensor_510,94.8247,0,warning,"rule3, rule4"
+U0014,2008-07-21 08:21:00,train,sensor_059,-1.1927,0,warning,rule3
+U0014,2008-07-21 08:21:00,train,sensor_103,-0.0047,0,warning,rule4
+U0014,2008-07-21 08:21:00,train,sensor_510,55.0265,0,warning,rule4
+U0015,2008-07-21 11:53:00,train,sensor_059,17.6382,1,warning,rule3
+U0015,2008-07-21 11:53:00,train,sensor_103,-0.0041,1,warning,"rule3, rule4"
+U0015,2008-07-21 11:53:00,train,sensor_430,400.0,1,warning,rule3
+U0015,2008-07-21 11:53:00,train,sensor_510,125.5385,1,warning,rule4
+U0016,2008-07-22 00:03:00,train,sensor_021,-2694.75,0,alarm,rule2
+U0016,2008-07-22 00:03:00,train,sensor_028,61.2333,0,warning,rule3
+U0016,2008-07-22 00:03:00,train,sensor_059,20.4209,0,warning,rule3
+U0016,2008-07-22 00:03:00,train,sensor_103,-0.0031,0,warning,"rule3, rule4"
+U0016,2008-07-22 00:03:00,train,sensor_163,0.942,0,alarm,rule2
+U0016,2008-07-22 00:03:00,train,sensor_430,215.3447,0,alarm,"rule2, rule3, rule4"
+U0016,2008-07-22 00:03:00,train,sensor_431,239.1194,0,alarm,rule2
+U0016,2008-07-22 00:03:00,train,sensor_510,263.4538,0,warning,rule4
+U0017,2008-07-22 02:59:00,train,sensor_021,-5757.25,0,alarm,rule2
+U0017,2008-07-22 02:59:00,train,sensor_028,63.3556,0,warning,rule3
+U0017,2008-07-22 02:59:00,train,sensor_103,-0.0071,0,warning,rule4
+U0017,2008-07-22 02:59:00,train,sensor_163,0.125,0,alarm,rule2
+U0017,2008-07-22 02:59:00,train,sensor_430,10.439,0,alarm,"rule2, rule4"
+U0017,2008-07-22 02:59:00,train,sensor_431,7.4372,0,alarm,rule2
+U0017,2008-07-22 02:59:00,train,sensor_510,68.5315,0,warning,rule4
+U0018,2008-07-22 08:41:00,train,sensor_028,60.2444,0,alarm,"rule2, rule3"
+U0018,2008-07-22 08:41:00,train,sensor_079,-0.0423,0,alarm,rule2
+U0018,2008-07-22 08:41:00,train,sensor_103,-0.0066,0,warning,rule4
+U0018,2008-07-22 08:41:00,train,sensor_430,29.4521,0,warning,"rule3, rule4"
+U0018,2008-07-22 08:41:00,train,sensor_510,89.7338,0,warning,rule4
+U0019,2008-07-22 11:47:00,train,sensor_028,66.2,0,warning,"rule3, rule4"
+U0019,2008-07-22 11:47:00,train,sensor_079,-0.0156,0,alarm,rule2
+U0019,2008-07-22 11:47:00,train,sensor_103,-0.0052,0,warning,rule4
+U0019,2008-07-22 11:47:00,train,sensor_430,18.5821,0,warning,rule4
+U0019,2008-07-22 11:47:00,train,sensor_510,102.9126,0,warning,"rule3, rule4"
+U0020,2008-07-22 14:00:00,train,sensor_028,65.0778,0,warning,"rule3, rule4"
+U0020,2008-07-22 14:00:00,train,sensor_103,-0.0016,0,warning,rule4
+U0020,2008-07-22 14:00:00,train,sensor_430,16.5653,0,warning,rule4
+U0020,2008-07-22 14:00:00,train,sensor_510,349.2063,0,warning,"rule3, rule4"
+U0021,2008-07-22 15:30:00,train,sensor_028,67.2,0,warning,rule4
+U0021,2008-07-22 15:30:00,train,sensor_103,-0.0051,0,warning,rule4
+U0021,2008-07-22 15:30:00,train,sensor_510,87.8049,0,warning,"rule3, rule4"
+U0022,2008-07-23 05:15:00,train,sensor_028,65.1667,0,warning,rule4
+U0022,2008-07-23 05:15:00,train,sensor_103,-0.0092,0,warning,rule4
+U0022,2008-07-23 05:15:00,train,sensor_510,64.3929,0,warning,"rule3, rule4"
+U0023,2008-07-23 19:22:00,train,sensor_028,66.3556,0,warning,rule4
+U0023,2008-07-23 19:22:00,train,sensor_103,-0.0072,0,warning,rule4
+U0024,2008-07-25 15:23:00,train,sensor_028,62.5,1,warning,rule4
+U0024,2008-07-25 15:23:00,train,sensor_079,0.0405,1,warning,rule3
+U0025,2008-07-27 04:18:00,train,sensor_021,-2681.75,0,alarm,rule2
+U0025,2008-07-27 04:18:00,train,sensor_028,64.6778,0,warning,rule4
+U0025,2008-07-27 04:18:00,train,sensor_079,0.0602,0,warning,rule3
+U0025,2008-07-27 04:18:00,train,sensor_163,0.89,0,alarm,rule2
+U0025,2008-07-27 04:18:00,train,sensor_430,200.0932,0,alarm,rule2
+U0025,2008-07-27 04:18:00,train,sensor_431,209.1896,0,alarm,rule2
+U0026,2008-07-27 09:37:00,train,sensor_021,-2706.0,0,alarm,"rule2, rule3"
+U0026,2008-07-27 09:37:00,train,sensor_028,67.0333,0,warning,rule4
+U0026,2008-07-27 09:37:00,train,sensor_163,0.95,0,alarm,rule2
+U0026,2008-07-27 09:37:00,train,sensor_430,218.5144,0,alarm,rule2
+U0026,2008-07-27 09:37:00,train,sensor_431,228.3244,0,alarm,rule2
+U0027,2008-07-27 11:10:00,train,sensor_021,-5611.75,0,alarm,"rule2, rule3"
+U0027,2008-07-27 11:10:00,train,sensor_028,68.0333,0,warning,rule4
+U0027,2008-07-27 11:10:00,train,sensor_079,0.0055,0,warning,rule4
+U0027,2008-07-27 11:10:00,train,sensor_163,0.148,0,alarm,rule2
+U0027,2008-07-27 11:10:00,train,sensor_430,9.6583,0,alarm,rule2
+U0027,2008-07-27 11:10:00,train,sensor_431,23.6455,0,alarm,rule2
+U0028,2008-07-27 15:46:00,train,sensor_028,62.8889,0,warning,rule4
+U0028,2008-07-27 15:46:00,train,sensor_079,0.0615,0,warning,rule4
+U0029,2008-07-27 16:06:00,train,sensor_028,66.1667,0,warning,rule4
+U0029,2008-07-27 16:06:00,train,sensor_079,0.0775,0,warning,rule4
+U0030,2008-07-27 16:49:00,train,sensor_028,65.6333,0,warning,rule4
+U0030,2008-07-27 16:49:00,train,sensor_079,0.0602,0,warning,rule4
+U0031,2008-07-27 20:24:00,train,sensor_059,29.5109,0,warning,rule3
+U0031,2008-07-27 20:24:00,train,sensor_079,0.0729,0,alarm,"rule2, rule3, rule4"
+U0032,2008-07-27 22:28:00,train,sensor_059,13.1482,0,warning,rule3
+U0033,2008-07-27 22:28:00,train,sensor_059,-3.3864,0,warning,rule3
+U0032,2008-07-27 22:28:00,train,sensor_079,0.079,0,alarm,"rule2, rule3, rule4"
+U0033,2008-07-27 22:28:00,train,sensor_079,0.032,0,alarm,"rule2, rule3, rule4"
+U0034,2008-07-27 23:14:00,train,sensor_028,65.4556,0,warning,rule3
+U0034,2008-07-27 23:14:00,train,sensor_079,0.0567,0,warning,"rule3, rule4"
+U0035,2008-07-28 03:31:00,train,sensor_079,0.0543,0,warning,"rule3, rule4"
+U0036,2008-07-28 03:48:00,train,sensor_079,0.0122,0,warning,"rule3, rule4"
+U0037,2008-07-28 04:37:00,train,sensor_079,0.0688,0,warning,"rule3, rule4"
+U0038,2008-07-28 05:36:00,train,sensor_079,0.0536,0,warning,"rule3, rule4"
+U0038,2008-07-28 05:36:00,train,sensor_103,-0.0087,0,warning,rule4
+U0039,2008-07-28 06:45:00,train,sensor_028,68.3222,1,warning,rule4
+U0039,2008-07-28 06:45:00,train,sensor_059,24.9027,1,warning,rule3
+U0039,2008-07-28 06:45:00,train,sensor_079,0.0549,1,warning,"rule3, rule4"
+U0039,2008-07-28 06:45:00,train,sensor_103,-0.0033,1,warning,rule4
+U0040,2008-07-28 08:36:00,train,sensor_059,23.4736,0,warning,rule3
+U0040,2008-07-28 08:36:00,train,sensor_103,-0.0093,0,warning,rule4
+U0041,2008-07-28 15:11:00,train,sensor_059,15.1509,1,warning,rule3
+U0041,2008-07-28 15:11:00,train,sensor_079,0.0593,1,warning,rule3
+U0041,2008-07-28 15:11:00,train,sensor_103,-0.0085,1,warning,rule4
+U0042,2008-07-28 23:57:00,train,sensor_059,-2.6636,0,warning,rule3
+U0042,2008-07-28 23:57:00,train,sensor_103,-0.0077,0,warning,rule4
+U0043,2008-07-29 04:08:00,train,sensor_103,-0.0082,0,warning,rule4
+U0044,2008-07-29 05:16:00,train,sensor_103,-0.0088,0,warning,rule4
+U0045,2008-07-29 06:19:00,train,sensor_028,60.8444,0,warning,rule3
+U0045,2008-07-29 06:19:00,train,sensor_103,-0.0068,0,warning,rule4
+U0046,2008-07-29 08:23:00,train,sensor_103,-0.0056,1,warning,rule4
+U0046,2008-07-29 08:23:00,train,sensor_431,7.2168,1,warning,rule3
+U0047,2008-07-29 11:47:00,train,sensor_103,-0.0071,0,warning,rule4
+U0047,2008-07-29 11:47:00,train,sensor_163,0.901,0,alarm,rule2
+U0047,2008-07-29 11:47:00,train,sensor_430,231.6367,0,alarm,rule2
+U0047,2008-07-29 11:47:00,train,sensor_431,215.9856,0,alarm,rule2
+U0048,2008-07-29 15:41:00,train,sensor_103,-0.008,0,warning,rule4
+U0048,2008-07-29 15:41:00,train,sensor_163,0.947,0,alarm,rule2
+U0048,2008-07-29 15:41:00,train,sensor_430,163.9724,0,alarm,rule2
+U0048,2008-07-29 15:41:00,train,sensor_431,150.8276,0,alarm,rule2
+U0049,2008-07-29 15:49:00,train,sensor_021,-5300.25,1,warning,rule3
+U0049,2008-07-29 15:49:00,train,sensor_103,-0.0091,1,warning,rule4
+U0049,2008-07-29 15:49:00,train,sensor_163,0.208,1,alarm,"rule2, rule3"
+U0049,2008-07-29 15:49:00,train,sensor_430,2.0565,1,alarm,rule2
+U0049,2008-07-29 15:49:00,train,sensor_431,20.7906,1,alarm,rule2
+U0050,2008-07-29 17:05:00,train,sensor_059,23.3109,1,warning,rule3
+U0050,2008-07-29 17:05:00,train,sensor_103,-0.0078,1,warning,rule4
+U0051,2008-07-29 18:08:00,train,sensor_021,-5394.0,1,warning,rule4
+U0051,2008-07-29 18:08:00,train,sensor_059,23.9555,1,warning,"rule3, rule4"
+U0051,2008-07-29 18:08:00,train,sensor_079,0.0148,1,warning,rule4
+U0051,2008-07-29 18:08:00,train,sensor_103,-0.0094,1,warning,rule4
+U0052,2008-07-29 21:07:00,train,sensor_021,-2575.5,0,warning,rule4
+U0052,2008-07-29 21:07:00,train,sensor_059,21.39,0,warning,"rule3, rule4"
+U0052,2008-07-29 21:07:00,train,sensor_079,0.0269,0,warning,rule4
+U0052,2008-07-29 21:07:00,train,sensor_103,-0.007,0,warning,rule4
+U0053,2008-07-29 23:14:00,train,sensor_021,-5175.5,0,warning,rule4
+U0053,2008-07-29 23:14:00,train,sensor_059,1.5882,0,warning,"rule3, rule4"
+U0053,2008-07-29 23:14:00,train,sensor_079,0.0159,0,warning,rule4
+U0053,2008-07-29 23:14:00,train,sensor_103,-0.0075,0,warning,rule4
+U0054,2008-07-29 23:19:00,train,sensor_021,-5545.0,0,warning,rule4
+U0054,2008-07-29 23:19:00,train,sensor_103,-0.0078,0,warning,rule4
+U0055,2008-07-30 06:30:00,train,sensor_021,-4520.75,0,warning,rule4
+U0055,2008-07-30 06:30:00,train,sensor_103,-0.007,0,warning,rule4
+U0056,2008-07-30 07:08:00,train,sensor_028,64.7111,0,warning,rule3
+U0056,2008-07-30 07:08:00,train,sensor_103,-0.0087,0,warning,rule4
+U0057,2008-07-30 12:02:00,train,sensor_103,-0.0037,0,warning,rule4
+U0058,2008-07-30 12:29:00,train,sensor_028,63.4,1,warning,rule3
+U0058,2008-07-30 12:29:00,train,sensor_103,-0.0055,1,warning,rule4
+U0059,2008-07-30 21:16:00,train,sensor_021,-4490.5,1,alarm,rule2
+U0059,2008-07-30 21:16:00,train,sensor_028,63.6,1,warning,rule3
+U0059,2008-07-30 21:16:00,train,sensor_059,15.9527,1,warning,rule3
+U0059,2008-07-30 21:16:00,train,sensor_079,0.0796,1,alarm,rule2
+U0059,2008-07-30 21:16:00,train,sensor_163,0.894,1,alarm,rule2
+U0059,2008-07-30 21:16:00,train,sensor_430,171.6735,1,alarm,rule2
+U0059,2008-07-30 21:16:00,train,sensor_431,140.2004,1,alarm,rule2
+U0060,2008-07-31 13:57:00,train,sensor_021,-5433.25,0,alarm,rule2
+U0060,2008-07-31 13:57:00,train,sensor_163,0.141,0,alarm,rule2
+U0060,2008-07-31 13:57:00,train,sensor_430,15.037,0,alarm,rule2
+U0060,2008-07-31 13:57:00,train,sensor_431,13.0901,0,alarm,rule2
+U0061,2008-07-31 15:36:00,train,sensor_079,0.0803,0,alarm,rule2
+U0061,2008-07-31 15:36:00,train,sensor_510,102.6316,0,warning,rule3
+U0062,2008-07-31 17:07:00,train,sensor_079,0.0713,0,alarm,"rule2, rule4"
+U0062,2008-07-31 17:07:00,train,sensor_510,218.1818,0,warning,rule3
+U0063,2008-07-31 20:18:00,train,sensor_079,0.057,1,alarm,"rule2, rule3, rule4"
+U0064,2008-08-01 02:02:00,train,sensor_079,0.0646,0,warning,"rule3, rule4"
+U0064,2008-08-01 02:02:00,train,sensor_103,-0.0057,0,warning,rule3
+U0064,2008-08-01 02:02:00,train,sensor_510,87.7193,0,warning,rule3
+U0065,2008-08-01 05:52:00,train,sensor_028,68.1222,1,warning,rule4
+U0065,2008-08-01 05:52:00,train,sensor_079,0.0049,1,warning,"rule3, rule4"
+U0065,2008-08-01 05:52:00,train,sensor_103,-0.0057,1,warning,rule3
+U0066,2008-08-01 10:20:00,train,sensor_028,67.8444,0,warning,rule4
+U0066,2008-08-01 10:20:00,train,sensor_059,18.8309,0,warning,rule3
+U0066,2008-08-01 10:20:00,train,sensor_079,0.0248,0,warning,rule4
+U0066,2008-08-01 10:20:00,train,sensor_103,-0.0064,0,warning,rule3
+U0067,2008-08-01 10:26:00,train,sensor_028,65.1667,0,warning,rule4
+U0067,2008-08-01 10:26:00,train,sensor_059,18.2809,0,warning,rule3
+U0067,2008-08-01 10:26:00,train,sensor_079,0.0264,0,warning,rule4
+U0067,2008-08-01 10:26:00,train,sensor_103,-0.0053,0,warning,"rule3, rule4"
+U0067,2008-08-01 10:26:00,train,sensor_129,0.0,0,warning,rule4
+U0067,2008-08-01 10:26:00,train,sensor_510,89.9297,0,warning,rule4
+U0068,2008-08-01 11:28:00,train,sensor_028,61.6222,0,warning,rule4
+U0068,2008-08-01 11:28:00,train,sensor_059,19.8,0,warning,"rule3, rule4"
+U0068,2008-08-01 11:28:00,train,sensor_079,0.0193,0,warning,rule4
+U0068,2008-08-01 11:28:00,train,sensor_103,-0.0074,0,warning,rule4
+U0068,2008-08-01 11:28:00,train,sensor_129,0.0,0,warning,rule4
+U0068,2008-08-01 11:28:00,train,sensor_510,53.6913,0,warning,rule4
+U0069,2008-08-01 12:29:00,train,sensor_028,65.6333,0,warning,rule4
+U0069,2008-08-01 12:29:00,train,sensor_059,11.6818,0,warning,"rule3, rule4"
+U0069,2008-08-01 12:29:00,train,sensor_079,0.0964,0,warning,rule4
+U0069,2008-08-01 12:29:00,train,sensor_103,-0.007,0,warning,rule4
+U0069,2008-08-01 12:29:00,train,sensor_129,0.0,0,warning,rule4
+U0069,2008-08-01 12:29:00,train,sensor_510,68.8172,0,warning,rule4
+U0070,2008-08-01 14:07:00,train,sensor_028,68.3444,0,warning,rule4
+U0070,2008-08-01 14:07:00,train,sensor_059,22.4345,0,warning,"rule3, rule4"
+U0070,2008-08-01 14:07:00,train,sensor_079,0.0958,0,alarm,"rule2, rule4"
+U0070,2008-08-01 14:07:00,train,sensor_103,-0.0054,0,warning,rule4
+U0070,2008-08-01 14:07:00,train,sensor_129,0.0,0,warning,rule4
+U0070,2008-08-01 14:07:00,train,sensor_510,102.3256,0,warning,rule4
+U0071,2008-08-01 15:10:00,train,sensor_028,68.3,0,warning,rule4
+U0071,2008-08-01 15:10:00,train,sensor_059,17.1627,0,warning,"rule3, rule4"
+U0071,2008-08-01 15:10:00,train,sensor_079,0.0089,0,alarm,"rule2, rule4"
+U0071,2008-08-01 15:10:00,train,sensor_103,-0.007,0,warning,rule4
+U0071,2008-08-01 15:10:00,train,sensor_129,0.0,0,warning,rule4
+U0071,2008-08-01 15:10:00,train,sensor_510,54.5781,0,warning,rule4
+U0072,2008-08-02 03:39:00,train,sensor_059,25.4573,0,warning,"rule3, rule4"
+U0072,2008-08-02 03:39:00,train,sensor_079,0.048,0,warning,rule4
+U0072,2008-08-02 03:39:00,train,sensor_103,-0.0046,0,warning,rule4
+U0072,2008-08-02 03:39:00,train,sensor_510,111.4754,0,warning,rule4
+U0073,2008-08-03 13:09:00,train,sensor_059,20.5509,0,warning,"rule3, rule4"
+U0073,2008-08-03 13:09:00,train,sensor_079,0.0041,0,warning,rule4
+U0073,2008-08-03 13:09:00,train,sensor_103,-0.0031,0,warning,rule4
+U0073,2008-08-03 13:09:00,train,sensor_510,174.8988,0,warning,rule4
+U0074,2008-08-03 14:06:00,train,sensor_059,18.6827,0,warning,"rule3, rule4"
+U0074,2008-08-03 14:06:00,train,sensor_079,0.1013,0,alarm,"rule1, rule4"
+U0074,2008-08-03 14:06:00,train,sensor_103,-0.0078,0,warning,rule4
+U0074,2008-08-03 14:06:00,train,sensor_510,51.4469,0,warning,rule4
+U0075,2008-08-03 14:25:00,train,sensor_059,25.4427,0,warning,"rule3, rule4"
+U0075,2008-08-03 14:25:00,train,sensor_103,-0.0055,0,warning,rule4
+U0075,2008-08-03 14:25:00,train,sensor_510,76.0181,0,warning,rule4
+U0076,2008-08-03 15:03:00,train,sensor_028,64.8111,0,warning,rule3
+U0076,2008-08-03 15:03:00,train,sensor_059,17.6373,0,warning,"rule3, rule4"
+U0076,2008-08-03 15:03:00,train,sensor_103,-0.0063,0,warning,rule4
+U0076,2008-08-03 15:03:00,train,sensor_510,65.3386,0,warning,rule4
+U0077,2008-08-03 15:27:00,train,sensor_028,64.6444,0,warning,rule3
+U0077,2008-08-03 15:27:00,train,sensor_059,24.3509,0,warning,"rule3, rule4"
+U0077,2008-08-03 15:27:00,train,sensor_103,-0.005,0,warning,rule4
+U0077,2008-08-03 15:27:00,train,sensor_510,90.0,0,warning,rule4
+U0078,2008-08-03 16:00:00,train,sensor_028,64.6222,0,warning,rule3
+U0078,2008-08-03 16:00:00,train,sensor_059,12.0627,0,warning,"rule3, rule4"
+U0078,2008-08-03 16:00:00,train,sensor_103,-0.0071,0,warning,rule4
+U0078,2008-08-03 16:00:00,train,sensor_510,79.292,0,warning,rule4
+U0079,2008-08-03 17:00:00,train,sensor_028,60.9222,0,warning,rule3
+U0079,2008-08-03 17:00:00,train,sensor_059,9.5227,0,warning,"rule3, rule4"
+U0079,2008-08-03 17:00:00,train,sensor_103,-0.0053,0,warning,rule4
+U0079,2008-08-03 17:00:00,train,sensor_510,54.8463,0,warning,rule4
+U0080,2008-08-03 17:58:00,train,sensor_028,67.5333,0,warning,"rule3, rule4"
+U0080,2008-08-03 17:58:00,train,sensor_059,22.9245,0,warning,"rule3, rule4"
+U0080,2008-08-03 17:58:00,train,sensor_103,-0.0061,0,warning,rule4
+U0080,2008-08-03 17:58:00,train,sensor_510,98.3607,0,warning,rule4
+U0081,2008-08-03 20:23:00,train,sensor_028,64.0,0,warning,"rule3, rule4"
+U0081,2008-08-03 20:23:00,train,sensor_059,9.3336,0,warning,rule4
+U0081,2008-08-03 20:23:00,train,sensor_079,0.0397,0,warning,rule3
+U0081,2008-08-03 20:23:00,train,sensor_103,-0.0092,0,warning,rule4
+U0082,2008-08-03 22:52:00,train,sensor_028,68.5444,0,warning,rule4
+U0082,2008-08-03 22:52:00,train,sensor_059,12.5391,0,warning,rule4
+U0082,2008-08-03 22:52:00,train,sensor_079,0.0601,0,warning,rule3
+U0082,2008-08-03 22:52:00,train,sensor_103,-0.0071,0,warning,rule4
+U0083,2008-08-04 00:39:00,train,sensor_028,62.8333,1,warning,rule4
+U0083,2008-08-04 00:39:00,train,sensor_059,12.4309,1,warning,rule4
+U0083,2008-08-04 00:39:00,train,sensor_079,0.0116,1,warning,"rule3, rule4"
+U0083,2008-08-04 00:39:00,train,sensor_103,-0.0063,1,warning,rule4
+U0084,2008-08-04 03:45:00,train,sensor_028,67.5222,0,warning,rule4
+U0084,2008-08-04 03:45:00,train,sensor_059,28.6355,0,warning,"rule3, rule4"
+U0084,2008-08-04 03:45:00,train,sensor_079,0.0215,0,warning,rule4
+U0084,2008-08-04 03:45:00,train,sensor_103,-0.0053,0,warning,rule4
+U0085,2008-08-04 03:49:00,train,sensor_028,62.6556,0,warning,rule4
+U0085,2008-08-04 03:49:00,train,sensor_059,8.6927,0,warning,rule4
+U0085,2008-08-04 03:49:00,train,sensor_079,0.0615,0,warning,rule4
+U0085,2008-08-04 03:49:00,train,sensor_103,-0.006,0,warning,rule4
+U0086,2008-08-04 13:19:00,train,sensor_028,64.1667,0,warning,rule4
+U0086,2008-08-04 13:19:00,train,sensor_103,-0.0054,0,warning,rule4
+U0087,2008-08-04 14:04:00,train,sensor_028,66.6889,0,warning,rule4
+U0087,2008-08-04 14:04:00,train,sensor_103,-0.0066,0,warning,rule4
+U0088,2008-08-04 14:31:00,train,sensor_103,-0.004,0,warning,"rule3, rule4"
+U0089,2008-08-04 15:29:00,train,sensor_103,-0.0047,0,warning,"rule3, rule4"
+U0090,2008-08-04 16:15:00,train,sensor_103,-0.0053,0,warning,"rule3, rule4"
+U0091,2008-08-04 16:31:00,train,sensor_059,28.1191,0,alarm,rule2
+U0091,2008-08-04 16:31:00,train,sensor_103,-0.0049,0,warning,"rule3, rule4"
+U0092,2008-08-04 17:11:00,train,sensor_103,-0.0071,0,warning,"rule3, rule4"
+U0092,2008-08-04 17:11:00,train,sensor_163,0.957,0,alarm,rule1
+U0093,2008-08-04 17:46:00,train,sensor_028,60.9111,0,alarm,rule2
+U0093,2008-08-04 17:46:00,train,sensor_103,-0.0061,0,warning,"rule3, rule4"
+U0094,2008-08-04 18:24:00,train,sensor_103,-0.0063,0,warning,rule4
+U0094,2008-08-04 18:24:00,train,sensor_163,0.954,0,alarm,rule2
+U0094,2008-08-04 18:24:00,train,sensor_430,164.3363,0,alarm,rule2
+U0094,2008-08-04 18:24:00,train,sensor_431,144.7031,0,alarm,rule2
+U0095,2008-08-04 19:58:00,train,sensor_028,64.8,0,warning,rule3
+U0095,2008-08-04 19:58:00,train,sensor_103,-0.0054,0,warning,rule4
+U0095,2008-08-04 19:58:00,train,sensor_510,115.3488,0,warning,"rule3, rule4"
+U0096,2008-08-04 20:32:00,train,sensor_028,65.3,0,warning,"rule3, rule4"
+U0096,2008-08-04 20:32:00,train,sensor_059,-11.2182,0,alarm,rule2
+U0096,2008-08-04 20:32:00,train,sensor_103,-0.0058,0,warning,rule4
+U0096,2008-08-04 20:32:00,train,sensor_510,65.2361,0,warning,rule4
+U0097,2008-08-04 20:58:00,train,sensor_028,62.7556,1,warning,"rule3, rule4"
+U0097,2008-08-04 20:58:00,train,sensor_103,-0.0052,1,warning,"rule3, rule4"
+U0097,2008-08-04 20:58:00,train,sensor_510,117.8744,1,warning,"rule3, rule4"
+U0098,2008-08-04 21:43:00,train,sensor_028,67.1556,0,warning,"rule3, rule4"
+U0098,2008-08-04 21:43:00,train,sensor_103,-0.005,0,warning,"rule3, rule4"
+U0098,2008-08-04 21:43:00,train,sensor_163,0.177,0,warning,rule3
+U0098,2008-08-04 21:43:00,train,sensor_510,116.5829,0,warning,"rule3, rule4"
+U0099,2008-08-04 22:51:00,train,sensor_021,-5522.25,0,warning,rule4
+U0099,2008-08-04 22:51:00,train,sensor_028,61.7444,0,warning,"rule3, rule4"
+U0099,2008-08-04 22:51:00,train,sensor_103,-0.005,0,warning,"rule3, rule4"
+U0099,2008-08-04 22:51:00,train,sensor_510,100.7557,0,warning,"rule3, rule4"
+U0100,2008-08-04 23:33:00,train,sensor_021,-1502.75,0,warning,rule4
+U0100,2008-08-04 23:33:00,train,sensor_028,60.5,0,alarm,"rule2, rule3, rule4"
+U0100,2008-08-04 23:33:00,train,sensor_103,-0.006,0,warning,"rule3, rule4"
+U0100,2008-08-04 23:33:00,train,sensor_163,0.947,0,warning,rule3
+U0100,2008-08-04 23:33:00,train,sensor_510,103.3333,0,warning,"rule3, rule4"
+U0101,2008-08-05 00:04:00,train,sensor_021,-5443.0,0,warning,rule4
+U0101,2008-08-05 00:04:00,train,sensor_028,67.8111,0,alarm,"rule2, rule4"
+U0101,2008-08-05 00:04:00,train,sensor_059,24.8064,0,warning,rule3
+U0101,2008-08-05 00:04:00,train,sensor_103,-0.0062,0,warning,"rule3, rule4"
+U0101,2008-08-05 00:04:00,train,sensor_510,45.0704,0,warning,rule3
+U0102,2008-08-05 01:12:00,train,sensor_028,64.0,0,warning,rule4
+U0102,2008-08-05 01:12:00,train,sensor_059,27.6182,0,warning,rule3
+U0102,2008-08-05 01:12:00,train,sensor_079,0.0534,0,warning,rule3
+U0102,2008-08-05 01:12:00,train,sensor_103,-0.0037,0,warning,"rule3, rule4"
+U0102,2008-08-05 01:12:00,train,sensor_129,0.1419,0,warning,rule4
+U0102,2008-08-05 01:12:00,train,sensor_510,92.2034,0,warning,rule3
+U0103,2008-08-05 02:15:00,train,sensor_028,66.2556,0,warning,rule4
+U0103,2008-08-05 02:15:00,train,sensor_059,20.5864,0,warning,rule3
+U0103,2008-08-05 02:15:00,train,sensor_079,0.0772,0,alarm,"rule2, rule3, rule4"
+U0103,2008-08-05 02:15:00,train,sensor_103,-0.0069,0,warning,"rule3, rule4"
+U0103,2008-08-05 02:15:00,train,sensor_129,0.1419,0,warning,rule4
+U0104,2008-08-05 02:36:00,train,sensor_028,61.7667,0,warning,rule4
+U0104,2008-08-05 02:36:00,train,sensor_059,27.6655,0,alarm,"rule2, rule3, rule4"
+U0104,2008-08-05 02:36:00,train,sensor_079,0.0916,0,alarm,"rule2, rule3, rule4"
+U0104,2008-08-05 02:36:00,train,sensor_103,-0.0051,0,warning,"rule3, rule4"
+U0104,2008-08-05 02:36:00,train,sensor_129,0.0473,0,warning,rule4
+U0105,2008-08-05 02:45:00,train,sensor_028,65.7333,0,warning,rule4
+U0105,2008-08-05 02:45:00,train,sensor_059,29.0264,0,alarm,"rule2, rule3, rule4"
+U0105,2008-08-05 02:45:00,train,sensor_079,0.0725,0,alarm,"rule2, rule3, rule4"
+U0105,2008-08-05 02:45:00,train,sensor_103,-0.0056,0,warning,"rule3, rule4"
+U0105,2008-08-05 02:45:00,train,sensor_129,0.7569,0,warning,rule4
+U0106,2008-08-05 03:17:00,train,sensor_028,66.9778,0,warning,rule4
+U0106,2008-08-05 03:17:00,train,sensor_059,27.7364,0,alarm,"rule2, rule3, rule4"
+U0106,2008-08-05 03:17:00,train,sensor_079,0.0141,0,alarm,"rule2, rule3, rule4"
+U0106,2008-08-05 03:17:00,train,sensor_103,-0.0066,0,warning,rule4
+U0106,2008-08-05 03:17:00,train,sensor_129,0.0,0,warning,rule4
+U0107,2008-08-05 03:36:00,train,sensor_028,61.6444,0,warning,rule4
+U0107,2008-08-05 03:36:00,train,sensor_059,24.8282,0,alarm,"rule2, rule3, rule4"
+U0107,2008-08-05 03:36:00,train,sensor_079,0.0706,0,alarm,"rule2, rule3, rule4"
+U0107,2008-08-05 03:36:00,train,sensor_103,-0.0059,0,warning,rule4
+U0107,2008-08-05 03:36:00,train,sensor_129,0.7569,0,warning,rule4
+U0108,2008-08-05 03:54:00,train,sensor_028,65.4333,0,warning,"rule3, rule4"
+U0108,2008-08-05 03:54:00,train,sensor_059,24.6118,0,warning,"rule3, rule4"
+U0108,2008-08-05 03:54:00,train,sensor_079,0.0918,0,alarm,"rule2, rule3, rule4"
+U0108,2008-08-05 03:54:00,train,sensor_103,-0.0064,0,warning,rule4
+U0108,2008-08-05 03:54:00,train,sensor_129,0.7569,0,warning,rule4
+U0108,2008-08-05 03:54:00,train,sensor_430,8.133,0,warning,rule4
+U0109,2008-08-05 04:32:00,train,sensor_028,62.9667,0,warning,"rule3, rule4"
+U0109,2008-08-05 04:32:00,train,sensor_059,27.7155,0,warning,"rule3, rule4"
+U0109,2008-08-05 04:32:00,train,sensor_079,0.0488,0,alarm,"rule2, rule3, rule4"
+U0109,2008-08-05 04:32:00,train,sensor_103,-0.0075,0,warning,rule4
+U0109,2008-08-05 04:32:00,train,sensor_129,0.7569,0,warning,"rule3, rule4"
+U0110,2008-08-05 04:35:00,train,sensor_028,63.6444,0,warning,"rule3, rule4"
+U0110,2008-08-05 04:35:00,train,sensor_059,23.7864,0,warning,"rule3, rule4"
+U0110,2008-08-05 04:35:00,train,sensor_079,0.0716,0,alarm,"rule2, rule3, rule4"
+U0110,2008-08-05 04:35:00,train,sensor_103,-0.0068,0,warning,rule4
+U0110,2008-08-05 04:35:00,train,sensor_129,0.0473,0,warning,rule4
+U0110,2008-08-05 04:35:00,train,sensor_431,23.0036,0,warning,rule4
+U0111,2008-08-05 05:11:00,train,sensor_028,68.3333,0,warning,"rule3, rule4"
+U0111,2008-08-05 05:11:00,train,sensor_059,20.6,0,warning,"rule3, rule4"
+U0111,2008-08-05 05:11:00,train,sensor_079,0.0178,0,warning,"rule3, rule4"
+U0111,2008-08-05 05:11:00,train,sensor_103,-0.0054,0,warning,rule4
+U0112,2008-08-05 06:10:00,train,sensor_028,67.4,0,warning,rule4
+U0112,2008-08-05 06:10:00,train,sensor_059,29.7509,0,warning,"rule3, rule4"
+U0112,2008-08-05 06:10:00,train,sensor_103,-0.005,0,warning,rule4
+U0113,2008-08-05 06:11:00,train,sensor_028,63.3556,0,warning,rule4
+U0113,2008-08-05 06:11:00,train,sensor_059,23.9945,0,warning,"rule3, rule4"
+U0113,2008-08-05 06:11:00,train,sensor_103,-0.0066,0,warning,rule4
+U0114,2008-08-05 06:21:00,train,sensor_059,16.7909,0,warning,"rule3, rule4"
+U0114,2008-08-05 06:21:00,train,sensor_103,-0.0055,0,warning,rule4
+U0115,2008-08-05 07:12:00,train,sensor_059,23.7136,0,warning,"rule3, rule4"
+U0116,2008-08-05 07:12:00,train,sensor_059,18.5764,1,warning,"rule3, rule4"
+U0115,2008-08-05 07:12:00,train,sensor_103,-0.0057,0,warning,"rule3, rule4"
+U0116,2008-08-05 07:12:00,train,sensor_103,-0.004,1,warning,"rule3, rule4"
+U0117,2008-08-05 07:48:00,train,sensor_028,62.2111,0,warning,rule3
+U0117,2008-08-05 07:48:00,train,sensor_059,24.2918,0,warning,"rule3, rule4"
+U0117,2008-08-05 07:48:00,train,sensor_079,0.0659,0,warning,rule3
+U0117,2008-08-05 07:48:00,train,sensor_103,-0.0051,0,warning,"rule3, rule4"
+U0117,2008-08-05 07:48:00,train,sensor_510,136.9193,0,warning,rule4
+U0118,2008-08-05 08:50:00,train,sensor_028,64.7111,0,warning,rule3
+U0118,2008-08-05 08:50:00,train,sensor_059,25.5127,0,warning,"rule3, rule4"
+U0118,2008-08-05 08:50:00,train,sensor_079,0.0271,0,warning,rule3
+U0118,2008-08-05 08:50:00,train,sensor_103,-0.0044,0,warning,"rule3, rule4"
+U0118,2008-08-05 08:50:00,train,sensor_510,77.2727,0,warning,rule4
+U0119,2008-08-05 09:48:00,train,sensor_028,63.9444,0,warning,rule3
+U0119,2008-08-05 09:48:00,train,sensor_059,26.7064,0,warning,"rule3, rule4"
+U0119,2008-08-05 09:48:00,train,sensor_079,0.0726,0,warning,rule3
+U0119,2008-08-05 09:48:00,train,sensor_103,-0.0062,0,warning,"rule3, rule4"
+U0119,2008-08-05 09:48:00,train,sensor_510,54.6185,0,warning,rule4
+U0120,2008-08-05 14:17:00,train,sensor_028,65.7778,0,warning,rule3
+U0120,2008-08-05 14:17:00,train,sensor_059,8.9136,0,warning,"rule3, rule4"
+U0120,2008-08-05 14:17:00,train,sensor_079,0.0599,0,warning,"rule3, rule4"
+U0120,2008-08-05 14:17:00,train,sensor_103,-0.0039,0,warning,"rule3, rule4"
+U0120,2008-08-05 14:17:00,train,sensor_510,93.9683,0,warning,rule4
+U0121,2008-08-05 14:45:00,train,sensor_028,68.2556,0,warning,rule3
+U0121,2008-08-05 14:45:00,train,sensor_059,8.9418,0,warning,rule4
+U0121,2008-08-05 14:45:00,train,sensor_079,0.0059,0,warning,"rule3, rule4"
+U0121,2008-08-05 14:45:00,train,sensor_103,-0.0017,0,warning,"rule3, rule4"
+U0121,2008-08-05 14:45:00,train,sensor_510,301.4493,0,warning,rule4
+U0122,2008-08-05 15:45:00,train,sensor_028,67.1778,0,warning,rule4
+U0122,2008-08-05 15:45:00,train,sensor_059,6.9918,0,warning,rule4
+U0122,2008-08-05 15:45:00,train,sensor_079,0.0515,0,warning,"rule3, rule4"
+U0122,2008-08-05 15:45:00,train,sensor_103,-0.0057,0,warning,"rule3, rule4"
+U0122,2008-08-05 15:45:00,train,sensor_510,58.1498,0,warning,rule4
+U0123,2008-08-05 20:04:00,train,sensor_028,67.5778,0,warning,rule4
+U0123,2008-08-05 20:04:00,train,sensor_059,16.6036,0,warning,rule4
+U0123,2008-08-05 20:04:00,train,sensor_103,-0.0062,0,warning,"rule3, rule4"
+U0123,2008-08-05 20:04:00,train,sensor_510,77.1084,0,warning,rule4
+U0124,2008-08-05 21:07:00,train,sensor_028,63.1444,0,warning,rule4
+U0124,2008-08-05 21:07:00,train,sensor_059,16.5255,0,warning,rule4
+U0124,2008-08-05 21:07:00,train,sensor_103,-0.0017,0,warning,"rule3, rule4"
+U0124,2008-08-05 21:07:00,train,sensor_510,243.4783,0,warning,rule4
+U0125,2008-08-05 21:22:00,train,sensor_028,65.4778,0,warning,rule4
+U0125,2008-08-05 21:22:00,train,sensor_059,29.1918,0,warning,rule4
+U0125,2008-08-05 21:22:00,train,sensor_103,-0.005,0,warning,"rule3, rule4"
+U0125,2008-08-05 21:22:00,train,sensor_510,88.665,0,warning,rule4
+U0126,2008-08-05 23:02:00,train,sensor_028,61.8778,0,warning,rule4
+U0126,2008-08-05 23:02:00,train,sensor_059,10.08,0,warning,"rule3, rule4"
+U0126,2008-08-05 23:02:00,train,sensor_103,-0.004,0,warning,"rule3, rule4"
+U0126,2008-08-05 23:02:00,train,sensor_510,82.243,0,warning,rule4
+U0127,2008-08-05 23:06:00,train,sensor_028,61.8333,0,warning,"rule3, rule4"
+U0127,2008-08-05 23:06:00,train,sensor_059,3.9055,0,warning,"rule3, rule4"
+U0127,2008-08-05 23:06:00,train,sensor_103,-0.0068,0,warning,"rule3, rule4"
+U0127,2008-08-05 23:06:00,train,sensor_510,61.7647,0,warning,rule4
+U0128,2008-08-05 23:38:00,train,sensor_028,68.4333,0,warning,"rule3, rule4"
+U0128,2008-08-05 23:38:00,train,sensor_059,26.6527,0,warning,"rule3, rule4"
+U0128,2008-08-05 23:38:00,train,sensor_103,-0.0059,0,warning,"rule3, rule4"
+U0128,2008-08-05 23:38:00,train,sensor_510,79.661,0,warning,"rule3, rule4"
+U0129,2008-08-06 00:04:00,train,sensor_028,66.9333,0,warning,rule4
+U0129,2008-08-06 00:04:00,train,sensor_059,17.6864,0,warning,"rule3, rule4"
+U0129,2008-08-06 00:04:00,train,sensor_103,-0.0047,0,warning,"rule3, rule4"
+U0129,2008-08-06 00:04:00,train,sensor_510,113.0667,0,warning,"rule3, rule4"
+U0130,2008-08-06 02:20:00,train,sensor_028,61.6778,0,warning,rule4
+U0130,2008-08-06 02:20:00,train,sensor_059,15.0182,0,warning,"rule3, rule4"
+U0130,2008-08-06 02:20:00,train,sensor_103,-0.0059,0,warning,"rule3, rule4"
+U0130,2008-08-06 02:20:00,train,sensor_510,62.5793,0,warning,rule4
+U0131,2008-08-06 03:22:00,train,sensor_059,15.7936,0,warning,"rule3, rule4"
+U0131,2008-08-06 03:22:00,train,sensor_103,-0.0056,0,warning,"rule3, rule4"
+U0131,2008-08-06 03:22:00,train,sensor_510,89.6861,0,warning,rule4
+U0132,2008-08-06 05:40:00,train,sensor_059,6.6636,1,warning,"rule3, rule4"
+U0132,2008-08-06 05:40:00,train,sensor_103,-0.0067,1,warning,"rule3, rule4"
+U0133,2008-08-06 09:56:00,train,sensor_059,10.2109,0,warning,"rule3, rule4"
+U0133,2008-08-06 09:56:00,train,sensor_103,-0.0045,0,warning,"rule3, rule4"
+U0133,2008-08-06 09:56:00,train,sensor_129,0.6623,0,warning,rule4
+U0134,2008-08-06 09:57:00,train,sensor_103,-0.0056,0,warning,"rule3, rule4"
+U0135,2008-08-06 12:33:00,train,sensor_103,-0.0041,0,warning,"rule3, rule4"
+U0135,2008-08-06 12:33:00,train,sensor_129,-0.0473,0,warning,rule4
+U0136,2008-08-06 13:35:00,train,sensor_103,-0.007,0,warning,rule4
+U0136,2008-08-06 13:35:00,train,sensor_129,0.3311,0,warning,rule4
+U0137,2008-08-06 17:35:00,train,sensor_059,25.9591,0,warning,rule3
+U0137,2008-08-06 17:35:00,train,sensor_103,-0.0093,0,warning,rule4
+U0137,2008-08-06 17:35:00,train,sensor_129,0.3311,0,warning,rule4
+U0138,2008-08-06 18:00:00,train,sensor_059,23.8864,0,warning,rule3
+U0138,2008-08-06 18:00:00,train,sensor_103,-0.005,0,warning,rule4
+U0139,2008-08-06 18:34:00,train,sensor_028,67.3111,0,warning,rule4
+U0139,2008-08-06 18:34:00,train,sensor_059,23.0364,0,warning,rule3
+U0139,2008-08-06 18:34:00,train,sensor_079,0.0659,0,warning,rule3
+U0139,2008-08-06 18:34:00,train,sensor_103,-0.0068,0,warning,rule4
+U0140,2008-08-06 19:13:00,train,sensor_021,-6569.5,0,alarm,rule2
+U0140,2008-08-06 19:13:00,train,sensor_028,63.8444,0,warning,rule4
+U0140,2008-08-06 19:13:00,train,sensor_059,22.7418,0,warning,rule3
+U0140,2008-08-06 19:13:00,train,sensor_079,0.0724,0,warning,rule3
+U0140,2008-08-06 19:13:00,train,sensor_103,-0.0062,0,warning,rule4
+U0140,2008-08-06 19:13:00,train,sensor_129,0.6623,0,warning,rule3
+U0141,2008-08-06 19:24:00,train,sensor_021,-6480.5,0,warning,rule3
+U0141,2008-08-06 19:24:00,train,sensor_028,65.9556,0,warning,rule4
+U0141,2008-08-06 19:24:00,train,sensor_059,-9.2836,0,warning,rule3
+U0141,2008-08-06 19:24:00,train,sensor_079,-0.0065,0,warning,rule3
+U0141,2008-08-06 19:24:00,train,sensor_103,-0.0034,0,warning,rule4
+U0142,2008-08-06 20:00:00,train,sensor_021,-6364.25,0,warning,rule3
+U0142,2008-08-06 20:00:00,train,sensor_028,65.8333,0,warning,rule4
+U0142,2008-08-06 20:00:00,train,sensor_103,-0.0045,0,warning,"rule3, rule4"
+U0143,2008-08-06 20:17:00,train,sensor_021,-6473.25,0,warning,rule3
+U0143,2008-08-06 20:17:00,train,sensor_028,62.9667,0,warning,rule4
+U0143,2008-08-06 20:17:00,train,sensor_103,-0.0053,0,warning,"rule3, rule4"
+U0144,2008-08-06 21:15:00,train,sensor_028,64.0778,0,warning,rule4
+U0144,2008-08-06 21:15:00,train,sensor_103,-0.0049,0,warning,"rule3, rule4"
+U0144,2008-08-06 21:15:00,train,sensor_510,77.7494,0,warning,rule3
+U0145,2008-08-06 22:27:00,train,sensor_021,-1918.25,0,alarm,rule2
+U0145,2008-08-06 22:27:00,train,sensor_028,63.4889,0,warning,rule4
+U0145,2008-08-06 22:27:00,train,sensor_103,-0.0042,0,warning,"rule3, rule4"
+U0145,2008-08-06 22:27:00,train,sensor_163,0.876,0,alarm,rule2
+U0145,2008-08-06 22:27:00,train,sensor_430,400.0,0,alarm,rule2
+U0145,2008-08-06 22:27:00,train,sensor_431,400.0,0,alarm,rule2
+U0145,2008-08-06 22:27:00,train,sensor_510,56.4706,0,warning,rule3
+U0146,2008-08-06 23:40:00,train,sensor_021,-5478.25,0,alarm,rule2
+U0146,2008-08-06 23:40:00,train,sensor_028,62.9889,0,warning,"rule3, rule4"
+U0146,2008-08-06 23:40:00,train,sensor_103,-0.0046,0,warning,"rule3, rule4"
+U0146,2008-08-06 23:40:00,train,sensor_163,0.11,0,alarm,rule2
+U0146,2008-08-06 23:40:00,train,sensor_430,10.9889,0,alarm,rule2
+U0146,2008-08-06 23:40:00,train,sensor_431,10.5596,0,alarm,rule2
+U0146,2008-08-06 23:40:00,train,sensor_510,110.5691,0,warning,rule3
+U0147,2008-08-06 23:45:00,train,sensor_028,68.0444,0,warning,"rule3, rule4"
+U0147,2008-08-06 23:45:00,train,sensor_103,-0.0071,0,warning,"rule3, rule4"
+U0147,2008-08-06 23:45:00,train,sensor_510,85.7645,0,warning,rule3
+U0148,2008-08-07 00:51:00,train,sensor_028,63.0,0,warning,"rule3, rule4"
+U0148,2008-08-07 00:51:00,train,sensor_103,-0.0057,0,warning,"rule3, rule4"
+U0148,2008-08-07 00:51:00,train,sensor_510,116.5563,0,warning,"rule3, rule4"
+U0149,2008-08-07 07:30:00,train,sensor_028,66.2222,0,warning,rule4
+U0149,2008-08-07 07:30:00,train,sensor_059,26.2655,0,warning,rule3
+U0149,2008-08-07 07:30:00,train,sensor_103,-0.007,0,warning,rule4
+U0149,2008-08-07 07:30:00,train,sensor_510,58.5714,0,warning,rule4
+U0150,2008-08-07 08:21:00,train,sensor_028,65.3222,0,warning,rule4
+U0150,2008-08-07 08:21:00,train,sensor_059,-21.2055,0,warning,rule3
+U0150,2008-08-07 08:21:00,train,sensor_103,-0.0073,0,warning,rule4
+U0150,2008-08-07 08:21:00,train,sensor_129,0.0946,0,warning,rule4
+U0150,2008-08-07 08:21:00,train,sensor_510,54.8885,0,warning,rule4
+U0151,2008-08-07 08:45:00,train,sensor_028,65.0444,0,warning,rule4
+U0151,2008-08-07 08:45:00,train,sensor_103,-0.0071,0,warning,rule4
+U0151,2008-08-07 08:45:00,train,sensor_129,0.1892,0,warning,rule4
+U0151,2008-08-07 08:45:00,train,sensor_510,66.4311,0,warning,rule4
+U0152,2008-08-07 08:55:00,train,sensor_028,64.0,0,warning,"rule3, rule4"
+U0152,2008-08-07 08:55:00,train,sensor_103,-0.0037,0,warning,rule4
+U0152,2008-08-07 08:55:00,train,sensor_129,-0.0946,0,warning,rule4
+U0152,2008-08-07 08:55:00,train,sensor_510,126.5993,0,warning,rule4
+U0153,2008-08-07 10:12:00,train,sensor_028,66.7111,0,warning,rule4
+U0153,2008-08-07 10:12:00,train,sensor_103,-0.0056,0,warning,rule4
+U0153,2008-08-07 10:12:00,train,sensor_129,0.6623,0,warning,rule4
+U0153,2008-08-07 10:12:00,train,sensor_510,66.5169,0,warning,rule4
+U0154,2008-08-07 11:10:00,train,sensor_028,67.9778,0,warning,rule4
+U0154,2008-08-07 11:10:00,train,sensor_103,-0.0043,0,warning,rule4
+U0154,2008-08-07 11:10:00,train,sensor_129,0.0946,0,warning,rule4
+U0154,2008-08-07 11:10:00,train,sensor_163,0.041,0,warning,rule3
+U0154,2008-08-07 11:10:00,train,sensor_510,86.8035,0,warning,rule4
+U0155,2008-08-07 11:40:00,train,sensor_028,65.8,1,warning,rule4
+U0155,2008-08-07 11:40:00,train,sensor_103,-0.006,1,warning,"rule3, rule4"
+U0155,2008-08-07 11:40:00,train,sensor_129,0.6623,1,warning,rule4
+U0155,2008-08-07 11:40:00,train,sensor_510,68.7631,1,warning,rule4
+U0156,2008-08-08 04:55:00,train,sensor_103,-0.0043,0,warning,"rule3, rule4"
+U0156,2008-08-08 04:55:00,train,sensor_129,0.0946,0,warning,rule4
+U0156,2008-08-08 04:55:00,train,sensor_510,142.6901,0,warning,rule4
+U0157,2008-08-08 07:26:00,train,sensor_103,-0.0054,0,warning,"rule3, rule4"
+U0157,2008-08-08 07:26:00,train,sensor_129,0.6623,0,warning,rule4
+U0157,2008-08-08 07:26:00,train,sensor_510,65.1163,0,warning,rule4
+U0158,2008-08-08 08:44:00,train,sensor_103,-0.0057,1,warning,"rule3, rule4"
+U0158,2008-08-08 08:44:00,train,sensor_129,-0.0473,1,warning,rule4
+U0158,2008-08-08 08:44:00,train,sensor_510,98.0306,1,warning,rule4
+U0159,2008-08-08 12:37:00,train,sensor_103,-0.0043,1,warning,"rule3, rule4"
+U0159,2008-08-08 12:37:00,train,sensor_129,-0.0946,1,warning,rule4
+U0159,2008-08-08 12:37:00,train,sensor_510,141.0405,1,warning,rule4
+U0160,2008-08-08 20:21:00,train,sensor_103,-0.0049,0,warning,"rule3, rule4"
+U0160,2008-08-08 20:21:00,train,sensor_129,0.1419,0,warning,rule4
+U0160,2008-08-08 20:21:00,train,sensor_510,117.2237,0,warning,"rule3, rule4"
+U0161,2008-08-08 21:22:00,train,sensor_103,-0.0056,0,warning,"rule3, rule4"
+U0161,2008-08-08 21:22:00,train,sensor_129,0.7569,0,warning,rule4
+U0161,2008-08-08 21:22:00,train,sensor_510,97.7778,0,warning,"rule3, rule4"
+U0162,2008-08-08 21:53:00,train,sensor_079,0.0273,0,warning,rule3
+U0162,2008-08-08 21:53:00,train,sensor_103,-0.0014,0,warning,"rule3, rule4"
+U0162,2008-08-08 21:53:00,train,sensor_129,0.1419,0,warning,rule4
+U0162,2008-08-08 21:53:00,train,sensor_510,289.6552,0,warning,"rule3, rule4"
+U0163,2008-08-08 22:06:00,train,sensor_079,0.034,0,warning,rule3
+U0163,2008-08-08 22:06:00,train,sensor_103,-0.0054,0,warning,"rule3, rule4"
+U0163,2008-08-08 22:06:00,train,sensor_129,0.7569,0,warning,rule4
+U0163,2008-08-08 22:06:00,train,sensor_510,68.046,0,warning,"rule3, rule4"
+U0164,2008-08-08 22:25:00,train,sensor_079,0.0102,0,warning,rule3
+U0164,2008-08-08 22:25:00,train,sensor_103,-0.0065,0,warning,"rule3, rule4"
+U0164,2008-08-08 22:25:00,train,sensor_510,79.5411,0,warning,"rule3, rule4"
+U0165,2008-08-09 02:15:00,train,sensor_103,-0.0061,0,warning,"rule3, rule4"
+U0165,2008-08-09 02:15:00,train,sensor_510,63.8037,0,warning,rule4
+U0166,2008-08-09 02:37:00,train,sensor_103,-0.0054,0,warning,"rule3, rule4"
+U0166,2008-08-09 02:37:00,train,sensor_510,81.106,0,warning,rule4
+U0167,2008-08-09 06:05:00,train,sensor_103,-0.0045,0,warning,"rule3, rule4"
+U0167,2008-08-09 06:05:00,train,sensor_510,61.5385,0,warning,rule4
+U0168,2008-08-09 09:16:00,train,sensor_103,-0.0061,1,warning,"rule3, rule4"
+U0168,2008-08-09 09:16:00,train,sensor_510,111.7043,1,warning,rule4
+U0169,2008-08-09 09:22:00,train,sensor_103,-0.0065,0,warning,"rule3, rule4"
+U0169,2008-08-09 09:22:00,train,sensor_510,93.8462,0,warning,rule4
+U0170,2008-08-09 11:42:00,train,sensor_103,-0.0066,1,warning,rule4
+U0170,2008-08-09 11:42:00,train,sensor_510,74.1021,1,warning,rule4
+U0171,2008-08-09 17:34:00,train,sensor_103,-0.0022,0,warning,rule4
+U0171,2008-08-09 17:34:00,train,sensor_510,205.5866,0,warning,rule4
+U0172,2008-08-09 19:03:00,train,sensor_079,0.0423,0,warning,rule3
+U0172,2008-08-09 19:03:00,train,sensor_103,-0.0051,0,warning,rule4
+U0172,2008-08-09 19:03:00,train,sensor_129,0.0,0,warning,rule4
+U0172,2008-08-09 19:03:00,train,sensor_510,147.4201,0,warning,"rule3, rule4"
+U0173,2008-08-09 20:04:00,train,sensor_059,4.6609,0,warning,rule4
+U0173,2008-08-09 20:04:00,train,sensor_079,0.0747,0,warning,rule3
+U0173,2008-08-09 20:04:00,train,sensor_103,-0.0043,0,warning,rule4
+U0173,2008-08-09 20:04:00,train,sensor_129,0.1419,0,warning,rule4
+U0173,2008-08-09 20:04:00,train,sensor_510,136.0231,0,warning,"rule3, rule4"
+U0174,2008-08-09 21:07:00,train,sensor_028,65.3111,0,warning,rule3
+U0174,2008-08-09 21:07:00,train,sensor_059,26.0509,0,warning,rule4
+U0174,2008-08-09 21:07:00,train,sensor_079,0.053,0,warning,rule3
+U0174,2008-08-09 21:07:00,train,sensor_103,-0.0029,0,warning,"rule3, rule4"
+U0174,2008-08-09 21:07:00,train,sensor_129,0.0,0,warning,rule4
+U0174,2008-08-09 21:07:00,train,sensor_510,160.0,0,warning,"rule3, rule4"
+U0175,2008-08-09 22:15:00,train,sensor_028,62.7444,0,warning,rule3
+U0175,2008-08-09 22:15:00,train,sensor_059,17.1673,0,warning,"rule3, rule4"
+U0175,2008-08-09 22:15:00,train,sensor_079,0.03,0,warning,rule3
+U0175,2008-08-09 22:15:00,train,sensor_103,-0.0022,0,alarm,"rule2, rule3, rule4"
+U0175,2008-08-09 22:15:00,train,sensor_129,-0.0946,0,warning,rule4
+U0175,2008-08-09 22:15:00,train,sensor_510,113.6364,0,warning,"rule3, rule4"
+U0176,2008-08-09 22:37:00,train,sensor_028,65.8444,0,warning,rule3
+U0176,2008-08-09 22:37:00,train,sensor_059,27.7282,0,warning,"rule3, rule4"
+U0176,2008-08-09 22:37:00,train,sensor_079,0.037,0,warning,rule3
+U0176,2008-08-09 22:37:00,train,sensor_103,-0.0019,0,alarm,"rule2, rule3, rule4"
+U0176,2008-08-09 22:37:00,train,sensor_129,-0.0946,0,warning,rule4
+U0176,2008-08-09 22:37:00,train,sensor_510,252.6316,0,warning,"rule3, rule4"
+U0177,2008-08-09 23:17:00,train,sensor_079,-0.0357,0,warning,rule3
+U0177,2008-08-09 23:17:00,train,sensor_103,-0.0052,0,alarm,"rule2, rule3, rule4"
+U0177,2008-08-09 23:17:00,train,sensor_129,0.0,0,warning,rule4
+U0177,2008-08-09 23:17:00,train,sensor_510,126.9231,0,warning,"rule3, rule4"
+U0178,2008-08-09 23:34:00,train,sensor_028,63.3111,0,warning,rule4
+U0178,2008-08-09 23:34:00,train,sensor_059,-10.8745,0,alarm,rule2
+U0178,2008-08-09 23:34:00,train,sensor_103,-0.0043,0,warning,"rule3, rule4"
+U0178,2008-08-09 23:34:00,train,sensor_129,0.1419,0,warning,rule4
+U0178,2008-08-09 23:34:00,train,sensor_510,41.6185,0,warning,rule3
+U0179,2008-08-10 00:09:00,train,sensor_028,68.1556,0,warning,rule4
+U0179,2008-08-10 00:09:00,train,sensor_059,-13.3573,0,alarm,rule2
+U0179,2008-08-10 00:09:00,train,sensor_103,-0.0059,0,warning,"rule3, rule4"
+U0179,2008-08-10 00:09:00,train,sensor_129,-0.0946,0,warning,rule4
+U0179,2008-08-10 00:09:00,train,sensor_510,84.5666,0,warning,rule3
+U0180,2008-08-10 00:46:00,train,sensor_028,68.0444,0,warning,rule4
+U0180,2008-08-10 00:46:00,train,sensor_059,-2.2809,0,alarm,rule2
+U0180,2008-08-10 00:46:00,train,sensor_103,-0.0052,0,warning,"rule3, rule4"
+U0180,2008-08-10 00:46:00,train,sensor_129,0.0,0,warning,rule4
+U0180,2008-08-10 00:46:00,train,sensor_510,89.3204,0,warning,rule3
+U0181,2008-08-10 06:00:00,train,sensor_028,62.7889,1,warning,rule4
+U0181,2008-08-10 06:00:00,train,sensor_103,-0.0062,1,warning,"rule3, rule4"
+U0181,2008-08-10 06:00:00,train,sensor_129,0.7569,1,warning,rule4
+U0182,2008-08-10 06:41:00,train,sensor_103,-0.0052,0,warning,"rule3, rule4"
+U0182,2008-08-10 06:41:00,train,sensor_129,0.1419,0,warning,rule4
+U0183,2008-08-10 07:01:00,train,sensor_103,-0.0048,1,warning,"rule3, rule4"
+U0183,2008-08-10 07:01:00,train,sensor_129,0.0,1,warning,rule4
+U0184,2008-08-10 11:16:00,train,sensor_103,-0.0047,0,warning,"rule3, rule4"
+U0184,2008-08-10 11:16:00,train,sensor_129,0.0946,0,warning,rule4
+U0185,2008-08-10 11:49:00,train,sensor_059,-11.4709,0,alarm,rule2
+U0185,2008-08-10 11:49:00,train,sensor_103,-0.0037,0,warning,"rule3, rule4"
+U0185,2008-08-10 11:49:00,train,sensor_129,-0.0946,0,warning,rule4
+U0186,2008-08-10 12:22:00,train,sensor_021,-4592.0,0,alarm,rule2
+U0186,2008-08-10 12:22:00,train,sensor_059,3.8964,0,alarm,rule2
+U0186,2008-08-10 12:22:00,train,sensor_103,-0.0054,0,warning,"rule3, rule4"
+U0186,2008-08-10 12:22:00,train,sensor_129,0.1419,0,warning,rule4
+U0186,2008-08-10 12:22:00,train,sensor_510,64.9652,0,warning,rule4
+U0187,2008-08-10 15:59:00,train,sensor_021,-1480.75,1,alarm,rule2
+U0187,2008-08-10 15:59:00,train,sensor_103,-0.0047,1,warning,"rule3, rule4"
+U0187,2008-08-10 15:59:00,train,sensor_129,0.2365,1,warning,rule4
+U0187,2008-08-10 15:59:00,train,sensor_510,74.6667,1,warning,rule4
+U0188,2008-08-10 19:07:00,train,sensor_021,-5753.5,0,alarm,rule2
+U0188,2008-08-10 19:07:00,train,sensor_103,-0.0018,0,warning,"rule3, rule4"
+U0188,2008-08-10 19:07:00,train,sensor_129,0.7569,0,warning,rule4
+U0188,2008-08-10 19:07:00,train,sensor_510,126.8966,0,warning,rule4
+U0189,2008-08-10 20:07:00,train,sensor_103,-0.0049,1,warning,"rule3, rule4"
+U0189,2008-08-10 20:07:00,train,sensor_129,0.1419,1,warning,rule4
+U0189,2008-08-10 20:07:00,train,sensor_510,123.5443,1,warning,rule4
+U0190,2008-08-10 22:26:00,train,sensor_021,-7150.25,1,alarm,rule1
+U0190,2008-08-10 22:26:00,train,sensor_028,63.1333,1,warning,rule3
+U0190,2008-08-10 22:26:00,train,sensor_103,-0.0054,1,warning,"rule3, rule4"
+U0190,2008-08-10 22:26:00,train,sensor_129,0.1419,1,warning,rule4
+U0190,2008-08-10 22:26:00,train,sensor_510,171.1628,1,warning,rule4
+U0191,2008-08-11 03:06:00,train,sensor_028,66.7,0,warning,rule3
+U0191,2008-08-11 03:06:00,train,sensor_059,10.0236,0,warning,rule3
+U0191,2008-08-11 03:06:00,train,sensor_103,-0.0062,0,warning,"rule3, rule4"
+U0191,2008-08-11 03:06:00,train,sensor_510,60.1626,0,warning,rule4
+U0192,2008-08-11 04:09:00,train,sensor_103,-0.0067,0,warning,"rule3, rule4"
+U0192,2008-08-11 04:09:00,train,sensor_510,56.7164,0,warning,rule4
+U0193,2008-08-11 05:15:00,train,sensor_028,63.7556,0,warning,rule4
+U0193,2008-08-11 05:15:00,train,sensor_103,-0.0055,0,warning,"rule3, rule4"
+U0193,2008-08-11 05:15:00,train,sensor_510,101.8182,0,warning,rule4
+U0194,2008-08-11 11:35:00,train,sensor_028,67.4,0,warning,rule4
+U0194,2008-08-11 11:35:00,train,sensor_079,0.0293,0,warning,rule4
+U0194,2008-08-11 11:35:00,train,sensor_103,-0.0046,0,warning,"rule3, rule4"
+U0194,2008-08-11 11:35:00,train,sensor_510,157.377,0,warning,rule4
+U0195,2008-08-11 12:38:00,train,sensor_028,64.7333,0,warning,rule4
+U0195,2008-08-11 12:38:00,train,sensor_079,0.0097,0,warning,rule4
+U0195,2008-08-11 12:38:00,train,sensor_103,-0.004,0,warning,"rule3, rule4"
+U0195,2008-08-11 12:38:00,train,sensor_510,160.4938,0,warning,rule4
+U0196,2008-08-12 04:23:00,train,sensor_028,66.5444,0,warning,rule4
+U0196,2008-08-12 04:23:00,train,sensor_059,9.2527,0,warning,rule4
+U0196,2008-08-12 04:23:00,train,sensor_079,0.0128,0,warning,rule4
+U0196,2008-08-12 04:23:00,train,sensor_103,-0.006,0,warning,"rule3, rule4"
+U0196,2008-08-12 04:23:00,train,sensor_510,95.5975,0,warning,"rule3, rule4"
+U0197,2008-08-12 06:16:00,train,sensor_021,-2668.5,0,alarm,rule2
+U0197,2008-08-12 06:16:00,train,sensor_028,64.7889,0,warning,rule4
+U0197,2008-08-12 06:16:00,train,sensor_103,-0.0084,0,warning,"rule3, rule4"
+U0197,2008-08-12 06:16:00,train,sensor_163,0.935,0,alarm,rule2
+U0197,2008-08-12 06:16:00,train,sensor_430,213.753,0,alarm,rule2
+U0197,2008-08-12 06:16:00,train,sensor_431,236.3075,0,alarm,rule2
+U0197,2008-08-12 06:16:00,train,sensor_510,33.383,0,warning,rule3
+U0198,2008-08-12 10:54:00,train,sensor_021,-6377.0,0,alarm,rule2
+U0198,2008-08-12 10:54:00,train,sensor_028,64.9,0,warning,rule4
+U0198,2008-08-12 10:54:00,train,sensor_059,-9.4964,0,alarm,rule2
+U0198,2008-08-12 10:54:00,train,sensor_103,-0.0032,0,warning,"rule3, rule4"
+U0198,2008-08-12 10:54:00,train,sensor_163,0.119,0,alarm,rule2
+U0198,2008-08-12 10:54:00,train,sensor_430,5.8648,0,alarm,rule2
+U0198,2008-08-12 10:54:00,train,sensor_431,19.642,0,alarm,rule2
+U0198,2008-08-12 10:54:00,train,sensor_510,86.8217,0,warning,rule3
+U0199,2008-08-12 11:29:00,train,sensor_028,65.4444,0,warning,"rule3, rule4"
+U0199,2008-08-12 11:29:00,train,sensor_059,-7.9627,0,alarm,rule2
+U0199,2008-08-12 11:29:00,train,sensor_103,-0.0057,0,warning,"rule3, rule4"
+U0199,2008-08-12 11:29:00,train,sensor_510,124.5614,0,warning,rule3
+U0200,2008-08-12 12:04:00,train,sensor_028,62.8778,0,warning,"rule3, rule4"
+U0200,2008-08-12 12:04:00,train,sensor_103,-0.0054,0,warning,"rule3, rule4"
+U0200,2008-08-12 12:04:00,train,sensor_510,150.8046,0,warning,rule3
+U0201,2008-08-13 02:48:00,train,sensor_028,67.7333,0,warning,"rule3, rule4"
+U0201,2008-08-13 02:48:00,train,sensor_103,-0.0058,0,warning,"rule3, rule4"
+U0202,2008-08-15 03:26:00,train,sensor_028,63.9889,0,warning,"rule3, rule4"
+U0202,2008-08-15 03:26:00,train,sensor_103,-0.0039,0,warning,"rule3, rule4"
+U0202,2008-08-15 03:26:00,train,sensor_510,167.2026,0,warning,rule3
+U0203,2008-08-15 04:14:00,train,sensor_028,62.6778,0,warning,"rule3, rule4"
+U0203,2008-08-15 04:14:00,train,sensor_103,-0.0072,0,warning,"rule3, rule4"
+U0204,2008-08-15 05:13:00,train,sensor_103,-0.0065,0,warning,rule4
+U0204,2008-08-15 05:13:00,train,sensor_129,0.1892,0,warning,rule4
+U0205,2008-08-15 09:38:00,train,sensor_103,-0.0055,0,warning,rule4
+U0206,2008-08-15 10:14:00,train,sensor_103,-0.0051,0,warning,rule4
+U0207,2008-08-15 11:42:00,train,sensor_103,-0.0047,0,warning,rule4
+U0208,2008-08-15 18:19:00,train,sensor_103,-0.0075,0,warning,rule4
+U0209,2008-08-15 19:19:00,train,sensor_103,-0.0035,0,warning,"rule3, rule4"
+U0210,2008-08-15 20:00:00,train,sensor_103,-0.0067,0,warning,rule4
+U0210,2008-08-15 20:00:00,train,sensor_510,81.6327,0,warning,rule3
+U0211,2008-08-15 20:03:00,train,sensor_103,-0.0039,0,warning,rule4
+U0211,2008-08-15 20:03:00,train,sensor_510,125.2396,0,warning,"rule3, rule4"
+U0212,2008-08-15 23:31:00,train,sensor_103,-0.0053,0,warning,rule4
+U0212,2008-08-15 23:31:00,train,sensor_510,90.9953,0,warning,"rule3, rule4"
+U0213,2008-08-16 02:21:00,train,sensor_103,-0.0052,0,warning,"rule3, rule4"
+U0213,2008-08-16 02:21:00,train,sensor_510,65.3846,0,warning,"rule3, rule4"
+U0214,2008-08-16 05:47:00,train,sensor_059,11.4855,0,warning,rule3
+U0214,2008-08-16 05:47:00,train,sensor_103,-0.0067,0,warning,rule4
+U0214,2008-08-16 05:47:00,train,sensor_510,62.3377,0,warning,rule4
+U0215,2008-08-16 06:52:00,train,sensor_059,28.3127,0,alarm,"rule2, rule3"
+U0215,2008-08-16 06:52:00,train,sensor_103,-0.0037,0,warning,"rule3, rule4"
+U0215,2008-08-16 06:52:00,train,sensor_129,0.5677,0,warning,rule4
+U0215,2008-08-16 06:52:00,train,sensor_510,175.3425,0,warning,rule4
+U0216,2008-08-16 07:33:00,train,sensor_059,13.7255,0,warning,rule3
+U0216,2008-08-16 07:33:00,train,sensor_103,-0.0056,0,warning,"rule3, rule4"
+U0216,2008-08-16 07:33:00,train,sensor_129,0.5677,0,warning,rule4
+U0216,2008-08-16 07:33:00,train,sensor_510,92.6503,0,warning,rule4
+U0217,2008-08-16 08:39:00,train,sensor_059,18.8673,0,warning,"rule3, rule4"
+U0217,2008-08-16 08:39:00,train,sensor_103,-0.0066,0,warning,rule4
+U0217,2008-08-16 08:39:00,train,sensor_129,0.5677,0,warning,"rule3, rule4"
+U0218,2008-08-16 08:41:00,train,sensor_059,5.5782,0,warning,"rule3, rule4"
+U0218,2008-08-16 08:41:00,train,sensor_103,-0.0048,0,warning,rule4
+U0218,2008-08-16 08:41:00,train,sensor_129,0.5677,0,warning,"rule3, rule4"
+U0219,2008-08-16 09:44:00,train,sensor_059,25.5282,1,warning,"rule3, rule4"
+U0219,2008-08-16 09:44:00,train,sensor_103,-0.0067,1,warning,rule4
+U0219,2008-08-16 09:44:00,train,sensor_129,0.0,1,warning,"rule3, rule4"
+U0220,2008-08-16 13:51:00,train,sensor_059,5.9945,0,warning,rule4
+U0220,2008-08-16 13:51:00,train,sensor_103,-0.0002,0,warning,rule4
+U0220,2008-08-16 13:51:00,train,sensor_129,1.608,0,warning,"rule3, rule4"
+U0220,2008-08-16 13:51:00,train,sensor_510,0.0,0,alarm,rule1
+U0221,2008-08-16 14:30:00,train,sensor_059,2.7764,0,warning,rule4
+U0221,2008-08-16 14:30:00,train,sensor_103,-0.0007,0,alarm,"rule2, rule4"
+U0221,2008-08-16 14:30:00,train,sensor_129,1.608,0,alarm,"rule2, rule3, rule4"
+U0221,2008-08-16 14:30:00,train,sensor_510,0.0,0,alarm,"rule1, rule2"
+U0222,2008-08-16 15:16:00,train,sensor_059,2.6173,0,warning,rule4
+U0222,2008-08-16 15:16:00,train,sensor_103,-0.0054,0,alarm,"rule2, rule3, rule4"
+U0222,2008-08-16 15:16:00,train,sensor_129,1.608,0,alarm,"rule2, rule3, rule4"
+U0222,2008-08-16 15:16:00,train,sensor_430,7.3164,0,warning,rule4
+U0222,2008-08-16 15:16:00,train,sensor_510,68.8372,0,alarm,rule2
+U0223,2008-08-16 15:19:00,train,sensor_059,20.8336,1,warning,rule4
+U0223,2008-08-16 15:19:00,train,sensor_103,-0.0048,1,warning,"rule3, rule4"
+U0223,2008-08-16 15:19:00,train,sensor_129,0.5677,1,alarm,"rule2, rule3, rule4"
+U0224,2008-08-16 23:48:00,train,sensor_059,27.3,0,warning,rule4
+U0224,2008-08-16 23:48:00,train,sensor_103,-0.0059,0,warning,"rule3, rule4"
+U0224,2008-08-16 23:48:00,train,sensor_129,0.7569,0,warning,"rule3, rule4"
+U0225,2008-08-17 00:52:00,train,sensor_059,5.4191,0,warning,rule4
+U0225,2008-08-17 00:52:00,train,sensor_103,-0.0092,0,warning,"rule3, rule4"
+U0225,2008-08-17 00:52:00,train,sensor_129,0.7569,0,warning,"rule3, rule4"
+U0226,2008-08-17 01:53:00,train,sensor_059,5.9136,0,warning,rule4
+U0226,2008-08-17 01:53:00,train,sensor_103,-0.0087,0,warning,rule4
+U0226,2008-08-17 01:53:00,train,sensor_129,0.7569,0,warning,"rule3, rule4"
+U0227,2008-08-17 03:17:00,train,sensor_059,5.3782,0,warning,rule4
+U0227,2008-08-17 03:17:00,train,sensor_103,-0.0095,0,warning,rule4
+U0227,2008-08-17 03:17:00,train,sensor_129,0.7569,0,warning,"rule3, rule4"
+U0228,2008-08-17 03:18:00,train,sensor_103,-0.0086,0,warning,rule4
+U0228,2008-08-17 03:18:00,train,sensor_129,0.7569,0,warning,"rule3, rule4"
+U0229,2008-08-17 03:46:00,train,sensor_103,-0.0049,0,warning,rule4
+U0229,2008-08-17 03:46:00,train,sensor_129,0.0,0,warning,"rule3, rule4"
+U0230,2008-08-17 04:19:00,train,sensor_103,-0.0067,0,warning,rule4
+U0230,2008-08-17 04:19:00,train,sensor_129,0.0,0,warning,rule4
+U0231,2008-08-17 05:21:00,train,sensor_103,-0.0067,0,warning,rule4
+U0231,2008-08-17 05:21:00,train,sensor_129,0.7569,0,warning,rule4
+U0232,2008-08-17 12:16:00,train,sensor_103,-0.0091,1,warning,rule4
+U0232,2008-08-17 12:16:00,train,sensor_129,0.7569,1,warning,rule4
+U0233,2008-08-17 13:34:00,train,sensor_103,-0.0055,0,warning,rule4
+U0233,2008-08-17 13:34:00,train,sensor_129,0.0,0,warning,rule4
+U0234,2008-08-17 14:21:00,train,sensor_059,-10.2673,0,alarm,rule2
+U0234,2008-08-17 14:21:00,train,sensor_103,-0.0052,0,warning,rule4
+U0234,2008-08-17 14:21:00,train,sensor_129,0.0,0,warning,rule4
+U0235,2008-08-17 15:25:00,train,sensor_059,1.1591,0,alarm,rule2
+U0235,2008-08-17 15:25:00,train,sensor_103,-0.0099,0,warning,rule4
+U0236,2008-08-17 21:26:00,train,sensor_028,62.9889,1,warning,rule3
+U0236,2008-08-17 21:26:00,train,sensor_059,-11.8245,1,alarm,rule2
+U0236,2008-08-17 21:26:00,train,sensor_103,-0.0083,1,warning,rule4
+U0237,2008-08-17 22:03:00,train,sensor_103,-0.0042,1,warning,rule4
+U0238,2008-08-17 22:21:00,train,sensor_028,65.8222,0,warning,rule4
+U0238,2008-08-17 22:21:00,train,sensor_103,-0.0061,0,warning,rule4
+U0238,2008-08-17 22:21:00,train,sensor_510,73.6196,0,warning,rule4
+U0239,2008-08-17 23:04:00,train,sensor_028,66.8556,1,warning,rule4
+U0239,2008-08-17 23:04:00,train,sensor_103,-0.0035,1,warning,rule4
+U0239,2008-08-17 23:04:00,train,sensor_510,129.4964,1,warning,rule4
+U0240,2008-08-17 23:20:00,train,sensor_028,63.4889,0,warning,rule4
+U0240,2008-08-17 23:20:00,train,sensor_510,56.1743,0,warning,rule4
+U0241,2008-08-17 23:55:00,train,sensor_028,67.7111,1,warning,rule4
+U0241,2008-08-17 23:55:00,train,sensor_103,-0.0013,1,warning,rule3
+U0241,2008-08-17 23:55:00,train,sensor_510,400.0,1,warning,rule4
+U0242,2008-08-18 00:02:00,train,sensor_028,65.6778,1,warning,rule4
+U0242,2008-08-18 00:02:00,train,sensor_103,-0.0042,1,warning,rule3
+U0242,2008-08-18 00:02:00,train,sensor_510,149.1124,1,warning,rule4
+U0243,2008-08-18 00:20:00,train,sensor_510,60.1073,0,warning,rule4
+U0244,2008-08-18 01:23:00,train,sensor_163,0.096,1,warning,rule4
+U0246,2008-08-18 04:12:00,train,sensor_079,0.0184,0,warning,rule4
+U0248,2008-08-18 05:03:00,train,sensor_103,-0.0034,0,warning,rule4
+U0249,2008-08-18 05:25:00,train,sensor_059,18.0545,0,warning,"rule3, rule4"
+U0249,2008-08-18 05:25:00,train,sensor_103,-0.0013,0,warning,rule4
+U0250,2008-08-18 06:07:00,train,sensor_059,20.7055,0,warning,"rule3, rule4"
+U0250,2008-08-18 06:07:00,train,sensor_103,-0.0097,0,warning,rule4
+U0251,2008-08-18 06:11:00,train,sensor_059,1.1273,0,warning,rule3
+U0251,2008-08-18 06:11:00,train,sensor_103,-0.0088,0,warning,rule4
+U0252,2008-08-18 06:26:00,train,sensor_059,16.4073,0,warning,rule3
+U0252,2008-08-18 06:26:00,train,sensor_103,-0.0041,0,warning,rule4
+U0253,2008-08-18 07:11:00,train,sensor_103,-0.0098,0,warning,rule4
+U0253,2008-08-18 07:11:00,train,sensor_129,-0.5677,0,warning,rule4
+U0254,2008-08-18 07:23:00,train,sensor_103,-0.0098,0,warning,rule4
+U0254,2008-08-18 07:23:00,train,sensor_129,-0.5677,0,warning,rule4
+U0255,2008-08-18 07:29:00,train,sensor_129,-0.2838,0,warning,rule4
+U0256,2008-08-18 08:18:00,train,sensor_129,-0.5677,0,warning,rule4
+U0257,2008-08-18 08:31:00,train,sensor_129,-0.5677,0,warning,rule4
+U0258,2008-08-18 10:13:00,train,sensor_059,26.6136,0,warning,rule3
+U0258,2008-08-18 10:13:00,train,sensor_129,-0.3784,0,warning,rule4
+U0259,2008-08-18 11:04:00,train,sensor_129,-0.4258,0,warning,rule4
+U0260,2008-08-18 12:00:00,train,sensor_129,-0.3784,0,warning,rule4
+U0261,2008-08-18 12:06:00,train,sensor_129,-0.4258,0,warning,rule4
+U0262,2008-08-18 12:22:00,train,sensor_129,-0.5677,0,warning,rule4
+U0263,2008-08-18 12:49:00,train,sensor_129,-0.4258,0,warning,rule4
+U0264,2008-08-18 13:07:00,train,sensor_129,-0.5677,0,warning,rule4
+U0265,2008-08-18 14:01:00,train,sensor_129,-0.4258,0,warning,rule4
+U0266,2008-08-18 14:04:00,train,sensor_059,20.7118,0,warning,rule3
+U0266,2008-08-18 14:04:00,train,sensor_129,-0.3784,0,warning,rule4
+U0267,2008-08-18 14:45:00,train,sensor_129,-0.3784,0,warning,rule4
+U0268,2008-08-18 15:00:00,train,sensor_129,-0.9934,0,warning,rule4
+U0268,2008-08-18 15:00:00,train,sensor_430,6.8726,0,warning,rule4
+U0269,2008-08-18 15:26:00,train,sensor_059,14.0382,0,warning,rule3
+U0269,2008-08-18 15:26:00,train,sensor_129,-0.3784,0,warning,rule4
+U0269,2008-08-18 15:26:00,train,sensor_430,9.9982,0,warning,rule4
+U0270,2008-08-18 15:30:00,train,sensor_059,28.4009,0,warning,rule3
+U0270,2008-08-18 15:30:00,train,sensor_129,-0.5677,0,warning,rule4
+U0271,2008-08-18 15:33:00,train,sensor_059,22.1827,0,warning,rule3
+U0271,2008-08-18 15:33:00,train,sensor_129,-0.9934,0,warning,rule4
+U0272,2008-08-18 15:41:00,train,sensor_059,9.1882,0,warning,rule3
+U0272,2008-08-18 15:41:00,train,sensor_129,-0.3784,0,warning,rule4
+U0273,2008-08-18 16:19:00,train,sensor_129,-0.9934,0,warning,rule4
+U0274,2008-08-18 17:13:00,train,sensor_129,-0.9934,1,warning,rule4
+U0275,2008-08-18 17:16:00,train,sensor_028,67.4222,0,warning,rule4
+U0275,2008-08-18 17:16:00,train,sensor_059,2.5027,0,warning,rule4
+U0275,2008-08-18 17:16:00,train,sensor_129,-0.9934,0,warning,rule4
+U0276,2008-08-18 17:37:00,train,sensor_028,68.0444,0,warning,rule4
+U0276,2008-08-18 17:37:00,train,sensor_059,87.0391,0,warning,rule4
+U0276,2008-08-18 17:37:00,train,sensor_129,-0.3784,0,warning,rule4
+U0277,2008-08-18 19:24:00,train,sensor_129,-0.3784,0,warning,rule4
+U0278,2008-08-18 19:54:00,train,sensor_103,-0.0077,1,warning,rule4
+U0278,2008-08-18 19:54:00,train,sensor_129,-0.9934,1,warning,rule4
+U0280,2008-08-18 23:03:00,train,sensor_059,16.2418,0,warning,rule3
+U0281,2008-08-18 23:47:00,train,sensor_059,10.3745,0,warning,rule3
+U0282,2008-08-19 01:10:00,train,sensor_059,2.5045,0,warning,rule3
+U0283,2008-08-19 03:59:00,train,sensor_059,24.14,1,warning,rule3
+U0284,2008-08-19 04:58:00,train,sensor_059,23.7109,0,warning,rule3
+U0285,2008-08-19 05:09:00,train,sensor_059,5.78,0,warning,rule4
+U0286,2008-08-19 05:11:00,train,sensor_129,0.0,0,warning,rule4
+U0287,2008-08-19 05:11:00,train,sensor_129,-0.0946,0,warning,rule4
+U0288,2008-08-19 05:40:00,train,sensor_129,0.0,0,warning,rule4
+U0289,2008-08-19 05:41:00,train,sensor_129,-0.0946,0,warning,rule4
+U0290,2008-08-19 05:53:00,train,sensor_129,0.5204,0,warning,rule4
+U0291,2008-08-19 05:54:00,train,sensor_059,17.7327,0,warning,rule3
+U0291,2008-08-19 05:54:00,train,sensor_129,-0.0946,0,warning,rule4
+U0292,2008-08-19 05:56:00,train,sensor_059,1.3718,1,warning,rule3
+U0292,2008-08-19 05:56:00,train,sensor_129,0.4258,1,warning,rule4
+U0293,2008-08-19 06:24:00,train,sensor_129,-0.0946,0,warning,rule4
+U0295,2008-08-19 07:58:00,train,sensor_059,22.4382,1,warning,rule4
+U0295,2008-08-19 07:58:00,train,sensor_103,-0.0086,1,warning,rule4
+U0296,2008-08-19 08:01:00,train,sensor_059,14.9018,0,warning,rule4
+U0296,2008-08-19 08:01:00,train,sensor_103,-0.0075,0,warning,rule4
+U0297,2008-08-19 08:07:00,train,sensor_059,4.4391,0,warning,rule4
+U0298,2008-08-19 08:33:00,train,sensor_079,-0.046,0,alarm,rule1
+U0302,2008-08-19 11:11:00,train,sensor_129,1.419,0,alarm,rule2
+U0303,2008-08-19 11:13:00,train,sensor_059,24.4791,0,warning,rule3
+U0304,2008-08-19 11:13:00,train,sensor_059,20.7209,0,warning,rule3
+U0303,2008-08-19 11:13:00,train,sensor_129,1.419,0,alarm,rule2
+U0304,2008-08-19 11:13:00,train,sensor_129,1.419,0,alarm,"rule2, rule3"
+U0305,2008-08-19 11:28:00,train,sensor_028,68.2,0,warning,rule4
+U0305,2008-08-19 11:28:00,train,sensor_059,6.2045,0,warning,rule3
+U0305,2008-08-19 11:28:00,train,sensor_129,1.419,0,alarm,"rule2, rule3"
+U0306,2008-08-19 11:44:00,train,sensor_059,6.9082,0,warning,rule4
+U0306,2008-08-19 11:44:00,train,sensor_129,1.419,0,alarm,"rule2, rule3"
+U0307,2008-08-19 11:46:00,train,sensor_059,23.2655,0,warning,rule4
+U0307,2008-08-19 11:46:00,train,sensor_129,1.419,0,alarm,"rule2, rule3"
+U0308,2008-08-19 11:57:00,train,sensor_129,1.419,0,alarm,"rule2, rule3, rule4"
+U0309,2008-08-19 11:58:00,train,sensor_103,-0.0094,0,warning,rule4
+U0309,2008-08-19 11:58:00,train,sensor_129,1.419,0,alarm,"rule2, rule3, rule4"
+U0310,2008-08-19 12:30:00,train,sensor_103,-0.0094,0,warning,rule4
+U0310,2008-08-19 12:30:00,train,sensor_129,0.5204,0,alarm,"rule2, rule3, rule4"
+U0311,2008-08-19 15:33:00,train,sensor_129,-0.5204,0,warning,rule3
+U0312,2008-08-19 18:12:00,train,sensor_129,0.2838,0,warning,rule3
+U0313,2008-08-19 18:12:00,train,sensor_129,0.8042,0,warning,rule3
+U0314,2008-08-19 18:30:00,train,sensor_129,0.8042,0,warning,rule3
+U0315,2008-08-19 18:30:00,train,sensor_129,0.8042,0,warning,rule3
+U0316,2008-08-19 19:38:00,train,sensor_079,0.0504,0,warning,"rule3, rule4"
+U0316,2008-08-19 19:38:00,train,sensor_129,0.8042,0,warning,rule3
+U0317,2008-08-19 20:53:00,train,sensor_079,0.0219,0,warning,rule4
+U0318,2008-08-20 00:05:00,train,sensor_129,0.0,0,warning,rule3
+U0322,2008-08-20 02:27:00,train,sensor_059,19.1027,1,warning,rule4
+U0323,2008-08-20 03:00:00,train,sensor_059,3.3055,0,warning,rule4
+U0323,2008-08-20 03:00:00,train,sensor_079,0.0406,0,warning,rule3
+U0324,2008-08-20 03:12:00,train,sensor_059,13.6809,1,warning,rule4
+U0324,2008-08-20 03:12:00,train,sensor_079,0.0128,1,warning,rule3
+U0324,2008-08-20 03:12:00,train,sensor_103,-0.0088,1,warning,rule4
+U0325,2008-08-20 06:36:00,train,sensor_059,26.9136,0,warning,"rule3, rule4"
+U0325,2008-08-20 06:36:00,train,sensor_103,-0.0089,0,warning,rule4
+U0325,2008-08-20 06:36:00,train,sensor_129,0.5204,0,warning,rule3
+U0326,2008-08-20 07:12:00,train,sensor_103,-0.0062,0,warning,rule4
+U0326,2008-08-20 07:12:00,train,sensor_129,0.4258,0,warning,rule3
+U0327,2008-08-20 08:40:00,train,sensor_103,-0.0081,1,warning,rule4
+U0328,2008-08-20 09:17:00,train,sensor_079,0.0751,1,alarm,rule2
+U0328,2008-08-20 09:17:00,train,sensor_129,0.5204,1,warning,rule3
+U0329,2008-08-20 10:26:00,train,sensor_129,0.8042,0,warning,rule3
+U0330,2008-08-20 16:08:00,train,sensor_079,0.0529,0,warning,rule3
+U0330,2008-08-20 16:08:00,train,sensor_129,0.2838,0,warning,rule3
+U0330,2008-08-20 16:08:00,train,sensor_431,18.0652,0,warning,rule4
+U0331,2008-08-20 16:16:00,train,sensor_079,0.0569,0,warning,rule3
+U0331,2008-08-20 16:16:00,train,sensor_431,24.5947,0,warning,rule4
+U0332,2008-08-20 17:09:00,train,sensor_079,0.0461,0,warning,rule3
+U0332,2008-08-20 17:09:00,train,sensor_431,21.0344,0,warning,rule4
+U0333,2008-08-20 17:35:00,train,sensor_079,0.0314,0,warning,rule3
+U0334,2008-08-20 17:36:00,train,sensor_079,0.0253,0,warning,rule3
+U0341,2008-08-20 21:58:00,train,sensor_021,-6224.75,0,warning,rule4
+U0341,2008-08-20 21:58:00,train,sensor_129,0.8042,0,warning,"rule3, rule4"
+U0342,2008-08-20 22:13:00,train,sensor_129,0.0473,0,warning,"rule3, rule4"
+U0343,2008-08-20 22:45:00,train,sensor_129,0.6623,0,warning,"rule3, rule4"
+U0344,2008-08-20 23:18:00,train,sensor_129,0.2838,0,warning,"rule3, rule4"
+U0345,2008-08-20 23:43:00,train,sensor_129,0.0,1,warning,rule4
+U0346,2008-08-21 02:11:00,train,sensor_129,0.0,0,warning,rule4
+U0354,2008-08-21 12:00:00,train,sensor_079,0.0464,0,warning,rule3
+U0355,2008-08-21 12:31:00,train,sensor_129,0.2365,0,warning,rule4
+U0357,2008-08-21 12:43:00,train,sensor_079,0.0214,0,warning,rule4
+U0358,2008-08-21 12:52:00,train,sensor_028,59.8889,0,alarm,rule2
+U0358,2008-08-21 12:52:00,train,sensor_079,0.0146,0,warning,rule4
+U0359,2008-08-21 13:11:00,train,sensor_028,67.7,0,alarm,rule2
+U0361,2008-08-21 13:29:00,train,sensor_129,0.8042,0,warning,rule3
+U0364,2008-08-21 15:05:00,train,sensor_129,0.2365,0,warning,rule4
+U0365,2008-08-21 15:06:00,train,sensor_129,0.7569,0,warning,rule4
+U0366,2008-08-21 15:32:00,train,sensor_431,20.4066,0,warning,rule4
+U0391,2008-08-22 00:44:00,train,sensor_079,0.0058,0,warning,rule4
+U0391,2008-08-22 00:44:00,train,sensor_430,29.2418,0,warning,rule3
+U0392,2008-08-22 00:47:00,train,sensor_079,0.0203,0,warning,rule4
+U0392,2008-08-22 00:47:00,train,sensor_430,30.9354,0,warning,rule3
+U0393,2008-08-22 01:04:00,train,sensor_079,0.0183,1,warning,rule4
+U0394,2008-08-22 01:26:00,train,sensor_079,0.0107,0,warning,rule4
+U0395,2008-08-22 01:27:00,train,sensor_079,0.0245,0,warning,rule4
+U0396,2008-08-22 01:54:00,train,sensor_079,0.003,0,warning,rule4
+U0397,2008-08-22 02:01:00,train,sensor_079,0.0177,0,warning,rule4
+U0397,2008-08-22 02:01:00,train,sensor_430,5.5835,0,warning,rule3
+U0398,2008-08-22 02:25:00,train,sensor_079,0.0272,0,warning,rule4
+U0399,2008-08-22 02:52:00,train,sensor_079,0.0189,0,warning,rule4
+U0400,2008-08-22 03:18:00,train,sensor_079,0.0213,0,warning,rule4
+U0401,2008-08-22 03:58:00,train,sensor_079,0.0171,0,warning,rule4
+U0402,2008-08-22 04:40:00,train,sensor_079,0.0087,0,warning,rule4
+U0403,2008-08-22 04:57:00,train,sensor_079,0.0253,0,warning,rule4
+U0404,2008-08-22 05:21:00,train,sensor_079,0.025,0,warning,rule4
+U0404,2008-08-22 05:21:00,train,sensor_510,59.3577,0,warning,rule4
+U0405,2008-08-22 05:31:00,train,sensor_028,67.7667,0,warning,rule4
+U0405,2008-08-22 05:31:00,train,sensor_079,0.0393,0,warning,rule4
+U0405,2008-08-22 05:31:00,train,sensor_510,86.9565,0,warning,rule4
+U0406,2008-08-22 05:32:00,train,sensor_028,60.0667,0,warning,rule4
+U0406,2008-08-22 05:32:00,train,sensor_079,0.0433,0,warning,rule4
+U0407,2008-08-22 06:00:00,train,sensor_028,67.4889,1,warning,rule4
+U0407,2008-08-22 06:00:00,train,sensor_079,0.0194,1,warning,rule4
+U0408,2008-08-22 07:04:00,train,sensor_028,67.0889,0,warning,rule4
+U0408,2008-08-22 07:04:00,train,sensor_430,4.3817,0,warning,rule3
+U0409,2008-08-22 07:17:00,train,sensor_021,-6271.0,0,warning,rule4
+U0409,2008-08-22 07:17:00,train,sensor_028,67.8889,0,warning,rule4
+U0409,2008-08-22 07:17:00,train,sensor_430,5.1666,0,warning,rule3
+U0410,2008-08-22 07:27:00,train,sensor_021,-6259.5,0,warning,rule4
+U0411,2008-08-22 09:29:00,train,sensor_021,-6418.25,0,warning,rule4
+U0417,2008-08-22 12:13:00,train,sensor_028,59.4,0,alarm,rule1
+U0422,2008-08-22 15:25:00,train,sensor_059,-28.9882,0,alarm,rule1
+U0432,2008-08-23 04:50:00,train,sensor_129,-0.9461,0,warning,rule4
+U0433,2008-08-23 04:52:00,train,sensor_129,-0.8042,0,warning,rule4
+U0434,2008-08-23 05:57:00,train,sensor_129,-0.8042,0,warning,rule4
+U0435,2008-08-23 05:57:00,train,sensor_129,-0.8042,0,warning,rule4
+U0436,2008-08-23 05:58:00,train,sensor_059,14.7345,0,warning,rule4
+U0436,2008-08-23 05:58:00,train,sensor_129,-0.8042,0,warning,rule4
+U0437,2008-08-23 05:58:00,train,sensor_129,-0.8042,0,warning,rule4
+U0438,2008-08-23 09:24:00,train,sensor_079,0.0203,0,warning,rule4
+U0439,2008-08-23 12:58:00,train,sensor_129,1.088,0,alarm,rule2
+U0440,2008-08-23 13:02:00,train,sensor_129,1.088,0,alarm,rule2
+U0441,2008-08-23 15:10:00,train,sensor_129,1.088,0,alarm,"rule2, rule3"
+U0442,2008-08-23 15:29:00,train,sensor_129,1.088,1,alarm,"rule2, rule3"
+U0443,2008-08-24 02:32:00,train,sensor_129,0.0,0,alarm,"rule2, rule3"
+U0445,2008-08-24 07:12:00,train,sensor_129,0.0,0,warning,rule4
+U0446,2008-08-24 07:14:00,train,sensor_129,0.0,0,warning,rule4
+U0447,2008-08-24 10:09:00,train,sensor_129,1.088,0,warning,rule4
+U0448,2008-08-24 10:14:00,train,sensor_129,0.0,0,warning,rule4
+U0449,2008-08-24 13:03:00,train,sensor_129,0.0,1,warning,rule4
+U0450,2008-08-25 09:29:00,train,sensor_103,-0.0092,0,warning,rule4
+U0450,2008-08-25 09:29:00,train,sensor_129,0.0,0,warning,rule4
+U0453,2008-08-27 12:22:00,train,sensor_021,-6461.0,0,warning,rule3
+U0454,2008-08-27 13:35:00,train,sensor_021,-5411.5,0,warning,rule3
+U0455,2008-08-27 14:18:00,train,sensor_021,-6409.5,0,warning,rule3
+U0458,2008-08-27 22:58:00,train,sensor_059,168.1455,0,alarm,rule1
+U0463,2008-08-28 03:45:00,train,sensor_510,49.2462,0,warning,rule4
+U0464,2008-08-28 04:10:00,train,sensor_510,73.5751,0,warning,rule4
+U0465,2008-08-28 04:20:00,train,sensor_510,148.9879,0,warning,rule4
+U0470,2008-08-28 06:56:00,train,sensor_103,-0.013,0,warning,rule3
+U0471,2008-08-28 07:40:00,train,sensor_103,-0.0126,0,warning,rule3
+U0472,2008-08-28 07:51:00,train,sensor_103,-0.0142,0,warning,rule3
+U0473,2008-08-28 08:41:00,train,sensor_103,-0.0092,0,warning,rule3
+U0473,2008-08-28 08:41:00,train,sensor_510,25.9811,0,warning,rule3
+U0477,2008-08-28 10:28:00,train,sensor_021,-6505.5,0,warning,rule3
+U0483,2008-08-28 16:01:00,train,sensor_103,-0.0107,0,warning,rule4
+U0484,2008-08-28 16:43:00,train,sensor_103,-0.0113,0,warning,rule4
+U0498,2008-08-28 21:52:00,train,sensor_021,-6371.0,0,warning,rule4
+U0499,2008-08-28 22:57:00,train,sensor_021,-6344.25,0,warning,rule4
+U0514,2008-08-29 05:57:00,train,sensor_021,-6736.0,0,alarm,rule2
+U0527,2008-08-29 08:20:00,train,sensor_021,-7148.0,0,alarm,"rule1, rule2"
+U0528,2008-08-29 08:41:00,train,sensor_021,-6235.25,0,alarm,rule2
+U0537,2008-08-29 14:11:00,train,sensor_103,-0.0105,0,warning,rule4
+U0538,2008-08-29 14:18:00,train,sensor_103,-0.0123,0,warning,rule4
+U0561,2008-08-30 03:10:00,train,sensor_103,-0.0118,0,warning,rule4
+U0568,2008-08-30 05:51:00,train,sensor_163,0.201,0,warning,rule3
+U0581,2008-08-30 11:14:00,train,sensor_510,451.4851,0,alarm,rule1
+U0596,2008-08-30 19:27:00,train,sensor_163,0.022,0,alarm,"rule2, rule3"
+U0597,2008-08-30 20:11:00,train,sensor_163,0.101,0,warning,rule4
+U0609,2008-08-31 15:09:00,train,sensor_510,55.0206,0,warning,rule4
+U0612,2008-08-31 20:24:00,train,sensor_430,2.3422,0,warning,rule3
+U0631,2008-09-01 09:54:00,train,sensor_021,-6630.25,0,warning,rule3
+U0634,2008-09-01 16:20:00,train,sensor_129,0.0,0,warning,rule4
+U0635,2008-09-01 19:54:00,train,sensor_129,0.0473,1,warning,rule4
+U0636,2008-09-01 20:51:00,train,sensor_129,0.0,0,warning,rule4
+U0637,2008-09-01 22:05:00,train,sensor_129,0.0,0,warning,rule4
+U0638,2008-09-01 23:05:00,train,sensor_129,0.0473,0,warning,rule4
+U0639,2008-09-01 23:19:00,train,sensor_129,0.0,0,warning,rule4
+U0640,2008-09-01 23:24:00,train,sensor_129,0.0473,0,warning,rule4
+U0641,2008-09-01 23:28:00,train,sensor_129,0.0473,0,warning,rule4
+U0661,2008-09-02 04:22:00,train,sensor_129,1.939,0,alarm,rule2
+U0662,2008-09-02 05:46:00,train,sensor_129,1.939,0,alarm,"rule2, rule3"
+U0663,2008-09-02 06:03:00,train,sensor_129,0.4258,0,alarm,"rule2, rule3"
+U0664,2008-09-02 06:19:00,train,sensor_021,-6204.25,0,warning,rule4
+U0664,2008-09-02 06:19:00,train,sensor_129,0.0473,0,warning,rule4
+U0664,2008-09-02 06:19:00,train,sensor_431,17.8707,0,warning,rule4
+U0665,2008-09-02 06:32:00,train,sensor_431,21.981,0,warning,rule4
+U0666,2008-09-02 06:48:00,train,sensor_431,27.6341,0,warning,rule4
+U0667,2008-09-02 07:22:00,train,sensor_431,21.0508,0,warning,rule4
+U0668,2008-09-02 07:32:00,train,sensor_021,0.0,0,alarm,rule1
+U0668,2008-09-02 07:32:00,train,sensor_129,1.939,0,alarm,rule2
+U0668,2008-09-02 07:32:00,train,sensor_163,0.0,0,alarm,rule1
+U0668,2008-09-02 07:32:00,train,sensor_430,0.0,0,alarm,rule1
+U0668,2008-09-02 07:32:00,train,sensor_431,0.0,0,alarm,rule1
+U0690,2008-09-02 14:09:00,train,sensor_103,0.0203,0,alarm,rule1
+U0691,2008-09-02 14:21:00,train,sensor_431,25.2308,0,warning,rule3
+U0692,2008-09-02 14:34:00,train,sensor_431,28.4303,0,warning,rule3
+U0693,2008-09-02 15:29:00,train,sensor_431,8.0938,0,warning,rule3
+U0707,2008-09-03 00:18:00,train,sensor_021,-6656.5,0,alarm,rule2
+U0708,2008-09-03 00:45:00,train,sensor_021,-6375.25,0,alarm,"rule2, rule3"
+U0711,2008-09-03 01:32:00,train,sensor_059,1.9255,0,warning,rule4
+U0712,2008-09-03 04:18:00,train,sensor_163,0.111,0,warning,rule4
+U0713,2008-09-03 06:26:00,train,sensor_163,0.11,0,warning,rule4
+U0714,2008-09-03 09:38:00,train,sensor_163,0.069,0,warning,rule4
+U0715,2008-09-03 14:24:00,train,sensor_163,0.049,0,warning,rule4
+U0723,2008-09-04 08:22:00,train,sensor_028,74.1333,0,warning,"rule3, rule4"
+U0724,2008-09-04 08:33:00,train,sensor_028,73.9778,0,warning,"rule3, rule4"
+U0725,2008-09-04 08:41:00,train,sensor_028,66.7333,0,warning,rule3
+U0729,2008-09-04 14:11:00,train,sensor_129,0.0946,0,warning,rule4
+U0730,2008-09-04 14:48:00,train,sensor_129,0.0946,0,warning,rule4
+U0731,2008-09-04 16:30:00,train,sensor_129,0.0946,0,warning,rule4
+U0732,2008-09-04 16:41:00,train,sensor_129,0.0,0,warning,rule4
+U0733,2008-09-04 16:56:00,train,sensor_129,0.0,0,warning,rule4
+U0734,2008-09-04 17:30:00,train,sensor_129,0.0,0,warning,rule4
+U0735,2008-09-05 15:30:00,train,sensor_129,0.0,0,warning,rule4
+U0736,2008-09-05 21:48:00,train,sensor_129,0.6623,0,warning,rule4
+U0737,2008-09-07 00:08:00,train,sensor_129,0.0,0,warning,rule4
+U0738,2008-09-07 00:12:00,train,sensor_129,0.0,0,warning,rule4
+U0739,2008-09-07 00:49:00,train,sensor_028,74.2778,0,warning,rule3
+U0739,2008-09-07 00:49:00,train,sensor_079,-0.0279,0,warning,rule4
+U0739,2008-09-07 00:49:00,train,sensor_129,0.0,0,warning,rule4
+U0740,2008-09-07 10:52:00,train,sensor_079,-0.0203,0,warning,rule4
+U0740,2008-09-07 10:52:00,train,sensor_129,0.2838,0,warning,rule4
+U0741,2008-09-07 12:04:00,train,sensor_028,74.4444,0,warning,rule3
+U0741,2008-09-07 12:04:00,train,sensor_129,0.0473,0,warning,rule4
+U0742,2008-09-07 12:20:00,train,sensor_129,0.0473,0,warning,rule4
+U0743,2008-09-07 13:02:00,train,sensor_129,0.0473,0,warning,rule4
+U0744,2008-09-07 18:02:00,train,sensor_028,71.6889,0,warning,rule4
+U0744,2008-09-07 18:02:00,train,sensor_129,0.2838,0,warning,rule4
+U0745,2008-09-07 18:24:00,train,sensor_028,71.1333,0,warning,rule4
+U0745,2008-09-07 18:24:00,train,sensor_129,0.0473,0,warning,rule4
+U0746,2008-09-07 18:49:00,train,sensor_028,73.7,0,warning,rule4
+U0746,2008-09-07 18:49:00,train,sensor_129,0.0473,0,warning,rule4
+U0747,2008-09-07 19:29:00,train,sensor_028,73.3,0,warning,rule4
+U0747,2008-09-07 19:29:00,train,sensor_129,0.0473,0,warning,rule4
+U0748,2008-09-07 19:31:00,train,sensor_129,0.2838,0,warning,rule4
+U0749,2008-09-07 20:12:00,train,sensor_129,0.2838,0,warning,rule4
+U0750,2008-09-07 20:50:00,train,sensor_129,0.0473,0,warning,rule4
+U0751,2008-09-07 23:33:00,train,sensor_129,0.1419,0,warning,rule4
+U0752,2008-09-08 00:32:00,train,sensor_129,0.1419,0,warning,rule4
+U0753,2008-09-08 00:40:00,train,sensor_129,0.1419,0,warning,rule4
+U0754,2008-09-08 01:24:00,train,sensor_129,0.1419,0,warning,rule4
+U0755,2008-09-08 03:32:00,train,sensor_129,0.1419,0,warning,rule4
+U0756,2008-09-08 03:48:00,train,sensor_129,0.1419,0,warning,rule4
+U0757,2008-09-08 04:21:00,train,sensor_129,0.2838,0,warning,rule4
+U0758,2008-09-08 06:37:00,train,sensor_129,0.2838,0,warning,rule4
+U0759,2008-09-08 07:14:00,train,sensor_129,0.1419,0,warning,rule4
+U0760,2008-09-08 07:41:00,train,sensor_129,0.2838,0,warning,rule4
+U0761,2008-09-08 18:46:00,train,sensor_129,0.2838,0,warning,"rule3, rule4"
+U0762,2008-09-08 19:14:00,train,sensor_059,0.8536,0,warning,rule4
+U0762,2008-09-08 19:14:00,train,sensor_129,0.2838,0,warning,"rule3, rule4"
+U0763,2008-09-08 19:15:00,train,sensor_059,-0.1391,0,warning,rule4
+U0763,2008-09-08 19:15:00,train,sensor_129,0.2838,0,warning,"rule3, rule4"
+U0764,2008-09-08 19:25:00,train,sensor_059,-1.9982,0,warning,rule4
+U0764,2008-09-08 19:25:00,train,sensor_129,0.2838,0,warning,"rule3, rule4"
+U0764,2008-09-08 19:25:00,train,sensor_163,0.064,0,warning,rule3
+U0765,2008-09-08 19:33:00,train,sensor_028,76.4222,0,alarm,"rule2, rule3"
+U0765,2008-09-08 19:33:00,train,sensor_059,0.5564,0,warning,rule4
+U0765,2008-09-08 19:33:00,train,sensor_129,0.2838,0,warning,"rule3, rule4"
+U0766,2008-09-08 20:00:00,train,sensor_028,71.2889,0,alarm,rule2
+U0766,2008-09-08 20:00:00,train,sensor_059,-0.2418,0,warning,rule4
+U0766,2008-09-08 20:00:00,train,sensor_129,0.1419,0,warning,"rule3, rule4"
+U0767,2008-09-08 21:36:00,train,sensor_028,73.3333,0,warning,rule3
+U0767,2008-09-08 21:36:00,train,sensor_059,-1.7136,0,warning,rule4
+U0767,2008-09-08 21:36:00,train,sensor_129,0.0,0,warning,rule4
+U0768,2008-09-08 21:53:00,train,sensor_059,-1.3073,0,warning,rule4
+U0768,2008-09-08 21:53:00,train,sensor_129,0.0,0,warning,rule4
+U0769,2008-09-08 22:17:00,train,sensor_059,0.8827,0,warning,rule4
+U0769,2008-09-08 22:17:00,train,sensor_079,-0.0199,0,warning,rule3
+U0769,2008-09-08 22:17:00,train,sensor_129,0.2838,0,warning,rule4
+U0770,2008-09-09 00:25:00,train,sensor_079,-0.0213,0,warning,rule3
+U0770,2008-09-09 00:25:00,train,sensor_129,0.2838,0,warning,rule4
+U0771,2008-09-09 03:53:00,train,sensor_079,-0.009,0,warning,"rule3, rule4"
+U0771,2008-09-09 03:53:00,train,sensor_103,-0.0093,0,warning,rule4
+U0771,2008-09-09 03:53:00,train,sensor_129,0.2838,0,warning,rule4
+U0772,2008-09-09 08:44:00,train,sensor_079,-0.001,0,warning,rule4
+U0772,2008-09-09 08:44:00,train,sensor_129,0.1419,0,warning,rule4
+U0773,2008-09-10 07:26:00,train,sensor_129,0.0473,0,warning,rule4
+U0774,2008-09-10 09:21:00,train,sensor_129,0.0473,0,warning,rule4
+U0775,2008-09-10 20:52:00,train,sensor_129,0.0473,0,warning,rule4
+U0776,2008-09-10 20:53:00,train,sensor_028,74.3,0,warning,rule3
+U0777,2008-09-10 21:56:00,train,sensor_028,72.7556,0,warning,rule3
+U0778,2008-09-10 23:30:00,train,sensor_028,75.0,0,warning,"rule3, rule4"
+U0779,2008-09-10 23:43:00,train,sensor_028,72.6778,0,warning,"rule3, rule4"
+U0780,2008-09-11 00:17:00,train,sensor_021,-5400.0,0,warning,rule4
+U0780,2008-09-11 00:17:00,train,sensor_028,72.7444,0,warning,"rule3, rule4"
+U0781,2008-09-11 05:20:00,train,sensor_028,75.2444,0,warning,"rule3, rule4"
+U0782,2008-09-11 06:04:00,train,sensor_028,72.6222,0,warning,"rule3, rule4"
+U0783,2008-09-11 07:43:00,train,sensor_028,76.3556,0,warning,"rule3, rule4"
+U0784,2008-09-11 08:06:00,train,sensor_028,75.2667,0,warning,"rule3, rule4"
+U0784,2008-09-11 08:06:00,train,sensor_163,0.249,0,warning,rule3
+U0785,2008-09-11 08:58:00,train,sensor_028,72.0778,0,warning,rule4
+U0786,2008-09-11 09:24:00,train,sensor_028,72.3,0,warning,rule4
+U0787,2008-09-11 12:47:00,train,sensor_028,73.6889,0,warning,rule4
+U0787,2008-09-11 12:47:00,train,sensor_163,0.211,0,warning,"rule3, rule4"
+U0788,2008-09-11 13:36:00,train,sensor_163,0.162,0,warning,rule4
+U0793,2008-09-11 15:08:00,train,sensor_059,1.2882,0,warning,rule4
+U0793,2008-09-11 15:08:00,train,sensor_129,0.0473,0,warning,rule4
+U0794,2008-09-11 16:28:00,train,sensor_059,3.9027,0,warning,rule4
+U0794,2008-09-11 16:28:00,train,sensor_129,0.0,0,warning,rule4
+U0795,2008-09-11 21:13:00,train,sensor_028,72.9333,0,warning,rule3
+U0796,2008-09-11 22:07:00,train,sensor_028,74.6889,1,warning,"rule3, rule4"
+U0802,2008-09-12 06:41:00,train,sensor_430,25.5261,0,warning,rule3
+U0803,2008-09-12 06:45:00,train,sensor_021,-4386.0,0,alarm,rule2
+U0803,2008-09-12 06:45:00,train,sensor_430,72.7998,0,warning,rule3
+U0804,2008-09-12 07:21:00,train,sensor_430,2.9602,0,warning,rule3
+U0805,2008-09-12 07:29:00,train,sensor_129,-0.5677,0,warning,rule4
+U0805,2008-09-12 07:29:00,train,sensor_430,22.2222,0,warning,rule3
+U0806,2008-09-12 07:38:00,train,sensor_129,-0.1419,0,warning,rule4
+U0807,2008-09-12 11:57:00,train,sensor_129,-0.1419,0,warning,rule4
+U0808,2008-09-12 13:08:00,train,sensor_129,-0.5677,0,warning,rule4
+U0809,2008-09-12 14:52:00,train,sensor_028,72.8556,0,warning,rule3
+U0809,2008-09-12 14:52:00,train,sensor_079,-0.033,0,warning,rule3
+U0809,2008-09-12 14:52:00,train,sensor_129,-1.135,0,warning,rule4
+U0810,2008-09-12 15:40:00,train,sensor_028,75.2333,0,warning,rule3
+U0810,2008-09-12 15:40:00,train,sensor_129,-0.5677,0,warning,rule4
+U0811,2008-09-12 16:23:00,train,sensor_028,70.0111,0,warning,rule3
+U0811,2008-09-12 16:23:00,train,sensor_079,-0.0315,0,warning,rule3
+U0811,2008-09-12 16:23:00,train,sensor_129,-0.5677,0,warning,rule4
+U0812,2008-09-12 18:01:00,train,sensor_028,75.7222,0,warning,rule3
+U0812,2008-09-12 18:01:00,train,sensor_079,-0.0173,0,warning,rule3
+U0812,2008-09-12 18:01:00,train,sensor_129,-1.135,0,warning,rule4
+U0812,2008-09-12 18:01:00,train,sensor_430,33.6969,0,warning,rule4
+U0813,2008-09-12 18:52:00,train,sensor_028,75.0889,0,warning,rule3
+U0813,2008-09-12 18:52:00,train,sensor_129,-1.135,0,warning,rule4
+U0813,2008-09-12 18:52:00,train,sensor_430,27.2383,0,warning,rule4
+U0814,2008-09-12 19:36:00,train,sensor_028,73.1222,0,warning,"rule3, rule4"
+U0814,2008-09-12 19:36:00,train,sensor_129,-0.8988,0,warning,rule4
+U0814,2008-09-12 19:36:00,train,sensor_430,25.5357,0,warning,"rule3, rule4"
+U0815,2008-09-12 20:28:00,train,sensor_028,71.8556,0,warning,rule4
+U0815,2008-09-12 20:28:00,train,sensor_129,-0.8988,0,warning,rule4
+U0816,2008-09-12 21:12:00,train,sensor_028,73.7222,0,warning,"rule3, rule4"
+U0816,2008-09-12 21:12:00,train,sensor_129,-1.135,0,warning,rule4
+U0817,2008-09-12 22:25:00,train,sensor_028,74.0111,0,warning,"rule3, rule4"
+U0817,2008-09-12 22:25:00,train,sensor_129,-1.135,0,warning,rule4
+U0818,2008-09-12 22:45:00,train,sensor_028,75.6222,0,warning,"rule3, rule4"
+U0818,2008-09-12 22:45:00,train,sensor_129,-0.5677,0,warning,rule4
+U0819,2008-09-12 23:28:00,train,sensor_028,73.0556,0,warning,"rule3, rule4"
+U0819,2008-09-12 23:28:00,train,sensor_129,-0.5677,0,warning,rule4
+U0820,2008-09-12 23:40:00,train,sensor_028,71.4667,0,warning,"rule3, rule4"
+U0820,2008-09-12 23:40:00,train,sensor_129,-0.8988,0,warning,rule4
+U0821,2008-09-13 00:25:00,train,sensor_028,74.4778,0,warning,"rule3, rule4"
+U0821,2008-09-13 00:25:00,train,sensor_129,-0.1419,0,warning,rule4
+U0822,2008-09-13 02:57:00,train,sensor_028,73.5667,0,warning,"rule3, rule4"
+U0822,2008-09-13 02:57:00,train,sensor_129,-0.4258,0,warning,rule4
+U0823,2008-09-13 03:14:00,train,sensor_028,70.4778,0,warning,rule4
+U0823,2008-09-13 03:14:00,train,sensor_129,-0.8988,0,warning,rule4
+U0824,2008-09-13 09:19:00,train,sensor_028,74.8556,0,warning,rule4
+U0824,2008-09-13 09:19:00,train,sensor_079,-0.0384,0,alarm,rule2
+U0824,2008-09-13 09:19:00,train,sensor_129,-0.5677,0,warning,rule4
+U0825,2008-09-13 10:55:00,train,sensor_028,74.5778,0,warning,"rule3, rule4"
+U0825,2008-09-13 10:55:00,train,sensor_079,-0.0121,0,alarm,rule2
+U0825,2008-09-13 10:55:00,train,sensor_129,-0.4258,0,warning,rule4
+U0826,2008-09-13 11:42:00,train,sensor_028,70.1556,0,warning,rule4
+U0826,2008-09-13 11:42:00,train,sensor_129,-0.4258,0,warning,rule4
+U0827,2008-09-13 11:56:00,train,sensor_079,-0.0175,1,warning,rule3
+U0827,2008-09-13 11:56:00,train,sensor_129,-1.135,1,warning,rule4
+U0828,2008-09-13 12:48:00,train,sensor_079,-0.0333,0,warning,rule3
+U0828,2008-09-13 12:48:00,train,sensor_129,-0.4258,0,warning,rule4
+U0829,2008-09-13 14:07:00,train,sensor_079,-0.0167,0,warning,"rule3, rule4"
+U0829,2008-09-13 14:07:00,train,sensor_129,-0.4258,0,warning,rule4
+U0830,2008-09-13 16:04:00,train,sensor_079,-0.0077,0,warning,"rule3, rule4"
+U0831,2008-09-13 16:04:00,train,sensor_079,-0.012,0,warning,rule4
+U0830,2008-09-13 16:04:00,train,sensor_129,-0.8988,0,warning,rule4
+U0831,2008-09-13 16:04:00,train,sensor_129,-0.4258,0,warning,rule4
+U0832,2008-09-13 20:06:00,train,sensor_079,-0.0092,1,warning,rule4
+U0832,2008-09-13 20:06:00,train,sensor_129,-0.1419,1,warning,rule4
+U0833,2008-09-14 02:50:00,train,sensor_079,-0.0092,0,warning,rule4
+U0834,2008-09-14 02:59:00,train,sensor_079,-0.0308,0,warning,rule4
+U0835,2008-09-14 15:02:00,train,sensor_079,-0.0016,0,warning,rule4
+U0836,2008-09-14 15:46:00,train,sensor_079,-0.0087,0,warning,rule4
+U0840,2008-09-14 18:27:00,train,sensor_129,0.7096,0,warning,rule4
+U0840,2008-09-14 18:27:00,train,sensor_430,6.492,0,warning,rule4
+U0841,2008-09-14 19:13:00,train,sensor_103,-0.0106,0,warning,rule4
+U0841,2008-09-14 19:13:00,train,sensor_129,0.7096,0,warning,"rule3, rule4"
+U0841,2008-09-14 19:13:00,train,sensor_430,3.8736,0,warning,rule4
+U0842,2008-09-14 20:00:00,train,sensor_079,-0.0339,0,alarm,rule2
+U0842,2008-09-14 20:00:00,train,sensor_103,-0.0101,0,warning,rule4
+U0842,2008-09-14 20:00:00,train,sensor_129,0.7096,0,warning,"rule3, rule4"
+U0843,2008-09-14 20:43:00,train,sensor_021,-5195.75,0,warning,rule3
+U0843,2008-09-14 20:43:00,train,sensor_059,2.8136,0,warning,rule4
+U0843,2008-09-14 20:43:00,train,sensor_103,-0.0101,0,warning,rule4
+U0843,2008-09-14 20:43:00,train,sensor_129,0.7096,0,warning,"rule3, rule4"
+U0844,2008-09-14 20:45:00,train,sensor_059,3.9527,0,warning,rule4
+U0844,2008-09-14 20:45:00,train,sensor_103,-0.0115,0,warning,rule4
+U0844,2008-09-14 20:45:00,train,sensor_129,0.7096,0,warning,"rule3, rule4"
+U0845,2008-09-14 21:31:00,train,sensor_028,74.5556,0,warning,rule3
+U0845,2008-09-14 21:31:00,train,sensor_059,3.4482,0,warning,rule4
+U0845,2008-09-14 21:31:00,train,sensor_079,-0.0218,0,warning,rule4
+U0845,2008-09-14 21:31:00,train,sensor_129,0.0,0,warning,"rule3, rule4"
+U0846,2008-09-14 23:00:00,train,sensor_028,72.9222,0,warning,rule3
+U0846,2008-09-14 23:00:00,train,sensor_059,1.3445,0,warning,rule4
+U0846,2008-09-14 23:00:00,train,sensor_079,-0.0191,0,warning,"rule3, rule4"
+U0847,2008-09-15 02:04:00,train,sensor_079,-0.0296,0,warning,"rule3, rule4"
+U0848,2008-09-15 10:03:00,train,sensor_079,0.0213,0,warning,rule3
+U0849,2008-09-15 11:40:00,train,sensor_430,11.6087,0,warning,rule4
+U0850,2008-09-15 12:27:00,train,sensor_430,13.8314,0,warning,rule4
+U0851,2008-09-15 16:10:00,train,sensor_028,74.5333,0,warning,rule4
+U0852,2008-09-15 16:59:00,train,sensor_028,74.8667,0,warning,"rule3, rule4"
+U0853,2008-09-15 19:54:00,train,sensor_021,-5481.75,0,warning,rule4
+U0853,2008-09-15 19:54:00,train,sensor_028,72.6333,0,warning,"rule3, rule4"
+U0854,2008-09-15 21:56:00,train,sensor_021,-5261.0,0,warning,rule4
+U0857,2008-09-15 22:54:00,train,sensor_103,-0.0329,0,alarm,rule1
+U0858,2008-09-15 23:37:00,train,sensor_510,19.2308,0,alarm,rule2
+U0859,2008-09-16 07:39:00,train,sensor_510,49.4624,0,alarm,rule2
+U0861,2008-09-16 08:50:00,train,sensor_079,-0.0213,0,warning,rule3
+U0862,2008-09-16 08:52:00,train,sensor_079,-0.0302,0,warning,rule3
+U0863,2008-09-16 09:37:00,train,sensor_028,74.0333,0,warning,rule3
+U0863,2008-09-16 09:37:00,train,sensor_079,-0.0053,0,warning,rule3
+U0866,2008-09-16 18:23:00,train,sensor_129,-0.8988,0,warning,rule4
+U0867,2008-09-16 19:34:00,train,sensor_129,-0.1419,0,warning,rule4
+U0873,2008-09-17 07:14:00,train,sensor_028,73.1222,0,warning,rule3
+U0874,2008-09-17 07:28:00,train,sensor_103,-0.0131,0,warning,rule4
+U0875,2008-09-17 21:52:00,train,sensor_028,75.7556,0,warning,rule4
+U0875,2008-09-17 21:52:00,train,sensor_103,-0.0136,0,warning,rule4
+U0876,2008-09-18 00:57:00,train,sensor_103,-0.0142,0,warning,"rule3, rule4"
+U0876,2008-09-18 00:57:00,train,sensor_129,-0.8988,0,warning,rule4
+U0877,2008-09-18 01:40:00,train,sensor_103,-0.0131,0,warning,"rule3, rule4"
+U0877,2008-09-18 01:40:00,train,sensor_129,-1.56,0,warning,rule4
+U0878,2008-09-18 01:43:00,train,sensor_103,-0.0107,0,warning,"rule3, rule4"
+U0879,2008-09-18 02:01:00,train,sensor_103,-0.0117,0,warning,rule4
+U0880,2008-09-18 03:58:00,train,sensor_103,-0.0134,0,warning,rule4
+U0881,2008-09-18 03:58:00,train,sensor_103,-0.0132,0,warning,rule4
+U0882,2008-09-18 05:44:00,train,sensor_103,-0.0121,0,warning,rule4
+U0883,2008-09-18 05:58:00,train,sensor_103,-0.0123,0,warning,rule4
+U0883,2008-09-18 05:58:00,train,sensor_510,31.7073,0,warning,rule4
+U0884,2008-09-18 08:04:00,train,sensor_103,-0.013,0,warning,rule4
+U0884,2008-09-18 08:04:00,train,sensor_510,35.3506,0,warning,rule4
+U0885,2008-09-18 10:48:00,train,sensor_103,-0.0123,0,warning,rule4
+U0885,2008-09-18 10:48:00,train,sensor_510,23.6735,0,warning,rule4
+U0892,2008-09-18 23:00:00,train,sensor_129,0.0,0,warning,rule4
+U0894,2008-09-18 23:44:00,train,sensor_103,-0.0135,0,warning,rule4
+U0894,2008-09-18 23:44:00,train,sensor_510,31.0536,0,warning,rule4
+U0895,2008-09-19 00:30:00,train,sensor_103,-0.0136,0,warning,rule4
+U0895,2008-09-19 00:30:00,train,sensor_510,30.9963,0,warning,rule4
+U0896,2008-09-19 01:57:00,train,sensor_079,0.0169,0,warning,rule4
+U0896,2008-09-19 01:57:00,train,sensor_103,-0.012,0,warning,rule4
+U0896,2008-09-19 01:57:00,train,sensor_510,22.5705,0,warning,rule4
+U0897,2008-09-19 02:44:00,train,sensor_079,0.0098,0,warning,rule4
+U0897,2008-09-19 02:44:00,train,sensor_103,-0.0118,0,warning,rule4
+U0898,2008-09-19 04:42:00,train,sensor_079,0.0071,0,warning,rule4
+U0898,2008-09-19 04:42:00,train,sensor_103,-0.014,0,warning,rule4
+U0898,2008-09-19 04:42:00,train,sensor_510,30.0806,0,warning,rule3
+U0899,2008-09-19 05:33:00,train,sensor_079,0.009,0,warning,rule4
+U0899,2008-09-19 05:33:00,train,sensor_103,-0.0122,0,warning,rule4
+U0899,2008-09-19 05:33:00,train,sensor_510,15.5897,0,warning,rule3
+U0900,2008-09-19 05:57:00,train,sensor_028,72.8667,0,warning,rule4
+U0900,2008-09-19 05:57:00,train,sensor_103,-0.0125,0,warning,rule4
+U0900,2008-09-19 05:57:00,train,sensor_510,28.8867,0,warning,rule3
+U0901,2008-09-19 06:01:00,train,sensor_028,74.1222,0,warning,rule4
+U0901,2008-09-19 06:01:00,train,sensor_103,-0.0117,0,warning,rule4
+U0902,2008-09-19 06:44:00,train,sensor_028,73.6111,0,warning,"rule3, rule4"
+U0902,2008-09-19 06:44:00,train,sensor_103,-0.0117,0,warning,rule4
+U0903,2008-09-19 07:14:00,train,sensor_021,-5217.25,0,warning,rule4
+U0903,2008-09-19 07:14:00,train,sensor_028,73.3778,0,warning,"rule3, rule4"
+U0903,2008-09-19 07:14:00,train,sensor_103,-0.0122,0,warning,rule4
+U0904,2008-09-19 07:18:00,train,sensor_021,-5394.75,0,warning,rule4
+U0904,2008-09-19 07:18:00,train,sensor_028,70.3111,0,warning,"rule3, rule4"
+U0904,2008-09-19 07:18:00,train,sensor_103,-0.0119,0,warning,rule4
+U0905,2008-09-19 08:08:00,train,sensor_021,-5397.5,0,warning,rule4
+U0905,2008-09-19 08:08:00,train,sensor_103,-0.0128,0,warning,rule4
+U0906,2008-09-19 08:52:00,train,sensor_021,-5543.0,0,warning,rule4
+U0906,2008-09-19 08:52:00,train,sensor_103,-0.0128,0,warning,rule4
+U0907,2008-09-19 09:12:00,train,sensor_021,-5526.0,0,warning,rule4
+U0907,2008-09-19 09:12:00,train,sensor_103,-0.0124,0,warning,rule4
+U0908,2008-09-19 09:47:00,train,sensor_021,-5445.5,0,warning,rule4
+U0908,2008-09-19 09:47:00,train,sensor_059,-1.79,0,warning,rule4
+U0908,2008-09-19 09:47:00,train,sensor_103,-0.0136,0,warning,rule4
+U0909,2008-09-19 10:45:00,train,sensor_021,-4971.75,0,warning,rule4
+U0909,2008-09-19 10:45:00,train,sensor_059,1.0309,0,warning,rule4
+U0909,2008-09-19 10:45:00,train,sensor_103,-0.0127,0,warning,"rule3, rule4"
+U0910,2008-09-19 11:13:00,train,sensor_021,-5001.0,0,warning,rule4
+U0910,2008-09-19 11:13:00,train,sensor_059,-4.0109,0,warning,rule4
+U0910,2008-09-19 11:13:00,train,sensor_103,-0.0124,0,warning,rule4
+U0911,2008-09-19 11:54:00,train,sensor_021,-5368.75,0,warning,rule4
+U0911,2008-09-19 11:54:00,train,sensor_103,-0.013,0,warning,rule4
+U0912,2008-09-19 13:59:00,train,sensor_103,-0.0133,0,warning,"rule3, rule4"
+U0913,2008-09-19 15:31:00,train,sensor_103,-0.0139,0,warning,"rule3, rule4"
+U0913,2008-09-19 15:31:00,train,sensor_510,27.2646,0,warning,rule4
+U0914,2008-09-19 16:40:00,train,sensor_103,-0.0117,0,warning,rule4
+U0914,2008-09-19 16:40:00,train,sensor_510,17.0758,0,warning,rule4
+U0915,2008-09-19 16:58:00,train,sensor_103,-0.0136,1,warning,"rule3, rule4"
+U0915,2008-09-19 16:58:00,train,sensor_510,35.3266,1,warning,rule4
+U0916,2008-09-19 17:47:00,train,sensor_103,-0.0101,0,warning,rule4
+U0917,2008-09-19 18:11:00,train,sensor_103,-0.0113,0,warning,rule4
+U0918,2008-09-19 18:33:00,train,sensor_103,-0.0115,0,warning,rule4
+U0919,2008-09-19 19:18:00,train,sensor_103,-0.0118,0,warning,rule4
+U0920,2008-09-19 19:29:00,train,sensor_103,-0.0107,0,warning,rule4
+U0921,2008-09-19 20:05:00,train,sensor_103,-0.0127,0,warning,rule4
+U0922,2008-09-19 20:07:00,train,sensor_103,-0.0126,0,warning,rule4
+U0923,2008-09-19 20:10:00,train,sensor_103,-0.0141,0,warning,rule4
+U0923,2008-09-19 20:10:00,train,sensor_129,-3.496,0,warning,rule4
+U0924,2008-09-19 20:17:00,train,sensor_129,-3.496,0,warning,"rule3, rule4"
+U0925,2008-09-19 20:19:00,train,sensor_129,-0.4258,1,warning,"rule3, rule4"
+U0926,2008-09-19 21:08:00,train,sensor_129,-1.135,0,warning,rule4
+U0929,2008-09-19 21:14:00,train,sensor_079,0.0073,0,warning,rule4
+U0930,2008-09-19 21:59:00,train,sensor_079,0.01,1,warning,rule4
+U0931,2008-09-19 23:26:00,train,sensor_079,0.0089,0,warning,rule4
+U0932,2008-09-19 23:33:00,train,sensor_129,-3.025,0,warning,rule3
+U0933,2008-09-20 00:18:00,train,sensor_129,-3.025,0,warning,rule3
+U0935,2008-09-20 03:58:00,train,sensor_129,-3.496,0,warning,"rule3, rule4"
+U0936,2008-09-20 04:13:00,train,sensor_129,-3.496,0,warning,"rule3, rule4"
+U0937,2008-09-20 04:28:00,train,sensor_129,-3.496,0,warning,"rule3, rule4"
+U0938,2008-09-20 05:22:00,train,sensor_059,-0.0691,0,warning,rule4
+U0938,2008-09-20 05:22:00,train,sensor_129,-3.025,0,warning,"rule3, rule4"
+U0939,2008-09-20 05:25:00,train,sensor_129,-3.025,0,warning,"rule3, rule4"
+U0940,2008-09-20 05:34:00,train,sensor_129,-3.025,0,warning,"rule3, rule4"
+U0941,2008-09-20 06:08:00,train,sensor_129,-1.702,0,warning,"rule3, rule4"
+U0942,2008-09-20 07:21:00,train,sensor_129,-3.025,0,warning,"rule3, rule4"
+U0943,2008-09-20 08:14:00,train,sensor_129,-3.496,0,warning,"rule3, rule4"
+U0944,2008-09-20 10:51:00,train,sensor_129,-2.647,0,warning,"rule3, rule4"
+U0945,2008-09-20 11:18:00,train,sensor_103,-0.0112,0,warning,rule4
+U0945,2008-09-20 11:18:00,train,sensor_129,-3.025,0,warning,"rule3, rule4"
+U0946,2008-09-20 12:20:00,train,sensor_103,-0.0109,0,warning,rule4
+U0946,2008-09-20 12:20:00,train,sensor_129,-3.732,0,warning,"rule3, rule4"
+U0947,2008-09-20 12:26:00,train,sensor_103,-0.0139,0,warning,rule4
+U0947,2008-09-20 12:26:00,train,sensor_129,-3.732,0,alarm,"rule2, rule3, rule4"
+U0948,2008-09-20 12:27:00,train,sensor_103,-0.0115,0,warning,rule4
+U0948,2008-09-20 12:27:00,train,sensor_129,-3.732,0,alarm,"rule2, rule3, rule4"
+U0949,2008-09-20 12:36:00,train,sensor_103,-0.0104,0,warning,rule4
+U0949,2008-09-20 12:36:00,train,sensor_129,-3.496,0,alarm,"rule2, rule3, rule4"
+U0950,2008-09-20 12:57:00,train,sensor_103,-0.0107,0,warning,rule4
+U0950,2008-09-20 12:57:00,train,sensor_129,-3.732,0,alarm,"rule2, rule3, rule4"
+U0951,2008-09-20 14:00:00,train,sensor_103,-0.0132,0,warning,rule4
+U0951,2008-09-20 14:00:00,train,sensor_129,-3.732,0,alarm,"rule2, rule3, rule4"
+U0952,2008-09-20 14:06:00,train,sensor_103,-0.0103,0,warning,rule4
+U0952,2008-09-20 14:06:00,train,sensor_129,-3.732,0,alarm,"rule2, rule3, rule4"
+U0953,2008-09-20 14:42:00,train,sensor_129,-2.647,0,alarm,"rule2, rule3, rule4"
+U0954,2008-09-20 14:50:00,train,sensor_129,-3.591,0,warning,"rule3, rule4"
+U0955,2008-09-20 14:53:00,train,sensor_129,-3.025,0,warning,"rule3, rule4"
+U0956,2008-09-20 15:02:00,train,sensor_129,-3.732,0,warning,"rule3, rule4"
+U0957,2008-09-20 15:19:00,train,sensor_129,-2.647,0,warning,"rule3, rule4"
+U0958,2008-09-20 15:37:00,train,sensor_059,-5.9573,0,warning,rule4
+U0958,2008-09-20 15:37:00,train,sensor_129,-2.647,0,warning,"rule3, rule4"
+U0959,2008-09-20 15:46:00,train,sensor_059,-1.0464,0,warning,rule4
+U0959,2008-09-20 15:46:00,train,sensor_129,-3.732,0,warning,"rule3, rule4"
+U0959,2008-09-20 15:46:00,train,sensor_431,6.5742,0,warning,rule3
+U0960,2008-09-20 16:43:00,train,sensor_129,-3.591,0,warning,"rule3, rule4"
+U0961,2008-09-20 16:44:00,train,sensor_103,-0.0113,0,warning,rule4
+U0961,2008-09-20 16:44:00,train,sensor_129,-3.591,0,warning,"rule3, rule4"
+U0961,2008-09-20 16:44:00,train,sensor_510,38.1798,0,warning,rule4
+U0962,2008-09-20 17:26:00,train,sensor_103,-0.0114,0,warning,rule4
+U0962,2008-09-20 17:26:00,train,sensor_129,-3.591,0,warning,"rule3, rule4"
+U0963,2008-09-20 17:29:00,train,sensor_103,-0.0113,0,warning,rule4
+U0963,2008-09-20 17:29:00,train,sensor_129,-3.591,0,warning,"rule3, rule4"
+U0964,2008-09-20 18:03:00,train,sensor_103,-0.013,0,warning,rule4
+U0964,2008-09-20 18:03:00,train,sensor_129,-2.647,0,warning,"rule3, rule4"
+U0965,2008-09-20 18:21:00,train,sensor_103,-0.0109,0,warning,rule4
+U0965,2008-09-20 18:21:00,train,sensor_129,-3.779,0,warning,"rule3, rule4"
+U0966,2008-09-20 18:56:00,train,sensor_103,-0.0101,0,warning,rule4
+U0966,2008-09-20 18:56:00,train,sensor_129,-3.779,0,alarm,"rule2, rule3, rule4"
+U0967,2008-09-20 19:14:00,train,sensor_103,-0.0114,0,warning,rule4
+U0967,2008-09-20 19:14:00,train,sensor_129,-3.732,0,alarm,"rule2, rule3, rule4"
+U0968,2008-09-20 19:21:00,train,sensor_103,-0.0104,0,warning,rule4
+U0968,2008-09-20 19:21:00,train,sensor_129,-3.591,0,alarm,"rule2, rule3, rule4"
+U0969,2008-09-20 23:34:00,train,sensor_103,-0.0122,0,warning,rule4
+U0969,2008-09-20 23:34:00,train,sensor_129,-3.779,0,alarm,"rule2, rule3, rule4"
+U0970,2008-09-21 00:48:00,train,sensor_103,-0.011,0,warning,rule4
+U0970,2008-09-21 00:48:00,train,sensor_129,-3.591,0,warning,"rule3, rule4"
+U0971,2008-09-21 01:06:00,train,sensor_103,-0.0125,0,warning,rule4
+U0971,2008-09-21 01:06:00,train,sensor_129,-2.647,0,warning,"rule3, rule4"
+U0971,2008-09-21 01:06:00,train,sensor_510,19.2192,0,alarm,rule2
+U0972,2008-09-21 02:07:00,train,sensor_103,-0.0103,0,warning,rule4
+U0972,2008-09-21 02:07:00,train,sensor_129,-3.779,0,warning,"rule3, rule4"
+U0972,2008-09-21 02:07:00,train,sensor_510,51.5188,0,alarm,rule2
+U0973,2008-09-21 03:04:00,train,sensor_103,-0.0111,0,warning,rule4
+U0973,2008-09-21 03:04:00,train,sensor_129,-2.647,0,warning,"rule3, rule4"
+U0974,2008-09-21 03:47:00,train,sensor_103,-0.0128,0,warning,rule4
+U0974,2008-09-21 03:47:00,train,sensor_129,-3.591,0,warning,"rule3, rule4"
+U0974,2008-09-21 03:47:00,train,sensor_510,22.6562,0,warning,rule3
+U0975,2008-09-21 04:17:00,train,sensor_103,-0.0107,0,warning,rule4
+U0975,2008-09-21 04:17:00,train,sensor_129,-3.779,0,warning,"rule3, rule4"
+U0976,2008-09-21 04:49:00,train,sensor_103,-0.0124,0,warning,rule4
+U0976,2008-09-21 04:49:00,train,sensor_129,-3.779,0,alarm,"rule2, rule3, rule4"
+U0977,2008-09-21 07:30:00,train,sensor_129,-3.591,0,alarm,"rule2, rule3, rule4"
+U0978,2008-09-21 07:55:00,train,sensor_129,-2.647,0,warning,"rule3, rule4"
+U0979,2008-09-21 08:22:00,train,sensor_129,-3.591,0,warning,"rule3, rule4"
+U0980,2008-09-21 08:49:00,train,sensor_129,-3.779,0,warning,"rule3, rule4"
+U0981,2008-09-21 09:16:00,train,sensor_129,-3.591,0,warning,"rule3, rule4"
+U0982,2008-09-21 09:31:00,train,sensor_129,-3.591,0,warning,"rule3, rule4"
+U0983,2008-09-21 10:07:00,train,sensor_129,-3.591,0,warning,"rule3, rule4"
+U0984,2008-09-21 10:49:00,train,sensor_129,-3.591,0,warning,"rule3, rule4"
+U0985,2008-09-21 11:33:00,train,sensor_129,-3.591,0,warning,"rule3, rule4"
+U0985,2008-09-21 11:33:00,train,sensor_431,11.2638,0,warning,rule4
+U0986,2008-09-21 12:04:00,train,sensor_129,-2.647,0,warning,"rule3, rule4"
+U0986,2008-09-21 12:04:00,train,sensor_431,15.5171,0,warning,rule4
+U0987,2008-09-21 14:30:00,train,sensor_129,-3.732,0,warning,"rule3, rule4"
+U0988,2008-09-21 14:31:00,train,sensor_129,-3.732,0,alarm,"rule2, rule3, rule4"
+U0989,2008-09-21 14:33:00,train,sensor_129,-3.591,0,alarm,"rule2, rule3, rule4"
+U0990,2008-09-21 15:15:00,train,sensor_079,-0.0015,0,warning,rule4
+U0990,2008-09-21 15:15:00,train,sensor_129,-3.591,0,warning,"rule3, rule4"
+U0991,2008-09-21 15:26:00,train,sensor_079,-0.0008,0,warning,rule4
+U0991,2008-09-21 15:26:00,train,sensor_129,-3.732,0,warning,"rule3, rule4"
+U0992,2008-09-21 15:34:00,train,sensor_028,76.5556,0,alarm,rule2
+U0992,2008-09-21 15:34:00,train,sensor_079,-0.012,0,warning,rule4
+U0992,2008-09-21 15:34:00,train,sensor_129,-3.591,0,warning,"rule3, rule4"
+U0993,2008-09-21 16:43:00,train,sensor_079,-0.0019,0,warning,rule4
+U0993,2008-09-21 16:43:00,train,sensor_129,-3.732,0,alarm,"rule2, rule3, rule4"
+U0994,2008-09-21 17:26:00,train,sensor_079,-0.0063,0,warning,rule4
+U0994,2008-09-21 17:26:00,train,sensor_129,-3.732,0,alarm,"rule2, rule3, rule4"
+U0994,2008-09-21 17:26:00,train,sensor_431,6.5555,0,warning,rule3
+U0995,2008-09-21 17:30:00,train,sensor_059,-2.9182,0,warning,rule4
+U0995,2008-09-21 17:30:00,train,sensor_079,-0.0043,0,warning,rule4
+U0995,2008-09-21 17:30:00,train,sensor_129,-3.732,0,alarm,"rule2, rule3, rule4"
+U0996,2008-09-21 18:12:00,train,sensor_129,-2.647,0,alarm,"rule2, rule3, rule4"
+U0997,2008-09-21 19:19:00,train,sensor_059,-3.0882,0,warning,rule4
+U0997,2008-09-21 19:19:00,train,sensor_129,-3.732,0,alarm,"rule2, rule3, rule4"
+U0998,2008-09-21 20:35:00,train,sensor_059,-0.0045,0,warning,rule4
+U0998,2008-09-21 20:35:00,train,sensor_129,-3.732,0,alarm,"rule2, rule3, rule4"
+U0999,2008-09-21 21:54:00,train,sensor_059,-5.8564,0,warning,"rule3, rule4"
+U0999,2008-09-21 21:54:00,train,sensor_129,-3.732,0,alarm,"rule2, rule3, rule4"
+U1000,2008-09-21 22:02:00,train,sensor_129,-3.732,0,alarm,"rule2, rule3, rule4"
+U1001,2008-09-22 00:12:00,train,sensor_129,-3.543,0,alarm,"rule2, rule3, rule4"
+U1002,2008-09-22 00:28:00,train,sensor_129,-3.543,0,warning,"rule3, rule4"
+U1003,2008-09-22 00:47:00,train,sensor_129,-3.543,0,warning,"rule3, rule4"
+U1004,2008-09-22 01:43:00,train,sensor_129,-3.543,0,warning,"rule3, rule4"
+U1005,2008-09-22 03:51:00,train,sensor_129,-3.543,0,warning,"rule3, rule4"
+U1006,2008-09-22 06:05:00,train,sensor_129,-2.93,0,warning,"rule3, rule4"
+U1007,2008-09-22 07:12:00,train,sensor_129,-3.543,0,warning,"rule3, rule4"
+U1008,2008-09-22 10:43:00,train,sensor_129,0.0,0,warning,rule3
+U1009,2008-09-22 11:50:00,train,sensor_129,-2.93,0,warning,rule3
+U1010,2008-09-22 12:11:00,train,sensor_129,-2.93,0,warning,rule3
+U1011,2008-09-22 12:45:00,train,sensor_103,-0.0113,0,warning,rule4
+U1011,2008-09-22 12:45:00,train,sensor_129,-2.93,0,warning,rule3
+U1011,2008-09-22 12:45:00,train,sensor_510,36.404,0,warning,rule4
+U1012,2008-09-22 13:03:00,train,sensor_129,-3.166,0,warning,rule3
+U1013,2008-09-22 14:24:00,train,sensor_129,-3.543,0,warning,rule3
+U1014,2008-09-22 14:27:00,train,sensor_129,-3.166,0,warning,rule3
+U1015,2008-09-22 14:36:00,train,sensor_129,-3.449,0,warning,rule3
+U1016,2008-09-22 16:25:00,train,sensor_129,-2.93,0,warning,"rule3, rule4"
+U1017,2008-09-22 21:30:00,train,sensor_129,-3.449,0,warning,"rule3, rule4"
+U1018,2008-09-22 21:31:00,train,sensor_129,-3.449,0,warning,"rule3, rule4"
+U1019,2008-09-22 22:15:00,train,sensor_079,-0.0147,0,warning,rule4
+U1019,2008-09-22 22:15:00,train,sensor_129,-3.449,0,warning,"rule3, rule4"
+U1020,2008-09-22 22:17:00,train,sensor_079,-0.0016,0,warning,rule4
+U1020,2008-09-22 22:17:00,train,sensor_129,-3.543,0,warning,"rule3, rule4"
+U1021,2008-09-22 23:01:00,train,sensor_129,-2.789,0,warning,"rule3, rule4"
+U1022,2008-09-22 23:10:00,train,sensor_059,-5.52,0,warning,rule3
+U1022,2008-09-22 23:10:00,train,sensor_129,-2.789,0,warning,"rule3, rule4"
+U1022,2008-09-22 23:10:00,train,sensor_431,7.3418,0,warning,rule3
+U1023,2008-09-23 00:57:00,train,sensor_103,-0.0106,0,warning,rule4
+U1023,2008-09-23 00:57:00,train,sensor_129,-2.93,0,warning,"rule3, rule4"
+U1023,2008-09-23 00:57:00,train,sensor_431,6.5624,0,warning,rule3
+U1025,2008-09-23 06:44:00,train,sensor_059,-2.2191,0,warning,rule4
+U1024,2008-09-23 06:44:00,train,sensor_103,-0.0112,0,warning,rule4
+U1025,2008-09-23 06:44:00,train,sensor_103,-0.0103,0,warning,rule4
+U1024,2008-09-23 06:44:00,train,sensor_129,-2.93,0,warning,"rule3, rule4"
+U1025,2008-09-23 06:44:00,train,sensor_129,-2.789,0,warning,"rule3, rule4"
+U1024,2008-09-23 06:44:00,train,sensor_431,15.4421,0,warning,rule4
+U1025,2008-09-23 06:44:00,train,sensor_431,9.8703,0,warning,rule4
+U1026,2008-09-23 06:52:00,train,sensor_103,-0.0136,0,warning,rule4
+U1026,2008-09-23 06:52:00,train,sensor_129,0.0,0,warning,rule3
+U1026,2008-09-23 06:52:00,train,sensor_431,8.5065,0,warning,rule4
+U1027,2008-09-23 07:58:00,train,sensor_103,-0.0104,0,warning,rule4
+U1027,2008-09-23 07:58:00,train,sensor_129,-3.119,0,warning,rule3
+U1027,2008-09-23 07:58:00,train,sensor_431,7.2677,0,warning,rule4
+U1028,2008-09-23 08:11:00,train,sensor_103,-0.0126,0,warning,rule4
+U1028,2008-09-23 08:11:00,train,sensor_129,-3.119,0,warning,rule3
+U1028,2008-09-23 08:11:00,train,sensor_431,8.7687,0,warning,rule4
+U1029,2008-09-23 09:43:00,train,sensor_103,-0.0111,0,warning,rule4
+U1029,2008-09-23 09:43:00,train,sensor_129,-3.119,0,warning,rule3
+U1029,2008-09-23 09:43:00,train,sensor_431,12.5622,0,warning,rule4
+U1030,2008-09-23 11:14:00,train,sensor_103,-0.014,1,warning,rule4
+U1030,2008-09-23 11:14:00,train,sensor_431,7.4284,1,warning,"rule3, rule4"
+U1031,2008-09-23 11:42:00,train,sensor_103,-0.0117,0,warning,rule4
+U1031,2008-09-23 11:42:00,train,sensor_431,15.813,0,warning,rule4
+U1032,2008-09-23 11:43:00,train,sensor_103,-0.0146,0,warning,rule4
+U1033,2008-09-23 12:29:00,train,sensor_103,-0.0129,0,warning,rule4
+U1034,2008-09-23 12:31:00,train,sensor_059,-5.4691,0,warning,rule4
+U1034,2008-09-23 12:31:00,train,sensor_079,-0.0119,0,warning,rule4
+U1035,2008-09-23 12:46:00,train,sensor_059,-2.1,0,warning,rule4
+U1035,2008-09-23 12:46:00,train,sensor_079,0.0011,0,warning,rule4
+U1036,2008-09-23 13:37:00,train,sensor_059,-1.9827,0,warning,rule4
+U1036,2008-09-23 13:37:00,train,sensor_079,-0.0247,0,warning,rule4
+U1036,2008-09-23 13:37:00,train,sensor_103,-0.0137,0,warning,rule3
+U1036,2008-09-23 13:37:00,train,sensor_510,29.927,0,warning,rule3
+U1037,2008-09-23 15:23:00,train,sensor_059,-1.0545,0,warning,rule4
+U1037,2008-09-23 15:23:00,train,sensor_079,-0.0036,0,warning,rule4
+U1037,2008-09-23 15:23:00,train,sensor_510,23.0415,0,warning,rule3
+U1038,2008-09-23 15:33:00,train,sensor_059,-3.2055,0,warning,rule4
+U1038,2008-09-23 15:33:00,train,sensor_079,-0.0196,0,warning,rule4
+U1038,2008-09-23 15:33:00,train,sensor_510,38.5633,0,warning,rule3
+U1039,2008-09-23 15:58:00,train,sensor_079,-0.0125,0,warning,rule4
+U1039,2008-09-23 15:58:00,train,sensor_510,47.7752,0,warning,rule4
+U1040,2008-09-23 18:10:00,train,sensor_079,-0.0016,0,warning,rule4
+U1040,2008-09-23 18:10:00,train,sensor_431,14.359,0,warning,rule4
+U1040,2008-09-23 18:10:00,train,sensor_510,27.464,0,warning,rule4
+U1041,2008-09-23 18:36:00,train,sensor_431,8.6034,0,warning,rule4
+U1041,2008-09-23 18:36:00,train,sensor_510,39.708,0,warning,rule4
+U1042,2008-09-23 18:56:00,train,sensor_059,-3.2945,0,warning,rule3
+U1042,2008-09-23 18:56:00,train,sensor_163,0.134,0,warning,rule4
+U1042,2008-09-23 18:56:00,train,sensor_510,38.6617,0,warning,rule4
+U1043,2008-09-23 20:18:00,train,sensor_129,-3.449,0,warning,rule3
+U1043,2008-09-23 20:18:00,train,sensor_163,0.194,0,warning,rule4
+U1043,2008-09-23 20:18:00,train,sensor_510,32.9614,0,warning,rule4
+U1044,2008-09-23 20:59:00,train,sensor_129,-2.364,0,warning,rule3
+U1044,2008-09-23 20:59:00,train,sensor_510,26.5836,0,warning,rule4
+U1048,2008-09-24 02:44:00,train,sensor_079,-0.0289,0,warning,rule3
+U1051,2008-09-24 05:13:00,train,sensor_079,-0.0009,0,warning,rule4
+U1052,2008-09-24 05:22:00,train,sensor_079,-0.0146,0,warning,rule4
+U1053,2008-09-24 06:13:00,train,sensor_079,-0.0127,0,warning,rule4
+U1054,2008-09-24 06:14:00,train,sensor_079,-0.0099,0,warning,rule4
+U1055,2008-09-24 07:23:00,train,sensor_079,-0.0032,0,warning,rule4
+U1056,2008-09-24 10:10:00,train,sensor_021,-5358.5,0,warning,rule4
+U1056,2008-09-24 10:10:00,train,sensor_079,-0.025,0,warning,rule4
+U1057,2008-09-24 10:53:00,train,sensor_021,-5479.25,0,warning,rule4
+U1057,2008-09-24 10:53:00,train,sensor_059,-0.5327,0,warning,rule4
+U1057,2008-09-24 10:53:00,train,sensor_079,-0.0032,0,warning,rule4
+U1058,2008-09-24 10:59:00,train,sensor_021,-5278.0,0,warning,rule4
+U1058,2008-09-24 10:59:00,train,sensor_059,-1.0827,0,warning,rule4
+U1058,2008-09-24 10:59:00,train,sensor_079,-0.0043,0,warning,rule4
+U1058,2008-09-24 10:59:00,train,sensor_103,-0.0133,0,warning,rule4
+U1059,2008-09-24 11:47:00,train,sensor_059,-0.3727,0,warning,rule4
+U1059,2008-09-24 11:47:00,train,sensor_079,-0.0021,0,warning,rule4
+U1059,2008-09-24 11:47:00,train,sensor_103,-0.0179,0,warning,"rule3, rule4"
+U1059,2008-09-24 11:47:00,train,sensor_129,-3.779,0,alarm,rule2
+U1060,2008-09-24 12:04:00,train,sensor_059,-1.0473,0,warning,rule4
+U1060,2008-09-24 12:04:00,train,sensor_079,-0.0182,0,warning,rule4
+U1060,2008-09-24 12:04:00,train,sensor_103,-0.0131,0,warning,"rule3, rule4"
+U1060,2008-09-24 12:04:00,train,sensor_129,0.0,0,alarm,rule2
+U1061,2008-09-24 12:35:00,train,sensor_059,0.9736,0,warning,rule4
+U1061,2008-09-24 12:35:00,train,sensor_079,-0.0194,0,warning,rule4
+U1061,2008-09-24 12:35:00,train,sensor_103,-0.0139,0,warning,"rule3, rule4"
+U1061,2008-09-24 12:35:00,train,sensor_510,30.2976,0,warning,rule4
+U1062,2008-09-24 13:01:00,train,sensor_059,-3.9509,0,warning,rule4
+U1062,2008-09-24 13:01:00,train,sensor_079,-0.0125,0,warning,rule4
+U1062,2008-09-24 13:01:00,train,sensor_103,-0.0147,0,warning,"rule3, rule4"
+U1062,2008-09-24 13:01:00,train,sensor_510,19.0476,0,warning,rule4
+U1063,2008-09-24 15:05:00,train,sensor_028,72.2333,1,warning,rule4
+U1063,2008-09-24 15:05:00,train,sensor_059,1.0027,1,warning,rule4
+U1063,2008-09-24 15:05:00,train,sensor_079,-0.0012,1,warning,rule4
+U1063,2008-09-24 15:05:00,train,sensor_103,-0.0139,1,warning,"rule3, rule4"
+U1063,2008-09-24 15:05:00,train,sensor_431,3.9883,1,warning,rule4
+U1063,2008-09-24 15:05:00,train,sensor_510,38.9189,1,warning,rule4
+U1064,2008-09-24 15:39:00,train,sensor_028,73.9778,0,warning,rule4
+U1064,2008-09-24 15:39:00,train,sensor_079,-0.0236,0,warning,rule4
+U1064,2008-09-24 15:39:00,train,sensor_103,-0.0093,0,warning,rule3
+U1064,2008-09-24 15:39:00,train,sensor_431,7.325,0,warning,rule4
+U1065,2008-09-24 15:42:00,train,sensor_028,74.0556,0,warning,"rule3, rule4"
+U1065,2008-09-24 15:42:00,train,sensor_079,-0.016,0,warning,rule4
+U1065,2008-09-24 15:42:00,train,sensor_103,-0.0151,0,warning,rule3
+U1066,2008-09-24 15:43:00,train,sensor_079,-0.0101,0,warning,rule4
+U1067,2008-09-24 16:26:00,train,sensor_079,-0.0369,0,warning,rule4
+U1068,2008-09-24 17:54:00,train,sensor_079,-0.0034,0,warning,rule4
+U1069,2008-09-24 18:05:00,train,sensor_079,0.001,0,warning,rule4
+U1069,2008-09-24 18:05:00,train,sensor_129,-2.553,0,warning,rule3
+U1070,2008-09-25 01:05:00,train,sensor_079,-0.0044,0,warning,rule4
+U1071,2008-09-25 02:03:00,train,sensor_079,-0.0119,0,warning,rule4
+U1072,2008-09-25 06:21:00,train,sensor_079,-0.0254,0,warning,rule4
+U1072,2008-09-25 06:21:00,train,sensor_129,-3.072,0,warning,"rule3, rule4"
+U1073,2008-09-25 07:12:00,train,sensor_079,-0.0177,0,warning,rule4
+U1073,2008-09-25 07:12:00,train,sensor_129,-2.505,0,warning,"rule3, rule4"
+U1074,2008-09-25 07:58:00,train,sensor_079,-0.0068,0,warning,rule4
+U1074,2008-09-25 07:58:00,train,sensor_129,-2.458,0,warning,rule4
+U1075,2008-09-25 08:45:00,train,sensor_079,-0.0005,0,warning,rule4
+U1075,2008-09-25 08:45:00,train,sensor_129,-2.553,0,warning,"rule3, rule4"
+U1076,2008-09-25 09:31:00,train,sensor_079,-0.0313,0,warning,rule4
+U1076,2008-09-25 09:31:00,train,sensor_129,-2.458,0,warning,rule4
+U1076,2008-09-25 09:31:00,train,sensor_510,19.6118,0,warning,rule4
+U1077,2008-09-25 10:23:00,train,sensor_079,-0.0197,0,warning,rule4
+U1077,2008-09-25 10:23:00,train,sensor_129,-2.553,0,warning,rule4
+U1077,2008-09-25 10:23:00,train,sensor_510,43.7557,0,warning,rule4
+U1078,2008-09-25 11:08:00,train,sensor_059,-2.9718,0,warning,rule3
+U1078,2008-09-25 11:08:00,train,sensor_129,-2.6,0,warning,rule4
+U1078,2008-09-25 11:08:00,train,sensor_510,21.6008,0,warning,rule4
+U1079,2008-09-25 11:09:00,train,sensor_129,-2.222,0,warning,rule4
+U1079,2008-09-25 11:09:00,train,sensor_510,25.3365,0,warning,"rule3, rule4"
+U1080,2008-09-25 11:55:00,train,sensor_079,-0.021,0,warning,rule3
+U1080,2008-09-25 11:55:00,train,sensor_103,-0.0184,0,alarm,"rule2, rule3"
+U1080,2008-09-25 11:55:00,train,sensor_129,-2.175,0,warning,rule4
+U1080,2008-09-25 11:55:00,train,sensor_510,37.032,0,warning,rule4
+U1081,2008-09-25 13:42:00,train,sensor_079,-0.0308,0,warning,rule3
+U1081,2008-09-25 13:42:00,train,sensor_103,-0.0094,0,alarm,"rule2, rule3"
+U1081,2008-09-25 13:42:00,train,sensor_129,-2.175,0,warning,rule4
+U1081,2008-09-25 13:42:00,train,sensor_510,26.455,0,warning,rule4
+U1082,2008-09-25 14:08:00,train,sensor_079,-0.0171,0,warning,rule3
+U1082,2008-09-25 14:08:00,train,sensor_129,-2.08,0,warning,rule4
+U1082,2008-09-25 14:08:00,train,sensor_431,2.4444,0,alarm,rule2
+U1082,2008-09-25 14:08:00,train,sensor_510,35.122,0,warning,rule4
+U1083,2008-09-25 14:28:00,train,sensor_079,-0.034,0,warning,rule3
+U1083,2008-09-25 14:28:00,train,sensor_129,-2.6,0,warning,rule4
+U1083,2008-09-25 14:28:00,train,sensor_431,16.5562,0,alarm,rule2
+U1083,2008-09-25 14:28:00,train,sensor_510,45.4115,0,warning,rule4
+U1084,2008-09-25 15:12:00,train,sensor_079,-0.0146,0,warning,rule3
+U1084,2008-09-25 15:12:00,train,sensor_129,-2.505,0,warning,rule4
+U1085,2008-09-25 15:40:00,train,sensor_129,-2.08,0,warning,rule4
+U1086,2008-09-25 15:55:00,train,sensor_129,-2.553,0,warning,rule4
+U1087,2008-09-25 16:44:00,train,sensor_129,-2.505,0,warning,"rule3, rule4"
+U1087,2008-09-25 16:44:00,train,sensor_431,10.7825,0,warning,rule4
+U1088,2008-09-25 17:28:00,train,sensor_129,-2.505,0,warning,"rule3, rule4"
+U1088,2008-09-25 17:28:00,train,sensor_431,8.4502,0,warning,rule4
+U1089,2008-09-25 17:29:00,train,sensor_129,-2.175,0,warning,rule4
+U1089,2008-09-25 17:29:00,train,sensor_431,9.3059,0,warning,rule4
+U1089,2008-09-25 17:29:00,train,sensor_510,27.4779,0,warning,rule3
+U1090,2008-09-25 19:49:00,train,sensor_129,-2.175,0,warning,rule4
+U1090,2008-09-25 19:49:00,train,sensor_431,14.318,0,warning,rule4
+U1091,2008-09-25 22:05:00,train,sensor_103,-0.0129,0,warning,rule3
+U1091,2008-09-25 22:05:00,train,sensor_129,-2.08,0,warning,rule4
+U1092,2008-09-25 23:04:00,train,sensor_129,-2.647,0,warning,rule4
+U1093,2008-09-25 23:48:00,train,sensor_129,-2.647,0,warning,rule4
+U1094,2008-09-26 00:19:00,train,sensor_129,-2.647,0,warning,rule4
+U1095,2008-09-26 01:21:00,train,sensor_129,-2.647,0,warning,"rule3, rule4"
+U1096,2008-09-26 02:26:00,train,sensor_103,-0.0113,0,warning,rule4
+U1096,2008-09-26 02:26:00,train,sensor_129,-2.647,0,warning,"rule3, rule4"
+U1097,2008-09-26 03:12:00,train,sensor_103,-0.014,0,warning,rule4
+U1097,2008-09-26 03:12:00,train,sensor_129,-3.025,0,warning,"rule3, rule4"
+U1098,2008-09-26 03:29:00,train,sensor_103,-0.0144,0,warning,rule4
+U1098,2008-09-26 03:29:00,train,sensor_129,-2.505,0,warning,"rule3, rule4"
+U1099,2008-09-26 04:14:00,train,sensor_129,-2.317,0,warning,"rule3, rule4"
+U1100,2008-09-26 05:32:00,train,sensor_059,-4.1018,0,warning,rule3
+U1100,2008-09-26 05:32:00,train,sensor_129,-2.505,0,warning,"rule3, rule4"
+U1101,2008-09-26 11:08:00,train,sensor_129,-2.647,0,warning,"rule3, rule4"
+U1102,2008-09-26 13:36:00,train,sensor_129,-1.797,0,warning,rule4
+U1103,2008-09-26 13:45:00,train,sensor_129,-2.175,0,warning,rule4
+U1104,2008-09-26 14:20:00,train,sensor_079,-0.0119,0,warning,rule4
+U1104,2008-09-26 14:20:00,train,sensor_129,-2.175,0,warning,rule4
+U1105,2008-09-26 14:51:00,train,sensor_079,-0.0089,0,warning,rule4
+U1105,2008-09-26 14:51:00,train,sensor_129,-2.505,0,warning,rule4
+U1106,2008-09-26 15:06:00,train,sensor_079,-0.0001,0,warning,rule4
+U1106,2008-09-26 15:06:00,train,sensor_129,-2.458,0,warning,rule4
+U1107,2008-09-26 15:36:00,train,sensor_028,73.5778,0,warning,rule4
+U1107,2008-09-26 15:36:00,train,sensor_079,-0.0187,0,warning,rule4
+U1107,2008-09-26 15:36:00,train,sensor_129,-3.072,0,warning,rule4
+U1108,2008-09-26 15:49:00,train,sensor_079,-0.0128,0,warning,rule4
+U1108,2008-09-26 15:49:00,train,sensor_129,-2.6,0,warning,rule4
+U1108,2008-09-26 15:49:00,train,sensor_430,19.5648,0,warning,rule4
+U1109,2008-09-26 16:31:00,train,sensor_079,-0.0143,0,warning,rule4
+U1109,2008-09-26 16:31:00,train,sensor_129,-1.797,0,warning,rule4
+U1110,2008-09-26 17:59:00,train,sensor_079,-0.0125,0,warning,rule4
+U1110,2008-09-26 17:59:00,train,sensor_129,-2.505,0,warning,rule4
+U1111,2008-09-26 18:54:00,train,sensor_059,-9.1,0,warning,rule3
+U1111,2008-09-26 18:54:00,train,sensor_079,-0.0017,0,warning,rule4
+U1111,2008-09-26 18:54:00,train,sensor_129,-2.553,0,warning,"rule3, rule4"
+U1112,2008-09-26 19:38:00,train,sensor_079,0.0007,0,warning,rule4
+U1112,2008-09-26 19:38:00,train,sensor_129,-2.6,0,warning,"rule3, rule4"
+U1113,2008-09-26 19:45:00,train,sensor_079,-0.0079,0,warning,rule4
+U1113,2008-09-26 19:45:00,train,sensor_129,-3.025,0,warning,"rule3, rule4"
+U1114,2008-09-26 19:55:00,train,sensor_079,-0.0359,0,warning,rule4
+U1114,2008-09-26 19:55:00,train,sensor_129,-2.6,0,warning,"rule3, rule4"
+U1115,2008-09-26 20:23:00,train,sensor_129,-2.553,0,warning,"rule3, rule4"
+U1116,2008-09-26 20:31:00,train,sensor_129,-3.025,0,warning,"rule3, rule4"
+U1117,2008-09-27 00:16:00,train,sensor_129,-1.939,0,warning,"rule3, rule4"
+U1118,2008-09-27 00:17:00,train,sensor_129,-2.505,0,warning,"rule3, rule4"
+U1119,2008-09-27 01:29:00,train,sensor_129,-2.08,0,warning,rule4
+U1120,2008-09-27 03:53:00,train,sensor_129,-2.458,0,warning,rule4
+U1121,2008-09-27 10:10:00,train,sensor_129,-2.317,0,warning,rule4
+U1122,2008-09-27 10:13:00,train,sensor_028,77.0889,0,alarm,rule1
+U1122,2008-09-27 10:13:00,train,sensor_103,-0.0114,0,warning,rule4
+U1122,2008-09-27 10:13:00,train,sensor_129,-2.458,0,warning,rule4
+U1123,2008-09-27 11:04:00,train,sensor_103,-0.0138,0,warning,rule4
+U1123,2008-09-27 11:04:00,train,sensor_129,-3.072,0,warning,rule4
+U1124,2008-09-27 11:45:00,train,sensor_103,-0.0122,0,warning,rule4
+U1124,2008-09-27 11:45:00,train,sensor_129,-2.08,0,warning,rule4
+U1125,2008-09-27 11:54:00,train,sensor_129,-2.08,0,warning,rule4
+U1126,2008-09-27 12:26:00,train,sensor_129,-3.025,0,warning,rule4
+U1127,2008-09-27 12:28:00,train,sensor_129,-2.505,0,warning,rule4
+U1128,2008-09-27 12:36:00,train,sensor_129,-3.072,0,warning,rule4
+U1128,2008-09-27 12:36:00,train,sensor_163,0.129,0,warning,rule4
+U1129,2008-09-27 13:14:00,train,sensor_028,72.9556,0,warning,rule3
+U1129,2008-09-27 13:14:00,train,sensor_129,-2.458,0,warning,rule4
+U1130,2008-09-27 13:19:00,train,sensor_059,-0.4682,0,warning,rule4
+U1130,2008-09-27 13:19:00,train,sensor_079,-0.0192,0,warning,rule3
+U1130,2008-09-27 13:19:00,train,sensor_129,-2.647,0,warning,"rule3, rule4"
+U1131,2008-09-27 14:01:00,train,sensor_059,-4.7991,0,warning,rule4
+U1131,2008-09-27 14:01:00,train,sensor_079,0.0028,0,warning,rule3
+U1131,2008-09-27 14:01:00,train,sensor_129,-1.939,0,warning,rule4
+U1132,2008-09-27 14:05:00,train,sensor_059,-0.0073,0,warning,rule4
+U1132,2008-09-27 14:05:00,train,sensor_129,-2.458,0,warning,rule4
+U1133,2008-09-27 14:46:00,train,sensor_059,-2.5436,0,warning,rule4
+U1133,2008-09-27 14:46:00,train,sensor_103,-0.0131,0,warning,rule4
+U1133,2008-09-27 14:46:00,train,sensor_129,-2.08,0,warning,rule4
+U1134,2008-09-27 15:09:00,train,sensor_103,-0.0103,0,warning,rule4
+U1134,2008-09-27 15:09:00,train,sensor_129,-2.458,0,warning,rule4
+U1135,2008-09-27 15:30:00,train,sensor_103,-0.0145,0,warning,rule4
+U1135,2008-09-27 15:30:00,train,sensor_129,-1.797,0,warning,rule4
+U1136,2008-09-27 16:13:00,train,sensor_103,-0.0116,0,warning,rule4
+U1136,2008-09-27 16:13:00,train,sensor_129,-2.175,0,warning,rule4
+U1137,2008-09-27 17:26:00,train,sensor_103,-0.0111,0,warning,rule4
+U1137,2008-09-27 17:26:00,train,sensor_129,-2.08,0,warning,rule4
+U1138,2008-09-27 18:14:00,train,sensor_103,-0.0103,0,warning,rule4
+U1138,2008-09-27 18:14:00,train,sensor_129,-2.6,0,warning,rule4
+U1139,2008-09-27 19:16:00,train,sensor_079,-0.0161,0,warning,rule3
+U1139,2008-09-27 19:16:00,train,sensor_103,-0.0134,0,warning,rule4
+U1139,2008-09-27 19:16:00,train,sensor_129,-2.317,0,warning,rule4
+U1140,2008-09-27 20:46:00,train,sensor_103,-0.0125,0,warning,rule4
+U1140,2008-09-27 20:46:00,train,sensor_129,-3.025,0,warning,rule4
+U1141,2008-09-27 21:45:00,train,sensor_079,-0.0116,0,warning,rule4
+U1141,2008-09-27 21:45:00,train,sensor_129,-2.6,0,warning,rule4
+U1142,2008-09-28 00:51:00,train,sensor_079,-0.0051,0,warning,rule4
+U1142,2008-09-28 00:51:00,train,sensor_129,-1.939,0,warning,rule4
+U1143,2008-09-28 01:22:00,train,sensor_079,-0.0051,0,warning,rule4
+U1143,2008-09-28 01:22:00,train,sensor_129,-2.789,0,warning,rule4
+U1144,2008-09-28 03:55:00,train,sensor_079,-0.03,0,warning,rule4
+U1144,2008-09-28 03:55:00,train,sensor_129,-2.553,0,warning,"rule3, rule4"
+U1145,2008-09-28 04:45:00,train,sensor_059,-5.3318,1,warning,rule3
+U1145,2008-09-28 04:45:00,train,sensor_129,-2.08,1,warning,rule4
+U1146,2008-09-28 05:31:00,train,sensor_129,-2.458,0,warning,rule4
+U1147,2008-09-28 06:22:00,train,sensor_059,-4.8382,0,warning,rule3
+U1147,2008-09-28 06:22:00,train,sensor_129,-2.08,0,warning,rule4
+U1148,2008-09-28 07:38:00,train,sensor_129,-2.458,0,warning,rule4
+U1149,2008-09-28 07:52:00,train,sensor_129,-2.789,0,warning,rule4
+U1150,2008-09-28 08:40:00,train,sensor_059,-0.1545,0,warning,rule4
+U1151,2008-09-28 08:41:00,train,sensor_059,-1.6864,0,warning,rule4
+U1151,2008-09-28 08:41:00,train,sensor_103,-0.0148,0,alarm,rule2
+U1151,2008-09-28 08:41:00,train,sensor_510,23.569,0,warning,rule3
+U1152,2008-09-28 09:50:00,train,sensor_059,-0.8218,1,warning,rule4
+U1152,2008-09-28 09:50:00,train,sensor_103,0.0062,1,alarm,"rule1, rule2"
+U1153,2008-09-28 17:05:00,train,sensor_129,-2.647,0,warning,rule3
+U1154,2008-09-28 17:06:00,train,sensor_129,-2.647,0,warning,rule3
+U1155,2008-09-28 17:49:00,train,sensor_129,-1.986,0,warning,rule3
+U1156,2008-09-28 17:55:00,train,sensor_028,69.1556,0,warning,rule4
+U1156,2008-09-28 17:55:00,train,sensor_129,-2.647,0,warning,rule3
+U1157,2008-09-28 18:34:00,train,sensor_129,-2.647,0,warning,rule3
+U1159,2008-09-28 19:18:00,train,sensor_079,-0.042,0,warning,rule3
+U1166,2008-09-28 23:54:00,train,sensor_510,15.2493,0,warning,rule3
+U1167,2008-09-29 02:06:00,train,sensor_129,-2.694,0,warning,rule4
+U1167,2008-09-29 02:06:00,train,sensor_510,37.0291,0,warning,rule3
+U1168,2008-09-29 03:07:00,train,sensor_129,-2.033,0,warning,rule4
+U1169,2008-09-29 03:50:00,train,sensor_129,-2.694,0,warning,rule4
+U1170,2008-09-29 04:18:00,train,sensor_103,-0.0128,0,warning,"rule3, rule4"
+U1170,2008-09-29 04:18:00,train,sensor_510,40.6647,0,warning,rule4
+U1171,2008-09-29 04:47:00,train,sensor_103,-0.0141,0,warning,"rule3, rule4"
+U1171,2008-09-29 04:47:00,train,sensor_510,27.758,0,warning,rule4
+U1172,2008-09-29 05:32:00,train,sensor_103,-0.0093,0,warning,rule3
+U1172,2008-09-29 05:32:00,train,sensor_431,12.6238,0,warning,rule4
+U1173,2008-09-29 07:53:00,train,sensor_103,-0.0147,0,warning,rule3
+U1177,2008-09-29 12:25:00,test,sensor_103,-0.0145,0,warning,rule3
+U1178,2008-09-29 14:03:00,test,sensor_103,-0.0127,0,warning,rule3
+U1179,2008-09-29 14:04:00,test,sensor_103,-0.0132,0,warning,rule3
+U1180,2008-09-29 14:08:00,test,sensor_103,-0.0152,0,warning,rule3
+U1181,2008-09-29 15:09:00,test,sensor_021,-5418.25,0,warning,rule4
+U1181,2008-09-29 15:09:00,test,sensor_103,-0.0107,0,warning,rule3
+U1182,2008-09-29 15:16:00,test,sensor_021,-5343.75,0,warning,rule4
+U1182,2008-09-29 15:16:00,test,sensor_103,-0.0129,0,warning,"rule3, rule4"
+U1182,2008-09-29 15:16:00,test,sensor_510,23.3236,0,warning,rule4
+U1183,2008-09-29 16:27:00,test,sensor_103,-0.012,0,warning,rule4
+U1183,2008-09-29 16:27:00,test,sensor_129,-2.742,0,warning,rule4
+U1184,2008-09-29 17:21:00,test,sensor_079,-0.0218,0,warning,rule3
+U1184,2008-09-29 17:21:00,test,sensor_103,-0.0141,0,warning,rule4
+U1184,2008-09-29 17:21:00,test,sensor_129,-2.694,0,warning,rule4
+U1185,2008-09-29 21:26:00,test,sensor_079,-0.037,0,alarm,"rule2, rule3"
+U1185,2008-09-29 21:26:00,test,sensor_129,-1.088,0,warning,rule4
+U1186,2008-09-29 21:48:00,test,sensor_079,-0.032,1,warning,"rule3, rule4"
+U1186,2008-09-29 21:48:00,test,sensor_129,-2.742,1,warning,rule4
+U1187,2008-09-29 22:13:00,test,sensor_079,0.0064,0,warning,rule3
+U1187,2008-09-29 22:13:00,test,sensor_129,-2.222,0,warning,rule4
+U1188,2008-09-30 01:33:00,test,sensor_079,-0.0198,0,warning,rule3
+U1188,2008-09-30 01:33:00,test,sensor_129,-2.694,0,warning,rule4
+U1189,2008-09-30 01:36:00,test,sensor_129,-1.939,0,warning,rule4
+U1190,2008-09-30 02:44:00,test,sensor_129,-2.742,1,warning,rule4
+U1193,2008-09-30 08:44:00,test,sensor_103,-0.0131,0,warning,rule3
+U1195,2008-09-30 13:29:00,test,sensor_079,-0.0303,0,warning,rule4
+U1196,2008-09-30 14:20:00,test,sensor_079,-0.0294,0,warning,"rule3, rule4"
+U1197,2008-09-30 14:36:00,test,sensor_028,72.7778,0,warning,rule3
+U1197,2008-09-30 14:36:00,test,sensor_079,-0.0093,0,warning,rule4
+U1198,2008-09-30 15:16:00,test,sensor_079,-0.0236,0,warning,rule4
+U1199,2008-09-30 15:26:00,test,sensor_028,77.3444,0,alarm,"rule1, rule3"
+U1199,2008-09-30 15:26:00,test,sensor_079,-0.021,0,warning,"rule3, rule4"
+U1200,2008-09-30 16:13:00,test,sensor_028,75.2556,0,warning,rule3
+U1200,2008-09-30 16:13:00,test,sensor_079,-0.0139,0,warning,rule4
+U1201,2008-09-30 16:50:00,test,sensor_028,75.3667,0,warning,rule3
+U1201,2008-09-30 16:50:00,test,sensor_079,-0.0406,0,warning,rule4
+U1202,2008-09-30 17:27:00,test,sensor_079,-0.0184,0,warning,"rule3, rule4"
+U1203,2008-09-30 19:17:00,test,sensor_028,76.3222,0,warning,rule3
+U1204,2008-09-30 19:17:00,test,sensor_028,74.0111,0,warning,rule3
+U1203,2008-09-30 19:17:00,test,sensor_079,-0.0385,0,alarm,"rule2, rule3, rule4"
+U1204,2008-09-30 19:17:00,test,sensor_079,-0.0369,0,alarm,"rule2, rule3, rule4"
+U1203,2008-09-30 19:17:00,test,sensor_163,0.25,0,warning,rule3
+U1205,2008-09-30 21:39:00,test,sensor_079,-0.0044,0,alarm,"rule2, rule3, rule4"
+U1206,2008-09-30 21:42:00,test,sensor_129,-3.072,0,warning,rule3
+U1207,2008-09-30 23:34:00,test,sensor_129,-2.553,0,warning,rule3
+U1208,2008-09-30 23:58:00,test,sensor_129,-2.789,0,warning,rule3
+U1209,2008-10-01 00:20:00,test,sensor_129,-2.317,0,warning,rule3
+U1210,2008-10-01 01:11:00,test,sensor_129,-2.694,0,warning,rule3
+U1212,2008-10-01 05:56:00,test,sensor_129,-1.939,1,warning,rule4
+U1213,2008-10-01 07:19:00,test,sensor_079,-0.0229,0,warning,rule3
+U1213,2008-10-01 07:19:00,test,sensor_129,-0.2365,0,warning,rule4
+U1214,2008-10-01 07:28:00,test,sensor_079,-0.0307,0,warning,rule3
+U1214,2008-10-01 07:28:00,test,sensor_129,-0.2365,0,warning,rule4
+U1215,2008-10-01 08:15:00,test,sensor_079,-0.0237,0,warning,rule3
+U1215,2008-10-01 08:15:00,test,sensor_129,-0.2365,0,warning,rule4
+U1216,2008-10-01 09:15:00,test,sensor_079,-0.016,0,warning,"rule3, rule4"
+U1216,2008-10-01 09:15:00,test,sensor_129,-0.2365,0,warning,rule4
+U1217,2008-10-01 09:16:00,test,sensor_079,-0.0347,0,warning,"rule3, rule4"
+U1217,2008-10-01 09:16:00,test,sensor_129,-0.2365,0,warning,rule4
+U1218,2008-10-01 14:22:00,test,sensor_079,-0.0091,0,warning,"rule3, rule4"
+U1219,2008-10-01 15:16:00,test,sensor_059,-0.1545,0,warning,rule4
+U1219,2008-10-01 15:16:00,test,sensor_079,-0.049,0,alarm,"rule1, rule2, rule3, rule4"
+U1219,2008-10-01 15:16:00,test,sensor_103,-0.0056,0,warning,rule4
+U1220,2008-10-01 16:43:00,test,sensor_059,-1.4327,0,warning,rule4
+U1220,2008-10-01 16:43:00,test,sensor_079,-0.0222,0,warning,"rule3, rule4"
+U1221,2008-10-01 19:57:00,test,sensor_059,-5.65,0,warning,rule4
+U1221,2008-10-01 19:57:00,test,sensor_079,-0.0437,0,alarm,"rule2, rule3, rule4"
+U1222,2008-10-01 21:15:00,test,sensor_059,0.6573,0,warning,rule4
+U1222,2008-10-01 21:15:00,test,sensor_079,-0.0271,0,warning,"rule3, rule4"
+U1223,2008-10-01 21:50:00,test,sensor_028,74.0667,0,warning,rule3
+U1223,2008-10-01 21:50:00,test,sensor_059,-1.9727,0,warning,rule4
+U1223,2008-10-01 21:50:00,test,sensor_079,-0.0397,0,alarm,"rule2, rule3, rule4"
+U1224,2008-10-01 22:47:00,test,sensor_079,-0.0311,0,warning,"rule3, rule4"
+U1224,2008-10-01 22:47:00,test,sensor_431,8.2037,0,warning,rule3
+U1225,2008-10-01 23:34:00,test,sensor_079,-0.0185,0,warning,"rule3, rule4"
+U1225,2008-10-01 23:34:00,test,sensor_129,0.9934,0,warning,rule3
+U1226,2008-10-02 00:21:00,test,sensor_079,-0.0248,0,warning,"rule3, rule4"
+U1226,2008-10-02 00:21:00,test,sensor_129,0.9934,0,warning,rule3
+U1227,2008-10-02 00:22:00,test,sensor_079,-0.0342,0,warning,"rule3, rule4"
+U1227,2008-10-02 00:22:00,test,sensor_129,0.9934,0,warning,rule3
+U1228,2008-10-02 03:17:00,test,sensor_079,-0.0271,1,warning,"rule3, rule4"
+U1228,2008-10-02 03:17:00,test,sensor_129,0.2838,1,warning,"rule3, rule4"
+U1228,2008-10-02 03:17:00,test,sensor_163,0.151,1,warning,rule4
+U1229,2008-10-02 03:27:00,test,sensor_079,-0.0076,0,warning,"rule3, rule4"
+U1229,2008-10-02 03:27:00,test,sensor_129,-0.1419,0,warning,rule3
+U1229,2008-10-02 03:27:00,test,sensor_163,0.185,0,warning,rule4
+U1230,2008-10-02 04:11:00,test,sensor_079,-0.0297,0,warning,"rule3, rule4"
+U1230,2008-10-02 04:11:00,test,sensor_163,0.122,0,warning,rule4
+U1231,2008-10-02 04:23:00,test,sensor_079,-0.0392,0,warning,"rule3, rule4"
+U1232,2008-10-02 04:24:00,test,sensor_079,-0.0028,0,warning,rule4
+U1233,2008-10-02 06:49:00,test,sensor_079,-0.0398,0,alarm,"rule2, rule4"
+U1234,2008-10-02 07:35:00,test,sensor_079,-0.0211,0,warning,"rule3, rule4"
+U1235,2008-10-02 07:58:00,test,sensor_079,-0.0135,0,warning,rule4
+U1236,2008-10-02 08:24:00,test,sensor_079,-0.0218,0,warning,rule4
+U1236,2008-10-02 08:24:00,test,sensor_129,1.513,0,warning,rule3
+U1237,2008-10-02 08:52:00,test,sensor_079,-0.0365,0,warning,"rule3, rule4"
+U1238,2008-10-02 08:57:00,test,sensor_079,-0.0414,0,alarm,"rule2, rule3, rule4"
+U1239,2008-10-02 09:10:00,test,sensor_079,-0.0208,1,alarm,"rule2, rule3, rule4"
+U1240,2008-10-02 09:42:00,test,sensor_079,-0.0107,0,warning,"rule3, rule4"
+U1241,2008-10-02 10:03:00,test,sensor_079,-0.0156,0,warning,"rule3, rule4"
+U1242,2008-10-02 14:07:00,test,sensor_079,-0.0168,1,warning,"rule3, rule4"
+U1243,2008-10-02 14:10:00,test,sensor_079,-0.0224,1,warning,"rule3, rule4"
+U1244,2008-10-02 14:54:00,test,sensor_079,0.001,0,warning,rule4
+U1245,2008-10-02 15:10:00,test,sensor_021,-5324.5,0,warning,rule4
+U1245,2008-10-02 15:10:00,test,sensor_079,-0.0064,0,warning,rule4
+U1245,2008-10-02 15:10:00,test,sensor_129,1.419,0,alarm,"rule2, rule3"
+U1246,2008-10-02 15:44:00,test,sensor_079,-0.0408,0,warning,rule4
+U1246,2008-10-02 15:44:00,test,sensor_129,-2.033,0,alarm,"rule2, rule3"
+U1247,2008-10-02 15:58:00,test,sensor_079,0.0005,0,warning,rule4
+U1247,2008-10-02 15:58:00,test,sensor_129,0.5204,0,warning,rule3
+U1248,2008-10-02 16:32:00,test,sensor_079,0.0008,0,warning,rule4
+U1248,2008-10-02 16:32:00,test,sensor_129,1.419,0,warning,rule3
+U1248,2008-10-02 16:32:00,test,sensor_431,11.9236,0,warning,rule4
+U1249,2008-10-02 16:58:00,test,sensor_079,-0.0332,0,warning,rule4
+U1249,2008-10-02 16:58:00,test,sensor_129,1.419,0,alarm,"rule2, rule3"
+U1250,2008-10-02 17:00:00,test,sensor_079,-0.0156,0,warning,rule4
+U1250,2008-10-02 17:00:00,test,sensor_129,1.419,0,alarm,"rule2, rule3"
+U1251,2008-10-02 17:19:00,test,sensor_079,0.0028,0,warning,rule4
+U1251,2008-10-02 17:19:00,test,sensor_129,1.513,0,alarm,"rule2, rule3"
+U1252,2008-10-02 19:21:00,test,sensor_079,-0.0006,0,warning,rule4
+U1252,2008-10-02 19:21:00,test,sensor_129,1.419,0,alarm,"rule2, rule3"
+U1253,2008-10-02 19:25:00,test,sensor_079,-0.0236,0,warning,rule4
+U1253,2008-10-02 19:25:00,test,sensor_129,1.513,0,alarm,"rule2, rule3"
+U1254,2008-10-02 20:54:00,test,sensor_079,-0.005,0,warning,rule4
+U1254,2008-10-02 20:54:00,test,sensor_129,0.5204,0,alarm,"rule2, rule3, rule4"
+U1255,2008-10-02 21:32:00,test,sensor_079,-0.0132,1,warning,rule4
+U1255,2008-10-02 21:32:00,test,sensor_129,0.5204,1,warning,"rule3, rule4"
+U1256,2008-10-02 21:33:00,test,sensor_079,-0.0028,0,warning,rule4
+U1256,2008-10-02 21:33:00,test,sensor_129,0.5204,0,warning,"rule3, rule4"
+U1256,2008-10-02 21:33:00,test,sensor_430,19.1393,0,warning,rule4
+U1257,2008-10-02 22:23:00,test,sensor_079,0.0021,0,warning,rule4
+U1257,2008-10-02 22:23:00,test,sensor_129,1.419,0,warning,"rule3, rule4"
+U1257,2008-10-02 22:23:00,test,sensor_430,20.9518,0,warning,rule4
+U1258,2008-10-02 22:33:00,test,sensor_079,-0.0043,0,warning,rule4
+U1258,2008-10-02 22:33:00,test,sensor_129,0.5204,0,warning,"rule3, rule4"
+U1258,2008-10-02 22:33:00,test,sensor_430,11.4658,0,warning,rule4
+U1260,2008-10-02 23:32:00,test,sensor_079,-0.0039,0,warning,rule4
+U1259,2008-10-02 23:32:00,test,sensor_079,-0.0046,0,warning,rule4
+U1260,2008-10-02 23:32:00,test,sensor_129,-0.5204,0,warning,rule3
+U1259,2008-10-02 23:32:00,test,sensor_129,0.5204,0,warning,rule3
+U1260,2008-10-02 23:32:00,test,sensor_430,31.5353,0,warning,rule4
+U1261,2008-10-03 00:24:00,test,sensor_079,-0.0102,0,warning,rule4
+U1262,2008-10-03 00:55:00,test,sensor_079,-0.0034,0,warning,rule4
+U1263,2008-10-03 02:41:00,test,sensor_079,-0.0276,0,warning,rule4
+U1264,2008-10-03 03:52:00,test,sensor_079,-0.0022,0,warning,rule4
+U1264,2008-10-03 03:52:00,test,sensor_129,1.419,0,alarm,"rule2, rule3"
+U1265,2008-10-03 03:56:00,test,sensor_129,1.419,0,alarm,"rule2, rule3"
+U1266,2008-10-03 04:49:00,test,sensor_129,1.419,0,alarm,"rule2, rule3"
+U1267,2008-10-03 05:01:00,test,sensor_129,1.419,0,alarm,"rule2, rule3"
+U1268,2008-10-03 05:45:00,test,sensor_129,0.5204,0,alarm,"rule2, rule3"
+U1269,2008-10-03 06:15:00,test,sensor_129,0.5204,0,warning,"rule3, rule4"
+U1270,2008-10-03 08:35:00,test,sensor_129,0.9461,0,warning,"rule3, rule4"
+U1271,2008-10-03 09:30:00,test,sensor_129,-0.7569,0,warning,rule3
+U1273,2008-10-03 12:31:00,test,sensor_079,-0.012,0,warning,rule4
+U1274,2008-10-03 18:45:00,test,sensor_079,-0.0336,0,warning,rule4
+U1274,2008-10-03 18:45:00,test,sensor_129,2.458,0,alarm,rule1
+U1274,2008-10-03 18:45:00,test,sensor_163,0.193,0,warning,rule3
+U1275,2008-10-03 19:23:00,test,sensor_079,-0.0243,0,warning,rule4
+U1276,2008-10-03 19:23:00,test,sensor_079,-0.0142,0,warning,rule4
+U1275,2008-10-03 19:23:00,test,sensor_129,2.458,0,alarm,"rule1, rule2"
+U1276,2008-10-03 19:23:00,test,sensor_129,2.458,0,alarm,"rule1, rule2"
+U1275,2008-10-03 19:23:00,test,sensor_163,0.126,0,warning,"rule3, rule4"
+U1276,2008-10-03 19:23:00,test,sensor_163,0.16,0,warning,rule4
+U1277,2008-10-03 20:11:00,test,sensor_021,-5247.5,0,warning,rule3
+U1277,2008-10-03 20:11:00,test,sensor_079,-0.0098,0,warning,rule4
+U1277,2008-10-03 20:11:00,test,sensor_129,2.458,0,alarm,"rule1, rule2, rule3"
+U1277,2008-10-03 20:11:00,test,sensor_163,0.134,0,warning,rule4
+U1278,2008-10-03 20:26:00,test,sensor_079,-0.0268,0,warning,rule4
+U1278,2008-10-03 20:26:00,test,sensor_129,2.458,0,alarm,"rule1, rule2, rule3"
+U1279,2008-10-03 20:35:00,test,sensor_021,-5461.0,0,warning,rule4
+U1279,2008-10-03 20:35:00,test,sensor_079,-0.0224,0,warning,rule4
+U1279,2008-10-03 20:35:00,test,sensor_129,1.419,0,alarm,"rule2, rule3"
+U1280,2008-10-03 20:46:00,test,sensor_021,-5422.25,0,warning,rule4
+U1280,2008-10-03 20:46:00,test,sensor_079,-0.0069,0,warning,rule4
+U1280,2008-10-03 20:46:00,test,sensor_129,-1.83,0,alarm,"rule2, rule3"
+U1280,2008-10-03 20:46:00,test,sensor_163,0.036,0,alarm,rule2
+U1281,2008-10-03 21:15:00,test,sensor_021,-5294.5,0,warning,rule4
+U1281,2008-10-03 21:15:00,test,sensor_079,-0.0064,0,warning,rule4
+U1282,2008-10-03 21:52:00,test,sensor_021,-5264.5,0,warning,rule4
+U1282,2008-10-03 21:52:00,test,sensor_079,-0.0047,0,warning,rule4
+U1283,2008-10-03 22:08:00,test,sensor_079,-0.0234,0,warning,rule4
+U1284,2008-10-03 22:53:00,test,sensor_028,69.3778,0,warning,rule4
+U1284,2008-10-03 22:53:00,test,sensor_079,-0.0075,0,warning,rule4
+U1285,2008-10-03 23:46:00,test,sensor_028,72.2778,0,warning,rule4
+U1285,2008-10-03 23:46:00,test,sensor_079,0.0021,0,warning,rule4
+U1286,2008-10-04 00:58:00,test,sensor_028,71.1,0,warning,rule4
+U1287,2008-10-04 01:49:00,test,sensor_028,68.7889,0,warning,rule4
+U1288,2008-10-04 02:36:00,test,sensor_028,68.8556,0,warning,rule4
+U1293,2008-10-04 15:16:00,test,sensor_079,-0.0568,0,alarm,rule1
+U1294,2008-10-04 16:58:00,test,sensor_059,-9.7682,0,warning,rule4
+U1294,2008-10-04 16:58:00,test,sensor_079,-0.0125,0,warning,rule4
+U1295,2008-10-04 18:15:00,test,sensor_079,-0.0152,0,warning,rule4
+U1296,2008-10-04 18:25:00,test,sensor_079,0.0015,0,warning,rule4
+U1297,2008-10-04 18:59:00,test,sensor_079,-0.022,0,warning,rule4
+U1298,2008-10-04 19:12:00,test,sensor_021,-4992.75,0,warning,rule4
+U1299,2008-10-04 19:47:00,test,sensor_021,-5526.5,0,warning,rule4
+U1300,2008-10-04 19:54:00,test,sensor_021,-5295.25,0,warning,rule4
+U1301,2008-10-04 20:39:00,test,sensor_021,-5426.0,0,warning,rule4
+U1302,2008-10-04 22:06:00,test,sensor_021,-5186.25,0,warning,rule4
+U1302,2008-10-04 22:06:00,test,sensor_103,-0.0148,0,alarm,rule2
+U1303,2008-10-04 23:18:00,test,sensor_021,-5389.5,1,warning,rule4
+U1303,2008-10-04 23:18:00,test,sensor_103,-0.0117,1,alarm,rule2
+U1304,2008-10-05 00:33:00,test,sensor_021,-5233.75,1,warning,rule4
+U1306,2008-10-05 01:35:00,test,sensor_079,-0.0048,0,warning,rule4
+U1307,2008-10-05 04:01:00,test,sensor_079,-0.0108,0,warning,rule4
+U1308,2008-10-05 04:20:00,test,sensor_079,-0.0126,0,warning,rule4
+U1309,2008-10-05 04:48:00,test,sensor_079,-0.012,0,warning,rule4
+U1310,2008-10-05 05:31:00,test,sensor_079,0.0028,0,warning,rule4
+U1311,2008-10-05 05:53:00,test,sensor_079,-0.0163,0,warning,rule4
+U1312,2008-10-05 06:15:00,test,sensor_079,-0.0141,0,warning,rule4
+U1313,2008-10-05 08:02:00,test,sensor_079,-0.0006,0,warning,rule4
+U1314,2008-10-05 08:40:00,test,sensor_028,70.6778,0,warning,rule4
+U1314,2008-10-05 08:40:00,test,sensor_079,-0.0113,0,warning,rule4
+U1315,2008-10-05 09:04:00,test,sensor_028,69.0333,0,warning,rule4
+U1315,2008-10-05 09:04:00,test,sensor_079,-0.0134,0,warning,rule4
+U1316,2008-10-05 09:47:00,test,sensor_028,70.5333,0,warning,rule4
+U1316,2008-10-05 09:47:00,test,sensor_079,-0.0199,0,warning,rule4
+U1317,2008-10-05 10:00:00,test,sensor_079,-0.0036,0,warning,rule4
+U1318,2008-10-05 10:43:00,test,sensor_079,-0.0048,0,warning,rule4
+U1319,2008-10-05 11:05:00,test,sensor_079,-0.019,0,warning,rule4
+U1320,2008-10-05 11:30:00,test,sensor_079,0.0011,0,warning,rule4
+U1321,2008-10-05 12:03:00,test,sensor_079,-0.0322,0,warning,rule4
+U1322,2008-10-05 12:17:00,test,sensor_079,-0.0082,0,warning,rule4
+U1323,2008-10-05 13:49:00,test,sensor_079,-0.0107,0,warning,rule4
+U1324,2008-10-05 14:34:00,test,sensor_079,-0.0021,0,warning,rule4
+U1325,2008-10-05 15:30:00,test,sensor_028,75.2333,1,warning,rule4
+U1325,2008-10-05 15:30:00,test,sensor_079,0.0012,1,warning,rule4
+U1326,2008-10-05 15:35:00,test,sensor_028,70.6667,1,warning,rule4
+U1326,2008-10-05 15:35:00,test,sensor_079,-0.0063,1,warning,rule4
+U1327,2008-10-05 16:15:00,test,sensor_028,70.9444,0,warning,rule4
+U1327,2008-10-05 16:15:00,test,sensor_079,-0.0255,0,warning,rule4
+U1328,2008-10-05 16:37:00,test,sensor_028,69.9556,1,warning,rule4
+U1328,2008-10-05 16:37:00,test,sensor_079,-0.0145,1,warning,rule4
+U1328,2008-10-05 16:37:00,test,sensor_129,2.458,1,alarm,"rule1, rule2"
+U1329,2008-10-05 16:49:00,test,sensor_028,71.0667,1,warning,rule4
+U1329,2008-10-05 16:49:00,test,sensor_129,1.419,1,alarm,rule2
+U1330,2008-10-05 18:46:00,test,sensor_028,70.0778,1,warning,rule4
+U1330,2008-10-05 18:46:00,test,sensor_129,0.0,1,alarm,rule2
+U1331,2008-10-05 18:59:00,test,sensor_028,70.3556,0,warning,rule4
+U1332,2008-10-05 19:45:00,test,sensor_028,69.0333,0,warning,rule4
+U1333,2008-10-05 20:12:00,test,sensor_021,-5489.75,0,warning,rule4
+U1333,2008-10-05 20:12:00,test,sensor_028,74.3778,0,warning,rule4
+U1334,2008-10-05 20:30:00,test,sensor_028,72.3667,0,warning,rule4
+U1334,2008-10-05 20:30:00,test,sensor_510,29.2571,0,warning,rule3
+U1335,2008-10-05 22:13:00,test,sensor_028,72.0444,0,warning,rule4
+U1336,2008-10-06 00:41:00,test,sensor_028,74.8556,0,warning,rule4
+U1337,2008-10-06 01:25:00,test,sensor_028,74.9222,0,warning,rule4
+U1338,2008-10-06 01:27:00,test,sensor_028,76.4889,0,warning,rule4
+U1339,2008-10-06 01:30:00,test,sensor_028,74.0889,0,warning,"rule3, rule4"
+U1340,2008-10-06 02:44:00,test,sensor_028,74.9556,0,warning,"rule3, rule4"
+U1341,2008-10-06 02:49:00,test,sensor_028,74.6,0,warning,"rule3, rule4"
+U1342,2008-10-06 03:31:00,test,sensor_028,67.6333,0,warning,rule3
+U1342,2008-10-06 03:31:00,test,sensor_059,-4.6582,0,warning,"rule3, rule4"
+U1343,2008-10-06 03:50:00,test,sensor_021,-5475.5,1,warning,rule4
+U1343,2008-10-06 03:50:00,test,sensor_059,-1.1455,1,warning,"rule3, rule4"
+U1343,2008-10-06 03:50:00,test,sensor_103,-0.0106,1,warning,rule4
+U1344,2008-10-06 03:57:00,test,sensor_021,-5486.5,1,warning,rule4
+U1345,2008-10-06 04:26:00,test,sensor_021,-5546.0,0,warning,rule4
+U1346,2008-10-06 05:21:00,test,sensor_021,-5285.0,0,warning,rule4
+U1347,2008-10-06 05:24:00,test,sensor_021,-5312.75,0,warning,rule4
+U1347,2008-10-06 05:24:00,test,sensor_079,-0.0183,0,warning,rule4
+U1348,2008-10-06 06:11:00,test,sensor_021,-5260.25,0,warning,rule4
+U1348,2008-10-06 06:11:00,test,sensor_079,-0.0062,0,warning,rule4
+U1349,2008-10-06 06:26:00,test,sensor_021,-5445.25,0,warning,rule4
+U1349,2008-10-06 06:26:00,test,sensor_079,-0.0285,0,warning,rule4
+U1350,2008-10-06 06:49:00,test,sensor_021,-5431.75,0,warning,rule4
+U1350,2008-10-06 06:49:00,test,sensor_079,-0.0092,0,warning,rule4
+U1351,2008-10-06 07:12:00,test,sensor_021,-5483.0,0,warning,rule4
+U1351,2008-10-06 07:12:00,test,sensor_028,75.8889,0,alarm,rule2
+U1351,2008-10-06 07:12:00,test,sensor_079,-0.0137,0,warning,rule4
+U1352,2008-10-06 07:17:00,test,sensor_021,-5149.0,0,warning,rule4
+U1352,2008-10-06 07:17:00,test,sensor_028,76.3778,0,alarm,"rule2, rule3"
+U1352,2008-10-06 07:17:00,test,sensor_079,-0.0039,0,warning,rule4
+U1353,2008-10-06 07:35:00,test,sensor_021,-5398.75,0,warning,rule4
+U1353,2008-10-06 07:35:00,test,sensor_028,74.4444,0,alarm,"rule2, rule3"
+U1353,2008-10-06 07:35:00,test,sensor_079,-0.0138,0,warning,rule4
+U1354,2008-10-06 07:38:00,test,sensor_021,-5238.0,0,warning,rule4
+U1354,2008-10-06 07:38:00,test,sensor_028,69.6667,0,warning,rule3
+U1354,2008-10-06 07:38:00,test,sensor_079,-0.0112,0,warning,rule4
+U1354,2008-10-06 07:38:00,test,sensor_129,1.655,0,alarm,rule2
+U1354,2008-10-06 07:38:00,test,sensor_430,25.6205,0,warning,rule4
+U1355,2008-10-06 08:24:00,test,sensor_021,-5305.25,0,warning,rule4
+U1355,2008-10-06 08:24:00,test,sensor_079,0.0018,0,warning,rule4
+U1355,2008-10-06 08:24:00,test,sensor_103,-0.0124,0,warning,rule4
+U1355,2008-10-06 08:24:00,test,sensor_430,19.2262,0,warning,rule4
+U1356,2008-10-06 08:57:00,test,sensor_021,-5516.5,0,warning,rule4
+U1356,2008-10-06 08:57:00,test,sensor_103,-0.0114,0,warning,rule4
+U1356,2008-10-06 08:57:00,test,sensor_430,13.1061,0,warning,rule4
+U1357,2008-10-06 09:11:00,test,sensor_021,-5206.0,0,warning,rule4
+U1357,2008-10-06 09:11:00,test,sensor_103,-0.0117,0,warning,rule4
+U1358,2008-10-06 09:57:00,test,sensor_021,-4977.5,0,warning,"rule3, rule4"
+U1358,2008-10-06 09:57:00,test,sensor_103,-0.0115,0,warning,rule4
+U1358,2008-10-06 09:57:00,test,sensor_510,35.6522,0,warning,rule4
+U1359,2008-10-06 10:07:00,test,sensor_021,-5404.5,0,warning,rule4
+U1359,2008-10-06 10:07:00,test,sensor_103,-0.01,0,warning,rule4
+U1359,2008-10-06 10:07:00,test,sensor_510,31.9202,0,warning,rule4
+U1360,2008-10-06 11:51:00,test,sensor_021,-5241.0,0,warning,rule4
+U1360,2008-10-06 11:51:00,test,sensor_103,-0.0118,0,warning,rule4
+U1361,2008-10-06 12:39:00,test,sensor_021,-5393.5,0,warning,rule4
+U1361,2008-10-06 12:39:00,test,sensor_103,-0.0111,0,warning,rule4
+U1362,2008-10-06 12:42:00,test,sensor_021,-5422.75,0,warning,rule4
+U1362,2008-10-06 12:42:00,test,sensor_059,-5.68,0,warning,rule3
+U1362,2008-10-06 12:42:00,test,sensor_103,-0.0113,0,warning,rule4
+U1363,2008-10-06 13:08:00,test,sensor_021,-5130.75,0,warning,rule4
+U1363,2008-10-06 13:08:00,test,sensor_103,-0.0122,0,warning,rule4
+U1364,2008-10-06 13:38:00,test,sensor_021,-5392.25,1,warning,rule4
+U1364,2008-10-06 13:38:00,test,sensor_103,-0.011,1,warning,rule4
+U1365,2008-10-06 13:55:00,test,sensor_021,-5390.0,1,warning,rule4
+U1365,2008-10-06 13:55:00,test,sensor_430,13.5622,1,warning,rule4
+U1366,2008-10-06 15:00:00,test,sensor_021,-5274.25,1,warning,rule4
+U1366,2008-10-06 15:00:00,test,sensor_430,26.7526,1,warning,rule4
+U1367,2008-10-06 15:01:00,test,sensor_021,-5043.5,0,warning,rule4
+U1367,2008-10-06 15:01:00,test,sensor_430,23.2973,0,warning,rule4
+U1368,2008-10-06 15:52:00,test,sensor_021,-5547.5,0,warning,rule4
+U1369,2008-10-06 16:42:00,test,sensor_021,-5294.5,0,warning,rule4
+U1369,2008-10-06 16:42:00,test,sensor_028,74.7,0,warning,"rule3, rule4"
+U1370,2008-10-06 16:50:00,test,sensor_021,-5259.25,0,warning,"rule3, rule4"
+U1370,2008-10-06 16:50:00,test,sensor_028,67.2,0,warning,rule3
+U1371,2008-10-06 17:26:00,test,sensor_510,30.2267,0,warning,rule4
+U1373,2008-10-06 17:35:00,test,sensor_028,77.9,0,alarm,"rule1, rule2"
+U1373,2008-10-06 17:35:00,test,sensor_059,-3.9927,0,warning,rule3
+U1374,2008-10-06 18:54:00,test,sensor_028,67.0222,0,alarm,rule2
+U1374,2008-10-06 18:54:00,test,sensor_059,-2.3618,0,warning,rule3
+U1374,2008-10-06 18:54:00,test,sensor_079,-0.0006,0,warning,rule4
+U1379,2008-10-06 20:47:00,test,sensor_021,-5492.75,0,warning,rule4
+U1380,2008-10-06 21:46:00,test,sensor_021,-5342.0,0,warning,rule4
+U1383,2008-10-06 23:03:00,test,sensor_129,-0.8042,0,warning,rule4
+U1384,2008-10-07 01:46:00,test,sensor_103,-0.0122,0,warning,rule4
+U1384,2008-10-07 01:46:00,test,sensor_129,-0.8988,0,warning,rule4
+U1385,2008-10-07 03:29:00,test,sensor_028,73.1333,0,warning,rule3
+U1385,2008-10-07 03:29:00,test,sensor_129,-0.8042,0,warning,rule4
+U1385,2008-10-07 03:29:00,test,sensor_430,2.1703,0,alarm,rule2
+U1385,2008-10-07 03:29:00,test,sensor_431,2.3014,0,alarm,rule2
+U1386,2008-10-07 03:39:00,test,sensor_028,68.4111,0,warning,rule3
+U1386,2008-10-07 03:39:00,test,sensor_129,-0.8988,0,warning,rule4
+U1386,2008-10-07 03:39:00,test,sensor_430,10.8892,0,alarm,rule2
+U1387,2008-10-07 07:32:00,test,sensor_129,-0.8042,0,warning,rule4
+U1390,2008-10-07 08:26:00,test,sensor_028,76.5,0,alarm,rule2
+U1390,2008-10-07 08:26:00,test,sensor_431,2.6452,0,alarm,rule2
+U1391,2008-10-07 09:11:00,test,sensor_028,68.6667,0,alarm,rule2
+U1391,2008-10-07 09:11:00,test,sensor_129,0.6623,0,warning,rule3
+U1392,2008-10-07 09:20:00,test,sensor_028,74.1667,0,warning,rule3
+U1392,2008-10-07 09:20:00,test,sensor_129,0.5204,0,warning,rule3
+U1393,2008-10-07 09:59:00,test,sensor_028,74.8889,0,warning,rule3
+U1393,2008-10-07 09:59:00,test,sensor_129,0.5204,0,warning,rule3
+U1394,2008-10-07 10:04:00,test,sensor_028,76.0556,0,warning,"rule3, rule4"
+U1394,2008-10-07 10:04:00,test,sensor_129,0.6623,0,warning,rule3
+U1395,2008-10-07 10:10:00,test,sensor_028,75.3556,0,warning,"rule3, rule4"
+U1395,2008-10-07 10:10:00,test,sensor_129,0.6623,0,warning,"rule3, rule4"
+U1396,2008-10-07 10:51:00,test,sensor_028,77.2222,0,alarm,"rule1, rule2, rule3, rule4"
+U1396,2008-10-07 10:51:00,test,sensor_129,0.5204,0,warning,"rule3, rule4"
+U1397,2008-10-07 11:15:00,test,sensor_028,73.1778,0,warning,"rule3, rule4"
+U1397,2008-10-07 11:15:00,test,sensor_129,0.3784,0,warning,"rule3, rule4"
+U1398,2008-10-07 11:16:00,test,sensor_028,70.4333,0,warning,"rule3, rule4"
+U1398,2008-10-07 11:16:00,test,sensor_129,0.6623,0,warning,"rule3, rule4"
+U1399,2008-10-07 11:36:00,test,sensor_028,68.9,0,warning,rule4
+U1399,2008-10-07 11:36:00,test,sensor_129,0.5204,0,warning,"rule3, rule4"
+U1400,2008-10-07 12:40:00,test,sensor_028,77.1222,0,alarm,"rule1, rule4"
+U1400,2008-10-07 12:40:00,test,sensor_129,0.5204,0,warning,"rule3, rule4"
+U1400,2008-10-07 12:40:00,test,sensor_431,5.2074,0,warning,rule3
+U1401,2008-10-07 13:10:00,test,sensor_028,68.7,1,warning,rule4
+U1401,2008-10-07 13:10:00,test,sensor_129,0.2838,1,warning,"rule3, rule4"
+U1402,2008-10-07 13:48:00,test,sensor_028,68.8667,0,warning,rule4
+U1402,2008-10-07 13:48:00,test,sensor_129,0.5204,0,warning,"rule3, rule4"
+U1403,2008-10-07 14:35:00,test,sensor_028,74.6111,0,warning,rule4
+U1403,2008-10-07 14:35:00,test,sensor_129,0.5204,0,warning,"rule3, rule4"
+U1404,2008-10-07 16:32:00,test,sensor_028,73.3556,0,warning,rule4
+U1404,2008-10-07 16:32:00,test,sensor_129,0.3784,0,warning,"rule3, rule4"
+U1405,2008-10-07 17:06:00,test,sensor_129,-0.3311,0,warning,rule3
+U1406,2008-10-07 17:28:00,test,sensor_059,-3.4618,0,warning,rule4
+U1406,2008-10-07 17:28:00,test,sensor_129,0.3784,0,warning,rule3
+U1407,2008-10-07 18:39:00,test,sensor_028,74.1,0,warning,rule3
+U1407,2008-10-07 18:39:00,test,sensor_059,-3.4391,0,warning,"rule3, rule4"
+U1408,2008-10-07 19:24:00,test,sensor_028,75.4444,0,warning,rule3
+U1408,2008-10-07 19:24:00,test,sensor_059,-3.5573,0,warning,"rule3, rule4"
+U1408,2008-10-07 19:24:00,test,sensor_163,0.207,0,warning,rule3
+U1409,2008-10-07 20:19:00,test,sensor_103,-0.0131,0,warning,rule4
+U1410,2008-10-07 20:39:00,test,sensor_103,-0.0107,0,warning,rule4
+U1411,2008-10-07 20:48:00,test,sensor_103,-0.013,0,warning,rule4
+U1412,2008-10-08 04:47:00,test,sensor_103,-0.0119,0,warning,rule4
+U1412,2008-10-08 04:47:00,test,sensor_129,0.9461,0,warning,rule3
+U1413,2008-10-08 05:35:00,test,sensor_028,74.7222,0,warning,rule4
+U1413,2008-10-08 05:35:00,test,sensor_103,-0.0119,0,warning,rule4
+U1414,2008-10-08 05:38:00,test,sensor_028,77.1222,0,alarm,"rule1, rule3, rule4"
+U1414,2008-10-08 05:38:00,test,sensor_103,-0.0118,0,warning,rule4
+U1414,2008-10-08 05:38:00,test,sensor_430,29.8588,0,warning,rule3
+U1415,2008-10-08 06:25:00,test,sensor_028,77.0556,0,alarm,"rule1, rule2, rule3, rule4"
+U1415,2008-10-08 06:25:00,test,sensor_430,14.0221,0,warning,rule3
+U1416,2008-10-08 07:10:00,test,sensor_028,72.2333,0,alarm,"rule2, rule3, rule4"
+U1417,2008-10-08 07:13:00,test,sensor_028,73.8556,0,warning,"rule3, rule4"
+U1418,2008-10-08 07:16:00,test,sensor_059,-1.97,0,warning,rule4
+U1419,2008-10-08 09:01:00,test,sensor_059,-4.5718,0,warning,rule4
+U1420,2008-10-08 09:06:00,test,sensor_059,-0.5655,0,warning,rule4
+U1421,2008-10-08 10:37:00,test,sensor_059,-2.0991,0,warning,rule4
+U1422,2008-10-08 12:11:00,test,sensor_059,-5.1618,0,warning,rule4
+U1426,2008-10-08 15:37:00,test,sensor_028,70.8889,0,warning,rule4
+U1428,2008-10-08 17:14:00,test,sensor_103,-0.0139,0,warning,rule3
+U1429,2008-10-08 17:31:00,test,sensor_103,-0.009,0,warning,rule3
+U1431,2008-10-08 18:22:00,test,sensor_430,2.0388,0,alarm,rule2
+U1431,2008-10-08 18:22:00,test,sensor_510,29.899,0,warning,rule4
+U1432,2008-10-08 20:27:00,test,sensor_059,-5.7373,0,warning,rule3
+U1432,2008-10-08 20:27:00,test,sensor_510,44.8845,0,warning,rule4
+U1433,2008-10-08 21:19:00,test,sensor_510,39.604,0,warning,rule4
+U1434,2008-10-08 21:45:00,test,sensor_028,74.2889,0,warning,rule3
+U1434,2008-10-08 21:45:00,test,sensor_059,-2.8245,0,warning,rule4
+U1434,2008-10-08 21:45:00,test,sensor_510,29.8507,0,warning,rule4
+U1435,2008-10-08 22:08:00,test,sensor_059,-4.9336,0,warning,rule4
+U1442,2008-10-09 14:15:00,test,sensor_059,-4.25,0,warning,rule3
+U1442,2008-10-09 14:15:00,test,sensor_163,0.187,0,warning,rule3
+U1445,2008-10-09 15:56:00,test,sensor_028,70.5667,0,warning,rule4
+U1450,2008-10-10 15:33:00,test,sensor_079,-0.0106,0,warning,rule4
+U1451,2008-10-10 15:50:00,test,sensor_079,-0.0247,0,warning,rule4
+U1452,2008-10-10 20:02:00,test,sensor_079,-0.0288,0,warning,rule4
+U1453,2008-10-10 21:03:00,test,sensor_079,-0.0133,0,warning,rule4
+U1453,2008-10-10 21:03:00,test,sensor_510,39.4966,0,warning,rule4
+U1454,2008-10-10 21:07:00,test,sensor_079,-0.0214,0,warning,rule4
+U1454,2008-10-10 21:07:00,test,sensor_510,24.2669,0,warning,rule4
+U1455,2008-10-10 21:16:00,test,sensor_028,72.3889,0,warning,rule4
+U1455,2008-10-10 21:16:00,test,sensor_510,29.9137,0,warning,rule4
+U1456,2008-10-11 02:55:00,test,sensor_028,74.4333,0,warning,rule4
+U1456,2008-10-11 02:55:00,test,sensor_510,33.4786,0,warning,rule4
+U1457,2008-10-11 06:56:00,test,sensor_028,72.8222,0,warning,"rule3, rule4"
+U1457,2008-10-11 06:56:00,test,sensor_510,39.8804,0,warning,rule4
+U1458,2008-10-11 07:38:00,test,sensor_028,74.3,0,warning,"rule3, rule4"
+U1458,2008-10-11 07:38:00,test,sensor_431,4.8187,0,warning,rule3
+U1458,2008-10-11 07:38:00,test,sensor_510,36.4312,0,warning,rule4
+U1459,2008-10-11 07:39:00,test,sensor_028,72.7111,0,warning,"rule3, rule4"
+U1459,2008-10-11 07:39:00,test,sensor_510,30.727,0,warning,rule4
+U1460,2008-10-11 07:42:00,test,sensor_028,68.0778,0,warning,rule3
+U1460,2008-10-11 07:42:00,test,sensor_079,-0.0217,0,warning,rule3
+U1460,2008-10-11 07:42:00,test,sensor_510,41.4734,0,warning,rule4
+U1461,2008-10-11 08:27:00,test,sensor_079,-0.0169,0,warning,rule3
+U1462,2008-10-11 14:43:00,test,sensor_079,-0.0296,0,warning,rule3
+U1463,2008-10-11 15:33:00,test,sensor_079,-0.0073,0,warning,"rule3, rule4"
+U1464,2008-10-11 16:25:00,test,sensor_079,-0.0083,0,warning,rule4
+U1465,2008-10-11 23:16:00,test,sensor_079,-0.0107,0,warning,rule4
+U1465,2008-10-11 23:16:00,test,sensor_431,5.447,0,warning,rule4
+U1466,2008-10-11 23:58:00,test,sensor_021,-6548.25,0,warning,rule3
+U1466,2008-10-11 23:58:00,test,sensor_079,-0.0116,0,warning,rule4
+U1466,2008-10-11 23:58:00,test,sensor_431,1.2391,0,alarm,"rule1, rule3, rule4"
+U1467,2008-10-12 00:57:00,test,sensor_021,-5426.0,0,warning,rule3
+U1467,2008-10-12 00:57:00,test,sensor_431,7.3518,0,warning,"rule3, rule4"
+U1468,2008-10-12 01:50:00,test,sensor_431,16.6682,0,warning,"rule3, rule4"
+U1469,2008-10-12 02:59:00,test,sensor_431,2.6616,0,warning,"rule3, rule4"
+U1470,2008-10-12 03:21:00,test,sensor_103,-0.0126,0,warning,rule4
+U1470,2008-10-12 03:21:00,test,sensor_431,3.7721,0,alarm,"rule2, rule3, rule4"
+U1471,2008-10-12 03:28:00,test,sensor_103,-0.013,0,warning,rule4
+U1471,2008-10-12 03:28:00,test,sensor_431,12.0327,0,alarm,"rule2, rule4"
+U1471,2008-10-12 03:28:00,test,sensor_510,29.2027,0,warning,rule3
+U1472,2008-10-12 08:19:00,test,sensor_103,-0.0126,0,warning,rule4
+U1472,2008-10-12 08:19:00,test,sensor_431,3.4471,0,alarm,"rule2, rule4"
+U1472,2008-10-12 08:19:00,test,sensor_510,30.1288,0,warning,rule3
+U1473,2008-10-12 18:47:00,test,sensor_103,-0.0122,0,warning,rule4
+U1473,2008-10-12 18:47:00,test,sensor_431,6.8343,0,warning,"rule3, rule4"
+U1474,2008-10-13 03:34:00,test,sensor_103,-0.0126,0,warning,"rule3, rule4"
+U1478,2008-10-13 14:06:00,test,sensor_028,73.3667,0,warning,rule4
+U1479,2008-10-13 14:29:00,test,sensor_028,74.4,0,warning,"rule3, rule4"
+U1479,2008-10-13 14:29:00,test,sensor_430,0.5736,0,alarm,rule1
+U1480,2008-10-13 14:30:00,test,sensor_028,72.1111,0,warning,rule4
+U1481,2008-10-13 14:55:00,test,sensor_028,72.7444,0,warning,"rule3, rule4"
+U1482,2008-10-13 15:42:00,test,sensor_028,68.8778,0,warning,rule4
+U1483,2008-10-13 15:42:00,test,sensor_028,69.8222,0,warning,rule4
+U1483,2008-10-13 15:42:00,test,sensor_103,-0.0126,0,warning,"rule3, rule4"
+U1484,2008-10-13 16:13:00,test,sensor_028,73.2444,0,warning,rule4
+U1484,2008-10-13 16:13:00,test,sensor_103,-0.0136,0,warning,"rule3, rule4"
+U1485,2008-10-13 19:17:00,test,sensor_028,73.4,0,warning,rule4
+U1485,2008-10-13 19:17:00,test,sensor_103,-0.0096,0,warning,rule3
+U1485,2008-10-13 19:17:00,test,sensor_129,-1.088,0,warning,rule4
+U1486,2008-10-13 19:36:00,test,sensor_021,-4821.5,0,warning,"rule3, rule4"
+U1486,2008-10-13 19:36:00,test,sensor_028,73.6444,0,warning,rule4
+U1486,2008-10-13 19:36:00,test,sensor_129,-0.8988,0,warning,rule4
+U1487,2008-10-13 19:40:00,test,sensor_021,-5552.0,0,warning,rule4
+U1487,2008-10-13 19:40:00,test,sensor_028,73.9444,0,warning,"rule3, rule4"
+U1487,2008-10-13 19:40:00,test,sensor_059,-4.7682,0,warning,rule4
+U1487,2008-10-13 19:40:00,test,sensor_129,-0.8988,0,warning,rule4
+U1488,2008-10-13 20:10:00,test,sensor_021,-5393.5,0,warning,rule4
+U1488,2008-10-13 20:10:00,test,sensor_028,72.1556,0,warning,"rule3, rule4"
+U1488,2008-10-13 20:10:00,test,sensor_129,-0.9934,0,warning,rule4
+U1489,2008-10-13 20:30:00,test,sensor_021,-5304.75,0,warning,rule4
+U1489,2008-10-13 20:30:00,test,sensor_028,72.6556,0,warning,rule4
+U1489,2008-10-13 20:30:00,test,sensor_129,-0.8988,0,warning,rule4
+U1490,2008-10-13 20:53:00,test,sensor_021,-5475.0,0,warning,rule4
+U1490,2008-10-13 20:53:00,test,sensor_028,73.1111,0,warning,rule4
+U1490,2008-10-13 20:53:00,test,sensor_129,-0.8988,0,warning,rule4
+U1491,2008-10-13 21:20:00,test,sensor_028,73.6333,0,warning,rule4
+U1491,2008-10-13 21:20:00,test,sensor_129,-0.8988,0,warning,rule4
+U1492,2008-10-13 21:47:00,test,sensor_028,72.0778,0,warning,rule4
+U1492,2008-10-13 21:47:00,test,sensor_129,-0.8988,0,warning,rule4
+U1493,2008-10-13 21:57:00,test,sensor_028,72.5667,0,warning,rule4
+U1493,2008-10-13 21:57:00,test,sensor_129,-0.9934,0,warning,rule4
+U1494,2008-10-13 22:48:00,test,sensor_129,-1.277,0,warning,rule4
+U1495,2008-10-13 22:54:00,test,sensor_079,-0.0362,0,warning,rule4
+U1495,2008-10-13 22:54:00,test,sensor_129,-0.8988,0,warning,rule4
+U1495,2008-10-13 22:54:00,test,sensor_163,0.063,0,warning,rule3
+U1496,2008-10-14 00:35:00,test,sensor_079,-0.0044,0,warning,rule4
+U1496,2008-10-14 00:35:00,test,sensor_163,0.064,0,warning,rule3
+U1496,2008-10-14 00:35:00,test,sensor_431,5.3214,0,warning,rule4
+U1497,2008-10-14 03:21:00,test,sensor_079,-0.0037,0,warning,rule4
+U1502,2008-10-14 14:07:00,test,sensor_028,73.9222,0,warning,rule4
+U1503,2008-10-14 14:15:00,test,sensor_028,74.5889,0,warning,rule4
+U1504,2008-10-14 14:43:00,test,sensor_028,74.1444,0,warning,rule4
+U1504,2008-10-14 14:43:00,test,sensor_129,-0.7709,0,warning,rule4
+U1505,2008-10-14 17:36:00,test,sensor_028,73.5667,0,warning,"rule3, rule4"
+U1506,2008-10-14 19:15:00,test,sensor_028,75.0333,0,warning,"rule3, rule4"
+U1507,2008-10-14 20:01:00,test,sensor_028,73.0,0,warning,"rule3, rule4"
+U1508,2008-10-14 20:30:00,test,sensor_028,72.3,0,warning,"rule3, rule4"
+U1509,2008-10-14 20:48:00,test,sensor_028,73.4556,0,warning,"rule3, rule4"
+U1510,2008-10-14 21:36:00,test,sensor_028,72.0,0,warning,rule4
+U1511,2008-10-14 23:07:00,test,sensor_028,70.5111,0,warning,rule4
+U1511,2008-10-14 23:07:00,test,sensor_431,2.0709,0,warning,rule3
+U1512,2008-10-15 00:03:00,test,sensor_028,71.9333,0,warning,rule4
+U1512,2008-10-15 00:03:00,test,sensor_431,8.2885,0,warning,rule3
+U1513,2008-10-15 00:27:00,test,sensor_028,72.7556,0,warning,rule4
+U1513,2008-10-15 00:27:00,test,sensor_431,12.2748,0,warning,rule3
+U1514,2008-10-15 00:47:00,test,sensor_028,71.1444,0,warning,rule4
+U1514,2008-10-15 00:47:00,test,sensor_431,11.9386,0,warning,rule4
+U1516,2008-10-15 01:52:00,test,sensor_028,74.5778,0,warning,rule4
+U1517,2008-10-15 01:52:00,test,sensor_028,73.6556,0,warning,rule4
+U1515,2008-10-15 01:52:00,test,sensor_028,70.8778,0,warning,rule4
+U1518,2008-10-15 02:40:00,test,sensor_028,72.2333,0,warning,rule4
+U1527,2008-10-15 07:55:00,test,sensor_028,71.7,0,warning,rule4
+U1528,2008-10-15 08:21:00,test,sensor_028,74.3667,0,warning,"rule3, rule4"
+U1529,2008-10-15 09:11:00,test,sensor_028,72.4889,0,warning,rule4
+U1530,2008-10-15 10:00:00,test,sensor_028,75.5778,0,warning,rule4
+U1531,2008-10-15 12:53:00,test,sensor_028,72.2778,0,warning,rule4
+U1532,2008-10-15 13:14:00,test,sensor_028,72.2667,0,warning,rule4
+U1533,2008-10-15 13:16:00,test,sensor_028,69.0222,0,warning,rule4
+U1534,2008-10-15 14:08:00,test,sensor_028,71.2556,0,warning,rule4
+U1535,2008-10-15 15:11:00,test,sensor_028,75.1778,0,warning,rule4
+U1536,2008-10-15 16:24:00,test,sensor_028,75.1222,0,warning,rule4
+U1537,2008-10-15 17:19:00,test,sensor_028,74.4667,0,warning,rule4
+U1538,2008-10-15 18:16:00,test,sensor_028,74.8556,0,warning,"rule3, rule4"
+U1539,2008-10-15 19:15:00,test,sensor_028,73.6,0,warning,"rule3, rule4"
+U1540,2008-10-15 19:24:00,test,sensor_028,73.0222,0,warning,"rule3, rule4"
+U1540,2008-10-15 19:24:00,test,sensor_129,-0.9934,0,warning,rule4
+U1541,2008-10-15 21:44:00,test,sensor_028,72.2444,0,warning,"rule3, rule4"
+U1541,2008-10-15 21:44:00,test,sensor_129,-0.9934,0,warning,rule4
+U1542,2008-10-15 22:45:00,test,sensor_028,73.2556,0,warning,"rule3, rule4"
+U1542,2008-10-15 22:45:00,test,sensor_129,-0.9934,0,warning,rule4
+U1543,2008-10-15 22:54:00,test,sensor_028,69.8111,0,warning,rule4
+U1544,2008-10-15 23:00:00,test,sensor_028,70.2444,0,warning,rule4
+U1545,2008-10-15 23:45:00,test,sensor_028,70.8333,0,warning,rule4
+U1546,2008-10-16 02:16:00,test,sensor_028,72.8556,0,warning,rule4
+U1547,2008-10-16 02:16:00,test,sensor_028,71.0444,0,warning,rule4
+U1547,2008-10-16 02:16:00,test,sensor_103,-0.0127,0,warning,rule3
+U1548,2008-10-16 02:17:00,test,sensor_028,72.6,0,warning,rule4
+U1548,2008-10-16 02:17:00,test,sensor_103,-0.0117,0,warning,rule3
+U1549,2008-10-16 02:22:00,test,sensor_028,72.3444,0,warning,rule4
+U1549,2008-10-16 02:22:00,test,sensor_103,-0.014,0,warning,rule3
+U1549,2008-10-16 02:22:00,test,sensor_510,35.094,0,warning,rule4
+U1550,2008-10-16 02:55:00,test,sensor_028,73.2333,0,warning,rule4
+U1550,2008-10-16 02:55:00,test,sensor_103,-0.011,0,warning,rule4
+U1550,2008-10-16 02:55:00,test,sensor_510,31.7101,0,warning,rule4
+U1551,2008-10-16 03:56:00,test,sensor_028,72.3333,0,warning,rule4
+U1551,2008-10-16 03:56:00,test,sensor_510,42.1053,0,warning,rule4
+U1553,2008-10-16 04:02:00,test,sensor_028,69.5,0,warning,rule4
+U1552,2008-10-16 04:02:00,test,sensor_028,73.1444,0,warning,rule4
+U1553,2008-10-16 04:02:00,test,sensor_510,40.0932,0,warning,rule4
+U1552,2008-10-16 04:02:00,test,sensor_510,36.715,0,warning,rule4
+U1554,2008-10-16 04:04:00,test,sensor_028,69.5889,0,warning,rule4
+U1554,2008-10-16 04:04:00,test,sensor_431,1.3729,0,alarm,"rule1, rule2"
+U1554,2008-10-16 04:04:00,test,sensor_510,37.4312,0,warning,rule4
+U1555,2008-10-16 04:47:00,test,sensor_028,72.4889,0,warning,rule4
+U1555,2008-10-16 04:47:00,test,sensor_510,46.022,0,warning,rule4
+U1556,2008-10-16 04:50:00,test,sensor_028,73.2222,0,warning,rule4
+U1556,2008-10-16 04:50:00,test,sensor_510,21.9931,0,warning,rule4
+U1557,2008-10-16 04:54:00,test,sensor_028,71.9111,0,warning,rule4
+U1557,2008-10-16 04:54:00,test,sensor_510,46.6586,0,warning,rule4
+U1558,2008-10-16 05:08:00,test,sensor_028,71.4222,0,warning,rule4
+U1559,2008-10-16 05:13:00,test,sensor_028,72.3778,0,warning,rule4
+U1560,2008-10-16 05:44:00,test,sensor_028,73.0222,0,warning,rule4
