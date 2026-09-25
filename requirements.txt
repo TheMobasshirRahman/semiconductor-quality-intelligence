@@ -1,7 +1,7 @@
 # Runtime: pipeline (src/) + dashboard (app/)
 # Versions are pinned: the saved models in models/*.joblib are pickled with scikit-learn 1.6.1
 # and must be loaded with the same version.
-pandas==2.2.2
+pandas==2.2.3
 numpy==2.4.4
 scipy==1.18.0
 scikit-learn==1.6.1
