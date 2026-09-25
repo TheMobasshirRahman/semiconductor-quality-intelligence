@@ -1,5 +1,8 @@
 # Semiconductor Manufacturing Quality Intelligence
 
+[![tests](https://github.com/TheMobasshirRahman/semiconductor-quality-intelligence/actions/workflows/tests.yml/badge.svg)](https://github.com/TheMobasshirRahman/semiconductor-quality-intelligence/actions/workflows/tests.yml)
+![Python 3.13](https://img.shields.io/badge/python-3.13-blue) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 An end-to-end data analytics and quality-monitoring platform for semiconductor process data: statistical process
 control, root-cause analysis, fail prediction and equipment-health monitoring, served in an interactive dashboard.
 
@@ -111,8 +114,8 @@ A [Power BI export](powerbi/) (star-schema CSVs + build script) is included for 
 Requires Python 3.13.
 
 ```bash
-git clone <this-repo>
-cd <this-repo>
+git clone https://github.com/TheMobasshirRahman/semiconductor-quality-intelligence.git
+cd semiconductor-quality-intelligence
 python -m venv venv
 venv\Scripts\activate            # Windows  (macOS/Linux: source venv/bin/activate)
 pip install -r requirements-dev.txt
