@@ -1,6 +1,7 @@
 # Semiconductor Manufacturing Quality Intelligence
 
 [![tests](https://github.com/TheMobasshirRahman/semiconductor-quality-intelligence/actions/workflows/tests.yml/badge.svg)](https://github.com/TheMobasshirRahman/semiconductor-quality-intelligence/actions/workflows/tests.yml)
+[![Live demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://semiconductor-quality-intelligence-ce6akar5htbbaza6vtgjjn.streamlit.app/)
 ![Python 3.13](https://img.shields.io/badge/python-3.13-blue) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
 An end-to-end data analytics and quality-monitoring platform for semiconductor process data: statistical process
@@ -8,6 +9,8 @@ control, root-cause analysis, fail prediction and equipment-health monitoring, s
 
 Built on the public **UCI SECOM** dataset: 1,567 production units from a semiconductor fab, each with 590 sensor
 readings and the pass/fail result of in-house line testing (Jul–Oct 2008, 6.6% fail rate).
+
+**▶ Live dashboard: [semiconductor-quality-intelligence-ce6akar5htbbaza6vtgjjn.streamlit.app](https://semiconductor-quality-intelligence-ce6akar5htbbaza6vtgjjn.streamlit.app/)**
 
 ![Dashboard overview](reports/figures/dashboard_overview.png)
 
